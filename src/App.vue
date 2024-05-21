@@ -47,10 +47,27 @@
   align-items: center;
   justify-content: center;
   margin-right: .5rem;
+
+  border: 2px solid rgba(228, 152, 239, .4);
+  overflow: hidden;
+  transition: all 1s ease;
+  box-shadow: rgba(228, 152, 239, 0.25) 0px 0px 20px 5px;
 }
 
 .btn-connect {
   border-radius: 10rem;
   padding: .4375rem 1.25rem .3125rem;
+  color: inherit;
+
+  border: 2px solid rgba(228, 152, 239, .4);
+  overflow: hidden;
+  transition: all 1s ease;
+  box-shadow: rgba(228, 152, 239, 0.25) 0px 0px 20px 5px;
+}
+
+
+.social-links:hover,
+.btn-connect:hover {
+  box-shadow: rgba(228, 152, 239, 0.3) 0px 0px 20px 10px;
 }
 </style>

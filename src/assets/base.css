@@ -7,25 +7,10 @@ a {
     background-color: transparent;
 }
 
-a:hover {
+/* a:hover {
     color: white !important;
-}
+} */
 
 .icon {
     color: rgba(228, 152, 239, .8);
-}
-
-.btn {
-    background-color: inherit;
-    color: inherit;
-    cursor: pointer;
-    padding: .375rem .75rem;
-    border: 2px solid rgba(228, 152, 239, .4);
-    overflow: hidden;
-    transition: all 1s ease;
-    box-shadow: rgba(228, 152, 239, 0.25) 0px 0px 20px 5px;
-}
-
-.btn:hover .btn:active {
-    box-shadow: rgba(228, 152, 239, 0.3) 0px 0px 20px 10px;
 }
