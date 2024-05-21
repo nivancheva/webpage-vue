@@ -4,7 +4,7 @@
 
 <template>
   <nav class="navbar p-5 navbar-expand-lg navbar-light pt-2 pb-0">
-    <div class="nav-container container-fluid d-flex justify-content-between align-items-center my-3">
+    <div class="nav-container container-fluid d-flex justify-content-between align-items-center mx-5 my-3">
       <div>
         <img src="/headerLogo.svg">
       </div>
@@ -31,8 +31,9 @@
     </div>
   </nav>
 
-  <section class="first-sec row justify-content-center">
-    <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 text-center">
+  <section class="first-sec container-fluid p-5 row justify-content-center">
+    <img class="cover-photo" src='/cover.png'/>
+    <div class="logo-section">
       <img src="/logo.png">
     </div>
     
@@ -87,10 +88,25 @@
 }
 
 .first-sec {
-  background-image: url('./cover.png');
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 1000px;
+  position: relative;
+  margin-inline: auto;
+}
+
+.first-sec .cover-photo {
+  position:absolute;
+  z-index: -1;
+
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+}
+
+.logo-section {
+  display: grid;
+  place-content: center;
+
+  max-width: 488px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
