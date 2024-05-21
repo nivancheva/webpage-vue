@@ -30,6 +30,17 @@
       </div>
     </div>
   </nav>
+
+  <section class="first-sec row justify-content-center">
+    <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 text-center">
+      <img src="/logo.png">
+    </div>
+    
+    <div class="col-11 pb-5">
+      <h1 class="text-uppercase mb-0">Molly</h1>
+      <h3>Unuque 3D Metaverse Ready NFTs</h3>
+    </div>
+  </section>
   
 </template>
 
@@ -73,6 +84,13 @@
 .social-links:hover,
 .btn-connect:hover {
   box-shadow: rgba(228, 152, 239, 0.3) 0px 0px 20px 10px;
+}
+
+.first-sec {
+  background-image: url('./cover.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 1000px;
 }
 
 @media (max-width: 768px) {
