@@ -3,31 +3,54 @@
 </script>
 
 <template>
-  <header class="header d-flex align-items-center justify-content-between">
-    <div>
-      <img src="/headerLogo.svg">
-    </div>
-    <div class="d-flex icons-container">
-      <span class="icon icon-discord"></span>
-      <span class="icon icon-instagram"></span>
-      <span class="icon icon-twitter"></span>
-      <span class="icon icon-opensea"></span>
+  <nav class="navbar navbar-expand-lg navbar-light pt-2 pb-0">
+    <div class="container-fluid d-flex justify-content-between align-items-center">
+      <div>
+        <img src="/headerLogo.svg">
+      </div>
+      <div class="d-flex align-items-center icons-container">
+        <a class="btn social-links">
+          <span class="icon icon-discord"></span>
+        </a>
+        <a class="btn social-links">
+          <span class="icon icon-instagram"></span>
+        </a>
+        <a class="btn social-links">
+          <span class="icon icon-twitter"></span>
+        </a>
+        <a class="btn social-links">
+          <span class="icon icon-opensea"></span>
+        </a>
 
-      <div class="d-flex align-items-center border">
-        <span class="icon icon-wallet"></span>
-        <span class="text-uppercase ps-2">Staking</span>   
+        <a class="d-flex align-items-center btn btn-sm btn-connect">
+          <span class="icon icon-wallet"></span>
+          <span class="text-uppercase ps-2">Staking</span>   
+        </a>
       </div>
     </div>
-  </header>
+  </nav>
   
 </template>
 
 <style scoped>
-.header {
+.navbar {
   background-color: black;
 }
 
-.icons-container {
-  gap: .75rem
+.social-links {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: .5rem;
+}
+
+.btn-connect {
+  border-radius: 10rem;
+  padding: .4375rem 1.25rem .3125rem;
 }
 </style>
