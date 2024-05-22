@@ -59,3 +59,11 @@ a {
 .icon {
     color: rgba(228, 152, 239, .8);
 }
+
+ul {
+    list-style-type: none;
+}
+
+ul:not([class]) li:before {
+    content: '' !important;
+}
