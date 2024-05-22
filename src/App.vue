@@ -8,21 +8,23 @@
       <div>
         <img src="/headerLogo.svg">
       </div>
-      <div class="links">
-        <div class="align-items-center icons-container">
-          <a class="btn social-links">
-            <span class="icon icon-discord"></span>
-          </a>
-          <a class="btn social-links">
+      <div class="links align-items-center">
+        <ul class="align-items-center icons-container m-0">
+          <li>
+            <a class="btn social-links">
+              <span class="icon icon-discord"></span>
+            </a>
+          </li>
+          <li><a class="btn social-links">
             <span class="icon icon-instagram"></span>
-          </a>
-          <a class="btn social-links">
+          </a></li>
+          <li><a class="btn social-links">
             <span class="icon icon-twitter"></span>
-          </a>
-          <a class="btn social-links">
+          </a></li>
+          <li><a class="btn social-links">
             <span class="icon icon-opensea"></span>
-          </a>
-        </div>
+          </a></li>
+        </ul>
         <a class="d-flex align-items-center btn btn-sm btn-connect">
           <span class="icon icon-wallet"></span>
           <span class="text-uppercase ps-2">Staking</span>   
@@ -36,6 +38,7 @@
     <nav class="vertical-nav">
       <ul class="nav-list">
         <li>Home</li>
+        <span class="icon icon-person-dots-from-line"></span>
         <li>About</li>
         <li>Vision</li>
         <li>Benefits</li>
@@ -107,6 +110,12 @@
   position:relative
 }
 
+.vertical-nav {
+  position: fixed;
+  right: 2rem;
+  vertical-align: middle;
+}
+
 .first-sec {
   position: relative;
   margin-inline: auto;
@@ -134,48 +143,6 @@
   left: 5rem
 }
 
-.vertical-nav {
-  position: fixed;
-  z-index: 9;
-  right: 100px;
-  bottom: 30px;
-  width: 65%;
-  max-width: 300px;
-  max-height: 90%;
-  overflow-y: auto;
-  transform: scale(0);
-  transform-origin: right bottom;
-  transition: transform .2s;
-  border-radius: .25em;
-  background-color: rgba(0, 0, 0, .9);
-}
-
-.nav-list {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    list-style-type: none;
-    text-transform: uppercase;
-}
-
-.vertical-nav a {
-    display: block;
-    padding: 1em;
-    color: #fff!important;
-    font-weight: 700
-}
-
-.vertical-nav a.active {
-    color: rgba(228,152,239,.8)!important
-}
-
-.ertical-nav.open {
-    transform: scale(1);
-    -webkit-overflow-scrolling: touch;
-    box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
-    -moz-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
-    -webkit-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important
-}
 
 @media (max-width: 768px) {
   .icons-container {
@@ -201,32 +168,6 @@
   .links {
     display: flex;
   }
-
-  .vertical-nav {
-    right: 0;
-    top: 0;
-    bottom: auto;
-    height: 100vh;
-    width: 90px;
-    max-width: none;
-    max-height: none;
-    transform: scale(1);
-    background-color: transparent;
-    display: table;
-  }
-
-  .vertical-nav:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .8);
-    transform: translateX(100%);
-    transition: transform .4s;
-  }
-
   
 
 }

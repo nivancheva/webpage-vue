@@ -49,6 +49,7 @@
 body {
     color: white;
     background-color: black;
+    overflow-X: hidden;
 }
 
 a {
