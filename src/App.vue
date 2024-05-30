@@ -73,7 +73,7 @@
       </nav>
     </div>
 
-    <section class="first-sec">
+    <section class="first-sec mx-5">
       <div class="container-fluid row p-5 justify-content-center">
         <div class="logo-section">
           <img src="/logo.png">
@@ -86,68 +86,108 @@
       </div>
     </section>
 
+
     <section class="mt-5">
-      <div class="container-fluid">
-        <h2 class="text-uppercase text-center">Core Team</h2>
-      
-        <div class="row team-wrapper">
-          <div class="col-11 col-md-6 col-lg-4">
-            <div class="p-5 h-100">
+      <div class="container-fluid p-5 mx-5">
+        <h2 class="title-team text-center text-uppercase display-5 fw-bold mb-5">
+          The Dream Team
+          <span class="title-team-big">The Dream Team</span>
+        </h2>
+
+        <div class="mb-5 mx-5">
+          <h3 class="text-uppercase text-center fw-normal mb-5">Founders</h3>
+          <div class="row">
+            <div class="col-11 col-xl-4 p-5 team-bg">
               <div class="d-flex justify-content-center">
-                <img class="team-img" src="/team/simbiot.png">
+                <img class="team-img" src='/team/alexander.png'/>
               </div>
-              <h5 class="text-center text-uppercase mt-3">Simbiot</h5>
-              <p class="text-center">Front end developer and designer</p>
+              <h5 class="text-center text-uppercase my-4">Alexander aka AAFSHIT</h5>
+              <p>Alexander is a traveler videographer working with the biggest events in the world creating content for the business and influencers.</p>
+              <p>Alexander have a 15 years of a motion-graphics & 3d animations experience working with the biggest studios in the world and been a part of blockbusters like Star wars & Star trek. His attention to detail, vision and his amazing skills in Sculpting, Modelling, Texturing and Lighting, have given birth to Molly NFT!</p>
+            </div>
+
+             <div class="col-11 col-xl-4 p-5">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src='/team/nick.png'/>
+              </div>
+              <h5 class="text-center text-uppercase my-4">Nick aka Nordz </h5>
+              <p>A dreamer who is willing to make the World a better place. Over 4 years of experience in crypto and then in the NFT industry.</p>
+              <p>Dedicated to create the largest and strongest alpha group in the NFT world. Pioneer for crypto and NFTs in a couple of countries.Passionate about revolutionising what NFTs represents.</p>
+              <p>His moto: "The proper function of man is to live, not to exist. I shall not waste my days in trying to prolong them. I shall use my time.""</p>
+            </div>
+
+             <div class="col-11 col-xl-4 p-5 team-bg">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src='/team/george.png'/>
+              </div>
+              <h5 class="text-center text-uppercase my-4">George</h5>
+              <p>A successful entrepreneur, who knows with vast knowledge of how to build a thriving crypto/nft start from scratch! George has huge experience in IT management, blockchain development, token and NFT marketing! He is also very passionate leader who is willing to put in the extra work required to build an outstanding team and community! George believes that there is a lot of potential and undiscovered potential in the crypto/nft space and is to fill in the missing gaps with the technology that his IT team will build!</p>
             </div>
           </div>
+        </div>
 
-          <div class="col-11 col-md-6 col-lg-4">
-            <div class="p-5 h-100">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src="/team/kris.png">
+        <div>
+          <h3 class="text-uppercase text-center fw-normal">Core Team</h3>
+        
+          <div class="row team-wrapper">
+            <div class="col-11 col-md-6 col-lg-4">
+              <div class="p-5 h-100">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src="/team/simbiot.png">
+                </div>
+                <h5 class="text-center text-uppercase mt-3">Simbiot</h5>
+                <p class="text-center">Front end developer and designer</p>
               </div>
-              <h5 class="text-center text-uppercase mt-3">Kris</h5>
-              <p class="text-center">Backend Developer and solidity developer</p>
             </div>
-          </div>
 
-          <div class="col-11 col-md-6 col-lg-4">
-            <div class="p-5 h-100">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src="/team/emmy.png">
+            <div class="col-11 col-md-6 col-lg-4">
+              <div class="p-5 h-100">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src="/team/kris.png">
+                </div>
+                <h5 class="text-center text-uppercase mt-3">Kris</h5>
+                <p class="text-center">Backend Developer and solidity developer</p>
               </div>
-              <h5 class="text-center text-uppercase mt-3">Emmy aka Catwoman</h5>
-              <p class="text-center">Project Manager Assistant </p>
             </div>
-          </div>
 
-          <div class="col-11 col-md-6 col-lg-4">
-            <div class="p-5 h-100">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src="/team/johnny.png">
+            <div class="col-11 col-md-6 col-lg-4">
+              <div class="p-5 h-100">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src="/team/emmy.png">
+                </div>
+                <h5 class="text-center text-uppercase mt-3">Emmy aka Catwoman</h5>
+                <p class="text-center">Project Manager Assistant </p>
               </div>
-              <h5 class="text-center text-uppercase mt-3">Johnny - Mr. Stark </h5>
-              <p class="text-center">Community Manager</p>
             </div>
-          </div>
 
-          <div class="col-11 col-md-6 col-lg-4">
-            <div class="p-5 h-100">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src="/team/hulk.png">
+            <div class="col-11 col-md-6 col-lg-4">
+              <div class="p-5 h-100">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src="/team/johnny.png">
+                </div>
+                <h5 class="text-center text-uppercase mt-3">Johnny - Mr. Stark </h5>
+                <p class="text-center">Community Manager</p>
               </div>
-              <h5 class="text-center text-uppercase mt-3">Hulk </h5>
-              <p class="text-center">Social Media Manager</p>
             </div>
-          </div>
 
-          <div class="col-11 col-md-6 col-lg-4">
-            <div class="p-5 h-100">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src="/team/needfornfts.png">
+            <div class="col-11 col-md-6 col-lg-4">
+              <div class="p-5 h-100">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src="/team/hulk.png">
+                </div>
+                <h5 class="text-center text-uppercase mt-3">Hulk </h5>
+                <p class="text-center">Social Media Manager</p>
               </div>
-              <h5 class="text-center text-uppercase mt-3">Needfornfts</h5>
-              <p class="text-center">Collaboration Manager</p>
+            </div>
+
+            <div class="col-11 col-md-6 col-lg-4">
+              <div class="p-5 h-100">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src="/team/needfornfts.png">
+                </div>
+                <h5 class="text-center text-uppercase mt-3">Needfornfts</h5>
+                <p class="text-center">Collaboration Manager</p>
+              </div>
             </div>
           </div>
         </div>
@@ -158,7 +198,7 @@
       <div class="footer-img logo-section mx-auto">
         <img class="mx-auto" src="/logo.png">
       </div>
-      <div class="footer-links links align-items-center justify-content-center px-0 pt-3 pb-5">
+      <div class="footer-links d-flex align-items-center justify-content-center px-0 pt-3 pb-5">
         <ul class="align-items-center icons-container m-0 ps-0">
           <li>
             <a class="btn social-links">
@@ -228,7 +268,7 @@
 }
 
 .page-content {
-  position:relative
+  position:relative;
 }
 
 .vertical-nav-wrapper {
@@ -241,7 +281,7 @@
 }
 
 .vertical-nav {
-  position: fixed;
+  position: static;
   right: 2rem;
   bottom: 50%;
   transform: translate(0, 50%);
@@ -278,6 +318,25 @@
   left: 5rem
 }
 
+.title-team {
+    color: #e498ef;
+    font-weight: 300;
+    position: relative;
+}
+
+.title-team-big {
+    position: absolute;
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 0;
+    color: rgba(228, 152, 239, .07);
+    width: 100%;
+    min-width: 870px;
+}
+
 .team-wrapper {
   background-image: url('./team-bg.png');
   background-repeat: no-repeat;
@@ -288,6 +347,7 @@
   border: 2px solid rgba(228, 152, 239, .8);
   border-radius: 50%;
   padding: 2px;
+  box-shadow: rgba(228, 152, 239, 0.25) 0px 2px 50px 20px;
 }
 
 .footer .social-links {
@@ -304,8 +364,12 @@
 }
 
 .footer-links { 
-  box-shadow: 2px 1px rgba(228, 152, 239, .4);
+  border-bottom: 1px solid rgb(228, 152, 239);
   font-size: 2rem;
+}
+
+.team-bg {
+  background: rgba(228, 152, 239, .1);
 }
 
 @media (max-width: 768px) {
