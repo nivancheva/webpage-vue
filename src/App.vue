@@ -35,17 +35,43 @@
 
   <div class="page-content">
   
-    <nav class="vertical-nav">
-      <ul class="nav-list">
-        <li>Home</li>
-        <span class="icon icon-person-dots-from-line"></span>
-        <li>About</li>
-        <li>Vision</li>
-        <li>Benefits</li>
-        <li>Road</li>
-        <li>Team</li>
-      </ul>
-    </nav>
+    <div class="vertical-nav-wrapper">
+      <nav class="vertical-nav">
+        <ul class="nav-list">
+          <li>
+            <a href="#" class="active">
+              <span class="label">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active">
+              <span class="label">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active">
+              <span class="label">Vision</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active">
+              <span class="label">Benefits</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active">
+              <span class="label">Road</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="active">
+              <span class="label">Team</span>
+            </a>
+          </li>
+          <span class="circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8"/></svg></span>
+        </ul>
+      </nav>
+    </div>
 
     <section class="first-sec">
       <div class="container-fluid row p-5 justify-content-center">
@@ -59,6 +85,33 @@
         </div>
       </div>
     </section>
+
+    <footer class="footer pt-5 mt-5">
+      <div class="footer-img logo-section mx-auto">
+        <img class="mx-auto" src="/logo.png">
+      </div>
+      <div class="footer-links links align-items-center justify-content-center px-0 pt-3 pb-5">
+        <ul class="align-items-center icons-container m-0 ps-0">
+          <li>
+            <a class="btn social-links">
+              <span class="icon icon-discord"></span>
+            </a>
+          </li>
+          <li><a class="btn social-links">
+            <span class="icon icon-instagram"></span>
+          </a></li>
+          <li><a class="btn social-links">
+            <span class="icon icon-twitter"></span>
+          </a></li>
+          <li><a class="btn social-links">
+            <span class="icon icon-opensea"></span>
+          </a></li>
+        </ul>
+      </div>
+      <div class="text-center py-5">
+        <p>Copyright © Molly NFT</p>
+      </div>
+    </footer>
 
   </div>
   
@@ -110,10 +163,24 @@
   position:relative
 }
 
+.vertical-nav-wrapper {
+  background: transparent;
+  height: 100vh;
+  width: 7rem;
+  top: 0;
+  right: 0;
+  position: fixed;
+}
+
 .vertical-nav {
   position: fixed;
   right: 2rem;
-  vertical-align: middle;
+  bottom: 50%;
+  transform: translate(0, 50%);
+}
+
+.circle:hover {
+  color: rgba(228, 152, 239, .4);
 }
 
 .first-sec {
@@ -143,6 +210,23 @@
   left: 5rem
 }
 
+.footer .social-links {
+  width: 55px;
+  height: 55px;
+}
+
+.footer .social-links span {
+  font-size: 1.5rem;
+}
+
+.footer-img  img{
+  width: 40%;
+}
+
+.footer-links { 
+  box-shadow: 2px 1px rgba(228, 152, 239, .4);
+  font-size: 2rem;
+}
 
 @media (max-width: 768px) {
   .icons-container {
