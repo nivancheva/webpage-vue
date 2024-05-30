@@ -86,6 +86,74 @@
       </div>
     </section>
 
+    <section class="mt-5">
+      <div class="container-fluid">
+        <h2 class="text-uppercase text-center">Core Team</h2>
+      
+        <div class="row team-wrapper">
+          <div class="col-11 col-md-6 col-lg-4">
+            <div class="p-5 h-100">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src="/team/simbiot.png">
+              </div>
+              <h5 class="text-center text-uppercase mt-3">Simbiot</h5>
+              <p class="text-center">Front end developer and designer</p>
+            </div>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-4">
+            <div class="p-5 h-100">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src="/team/kris.png">
+              </div>
+              <h5 class="text-center text-uppercase mt-3">Kris</h5>
+              <p class="text-center">Backend Developer and solidity developer</p>
+            </div>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-4">
+            <div class="p-5 h-100">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src="/team/emmy.png">
+              </div>
+              <h5 class="text-center text-uppercase mt-3">Emmy aka Catwoman</h5>
+              <p class="text-center">Project Manager Assistant </p>
+            </div>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-4">
+            <div class="p-5 h-100">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src="/team/johnny.png">
+              </div>
+              <h5 class="text-center text-uppercase mt-3">Johnny - Mr. Stark </h5>
+              <p class="text-center">Community Manager</p>
+            </div>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-4">
+            <div class="p-5 h-100">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src="/team/hulk.png">
+              </div>
+              <h5 class="text-center text-uppercase mt-3">Hulk </h5>
+              <p class="text-center">Social Media Manager</p>
+            </div>
+          </div>
+
+          <div class="col-11 col-md-6 col-lg-4">
+            <div class="p-5 h-100">
+              <div class="d-flex justify-content-center">
+                <img class="team-img" src="/team/needfornfts.png">
+              </div>
+              <h5 class="text-center text-uppercase mt-3">Needfornfts</h5>
+              <p class="text-center">Collaboration Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <footer class="footer pt-5 mt-5">
       <div class="footer-img logo-section mx-auto">
         <img class="mx-auto" src="/logo.png">
@@ -208,6 +276,18 @@
   position: absolute;
   bottom: 0;
   left: 5rem
+}
+
+.team-wrapper {
+  background-image: url('./team-bg.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.team-img {
+  border: 2px solid rgba(228, 152, 239, .8);
+  border-radius: 50%;
+  padding: 2px;
 }
 
 .footer .social-links {
