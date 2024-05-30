@@ -79,19 +79,101 @@
           <img src="/logo.png">
         </div>
         
-        <div class=" title">
+        <div class=" title-molly">
           <h1 class="text-uppercase mb-0">Molly</h1>
           <h3>Unuque 3D Metaverse Ready NFTs</h3>
         </div>
       </div>
     </section>
 
+    <section>
+      <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
+        Utilities
+        <span class="title-big">Utilities</span>
+      </h2>
+      <div class="container-fluid p-5 mx-5 utilities-wrapper">
+        <img class="util-bg-img" src='/team-bg.png'/>
+        <div class="row justify-content-center">
+            <div class="col-11 col-md-6 col-xl-3">
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-chess-queen icon-util"></span>
+                  Alpha Group
+                </h5>
+                <p>We are building an alpha group for the influencer industry! <br>We strongly believe that a lot of famous influencer & celebrities will make their own NFT collection, and we want to be the first alpha group that that will provide insights, knowledge, connections and opportunities!</p>
+              </div>
+
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-cube icon-util"></span>
+                  Giveaways & Rewards
+                </h5>
+                <p> We plan to organise regular giveaways, raffles and fun incentives for our members with the rewards being invitations to parties, merch, free nft, whitelist, crypto and luxury goods!</p>
+              </div>
+            </div>
+
+            <div class="col-11 col-md-6 col-xl-3">
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-ticket icon-util"></span>
+                  High end 3D models & rendering
+                </h5>
+                <p>Holders can enjoy high quality rendering implying that Molly NFTs can be used in the Mataverse or in games! </p>
+              </div>
+
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-earth-americas icon-util"></span>
+                  Community Wallet
+                </h5>
+                <p>We will create a Community Wallet with the intention of redistributing 30% of the Royalty Fees income from the secondary market back into the Community Wallet. The community can vote what we will use the funds for and ensure that we keep growing the project! </p>
+              </div>
+            </div>
+
+            <div class="col-11 col-md-6 col-xl-3">
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-gifts icon-util"></span>
+                  Mint Pass
+                </h5>
+                <p>Molly NFT acts as a mint pass for all future drops & influencer collections, meaning that holders will get early access & better price for upcoming collections! </p>
+              </div>
+
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-wallet icon-util"></span>
+                  Real life events
+                </h5>
+                <p>Exclusive parties with the best influencers & celebrities! Networking events with artists, creators, influencers and investors! The path to success is building a network!</p>
+              </div>
+            </div>
+
+            <div class="col-11 col-md-6 col-xl-3">
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-champagne-glasses icon-util"></span>
+                  Metaverse
+                </h5>
+                <p>We plan to purchase land in the metaverse creating a virtual member space for holders to collaborate as their unique Molly avatars. <br>Our metaverse space is planned to be as the Molly Headquarters that NFT holders can access. Here influencers, collections, artists and investors can hang out together and create amazing projects!</p>
+              </div>
+
+              <div class="utilities-card p-5 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-flask-vial icon-util"></span>
+                  Serum mutations
+                </h5>
+                <p>We plan to make a second collection where holders can use serums to mutate their NFT and increase its value! </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
 
     <section class="mt-5">
       <div class="container-fluid p-5 mx-5">
-        <h2 class="title-team text-center text-uppercase display-5 fw-bold mb-5">
+        <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
           The Dream Team
-          <span class="title-team-big">The Dream Team</span>
+          <span class="title-big">The Dream Team</span>
         </h2>
 
         <div class="mb-5 mx-5">
@@ -312,29 +394,53 @@
   position: relative;
 }
 
-.title {
+.title-molly {
   position: absolute;
   bottom: 0;
   left: 5rem
 }
 
-.title-team {
+.utilities-wrapper {
+  position: relative;
+}
+
+.util-bg-img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(50%);
+}
+
+.utilities-card {
+  border: 1px solid rgba(228, 152, 239, .8);
+  box-shadow: rgba(228, 152, 239, 0.25) 0px 2px 15px 5px;
+}
+
+.icon-util {
+   background: linear-gradient(to right, rgba(195, 32, 217, 1), rgba(105, 91, 231, 1));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  font-size: 3rem;
+  margin-right: 1rem
+}
+
+.title {
     color: #e498ef;
     font-weight: 300;
     position: relative;
 }
 
-.title-team-big {
-    position: absolute;
-    top: 25px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-weight: 900;
-    font-size: 100px;
-    line-height: 0;
-    color: rgba(228, 152, 239, .07);
-    width: 100%;
-    min-width: 870px;
+.title-big {
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 0;
+  color: rgba(228, 152, 239, .07);
+  width: 100%;
+  min-width: 870px;
 }
 
 .team-wrapper {
