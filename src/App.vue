@@ -73,96 +73,104 @@
       </nav>
     </div>
 
-    <section class="first-sec mx-5">
-      <div class="container-fluid row p-5 justify-content-center">
-        <div class="logo-section">
-          <img src="/logo.png">
-        </div>
-        
-        <div class=" title-molly">
-          <h1 class="text-uppercase mb-0">Molly</h1>
-          <h3>Unuque 3D Metaverse Ready NFTs</h3>
+    <section class="first-sec">
+      <div class="container-fluid px-5">
+        <div class="row justify-content-center">
+          <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 d-flex justify-content-center">
+            <img src="/logo2.png">
+          </div>
+          
+          <div class="col-11 pb-5 header-title">
+            <div class="d-xs-flex justify-content-center align-items-center">
+              <div class="text-center text-md-start mb-3">
+                <h1 class="text-uppercase mb-0">Molly</h1>
+                <h3>Unuque 3D Metaverse Ready NFTs</h3>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
     <section>
-      <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
-        Utilities
-        <span class="title-big">Utilities</span>
-      </h2>
-      <div class="container-fluid p-5 mx-5 utilities-wrapper">
-        <img class="util-bg-img" src='/team-bg.png'/>
-        <div class="row justify-content-center">
-            <div class="col-11 col-md-6 col-xl-3">
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-chess-queen icon-util"></span>
-                  Alpha Group
-                </h5>
-                <p>We are building an alpha group for the influencer industry! <br>We strongly believe that a lot of famous influencer & celebrities will make their own NFT collection, and we want to be the first alpha group that that will provide insights, knowledge, connections and opportunities!</p>
+      <div class="container-fluid">
+        <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
+          Utilities
+          <span class="title-big">Utilities</span>
+        </h2>
+        <div class="p-5 mx-5 utilities-wrapper">
+          <img class="util-bg-img" src='/team-bg.png'/>
+          <div class="row justify-content-center">
+              <div class="col-11 col-md-6 col-xl-3">
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-chess-queen icon-util"></span>
+                    Alpha Group
+                  </h5>
+                  <p>We are building an alpha group for the influencer industry! <br>We strongly believe that a lot of famous influencer & celebrities will make their own NFT collection, and we want to be the first alpha group that that will provide insights, knowledge, connections and opportunities!</p>
+                </div>
+
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-gift icon-util"></span>
+                    Giveaways & Rewards
+                  </h5>
+                  <p> We plan to organise regular giveaways, raffles and fun incentives for our members with the rewards being invitations to parties, merch, free nft, whitelist, crypto and luxury goods!</p>
+                </div>
               </div>
 
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-cube icon-util"></span>
-                  Giveaways & Rewards
-                </h5>
-                <p> We plan to organise regular giveaways, raffles and fun incentives for our members with the rewards being invitations to parties, merch, free nft, whitelist, crypto and luxury goods!</p>
-              </div>
-            </div>
+              <div class="col-11 col-md-6 col-xl-3">
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-cube icon-util"></span>
+                    High end 3D models & rendering
+                  </h5>
+                  <p>Holders can enjoy high quality rendering implying that Molly NFTs can be used in the Mataverse or in games! </p>
+                </div>
 
-            <div class="col-11 col-md-6 col-xl-3">
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-ticket icon-util"></span>
-                  High end 3D models & rendering
-                </h5>
-                <p>Holders can enjoy high quality rendering implying that Molly NFTs can be used in the Mataverse or in games! </p>
-              </div>
-
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-earth-americas icon-util"></span>
-                  Community Wallet
-                </h5>
-                <p>We will create a Community Wallet with the intention of redistributing 30% of the Royalty Fees income from the secondary market back into the Community Wallet. The community can vote what we will use the funds for and ensure that we keep growing the project! </p>
-              </div>
-            </div>
-
-            <div class="col-11 col-md-6 col-xl-3">
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-gifts icon-util"></span>
-                  Mint Pass
-                </h5>
-                <p>Molly NFT acts as a mint pass for all future drops & influencer collections, meaning that holders will get early access & better price for upcoming collections! </p>
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-wallet icon-util"></span>
+                    Community Wallet
+                  </h5>
+                  <p>We will create a Community Wallet with the intention of redistributing 30% of the Royalty Fees income from the secondary market back into the Community Wallet. The community can vote what we will use the funds for and ensure that we keep growing the project! </p>
+                </div>
               </div>
 
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-wallet icon-util"></span>
-                  Real life events
-                </h5>
-                <p>Exclusive parties with the best influencers & celebrities! Networking events with artists, creators, influencers and investors! The path to success is building a network!</p>
-              </div>
-            </div>
+              <div class="col-11 col-md-6 col-xl-3">
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-ticket icon-util"></span>
+                    Mint Pass
+                  </h5>
+                  <p>Molly NFT acts as a mint pass for all future drops & influencer collections, meaning that holders will get early access & better price for upcoming collections! </p>
+                </div>
 
-            <div class="col-11 col-md-6 col-xl-3">
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-champagne-glasses icon-util"></span>
-                  Metaverse
-                </h5>
-                <p>We plan to purchase land in the metaverse creating a virtual member space for holders to collaborate as their unique Molly avatars. <br>Our metaverse space is planned to be as the Molly Headquarters that NFT holders can access. Here influencers, collections, artists and investors can hang out together and create amazing projects!</p>
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-calendar-check icon-util"></span>
+                    Real life events
+                  </h5>
+                  <p>Exclusive parties with the best influencers & celebrities! Networking events with artists, creators, influencers and investors! The path to success is building a network!</p>
+                </div>
               </div>
 
-              <div class="utilities-card p-5 mb-5">
-                <h5 class="title text-uppercase d-flex align-items-center">
-                  <span class="icon icon-flask-vial icon-util"></span>
-                  Serum mutations
-                </h5>
-                <p>We plan to make a second collection where holders can use serums to mutate their NFT and increase its value! </p>
+              <div class="col-11 col-md-6 col-xl-3">
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-mask icon-util"></span>
+                    Metaverse
+                  </h5>
+                  <p>We plan to purchase land in the metaverse creating a virtual member space for holders to collaborate as their unique Molly avatars. <br>Our metaverse space is planned to be as the Molly Headquarters that NFT holders can access. Here influencers, collections, artists and investors can hang out together and create amazing projects!</p>
+                </div>
+
+                <div class="utilities-card p-5 mb-5">
+                  <h5 class="title text-uppercase d-flex align-items-center">
+                    <span class="icon icon-flask-vial icon-util"></span>
+                    Serum mutations
+                  </h5>
+                  <p>We plan to make a second collection where holders can use serums to mutate their NFT and increase its value! </p>
+                </div>
               </div>
             </div>
           </div>
@@ -170,40 +178,42 @@
     </section>
 
     <section class="mt-5">
-      <div class="container-fluid p-5 mx-5">
-        <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
-          The Dream Team
-          <span class="title-big">The Dream Team</span>
-        </h2>
+      <div class="container-fluid">
+        <div class="dream-team-bg p-5 mx-5">
+          <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
+            The Dream Team
+            <span class="title-big">The Dream Team</span>
+          </h2>
 
-        <div class="mb-5 mx-5">
-          <h3 class="text-uppercase text-center fw-normal mb-5">Founders</h3>
-          <div class="row">
-            <div class="col-11 col-xl-4 p-5 team-bg">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src='/team/alexander.png'/>
+          <div class="mb-5 mx-5">
+            <h3 class="text-uppercase text-center fw-normal mb-5 pb-5">Founders</h3>
+            <div class="row">
+              <div class="col-11 col-xl-4 p-5 team-bg">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src='/team/alexander.png'/>
+                </div>
+                <h5 class="text-center text-uppercase my-4">Alexander aka AAFSHIT</h5>
+                <p>Alexander is a traveler videographer working with the biggest events in the world creating content for the business and influencers.</p>
+                <p>Alexander have a 15 years of a motion-graphics & 3d animations experience working with the biggest studios in the world and been a part of blockbusters like Star wars & Star trek. His attention to detail, vision and his amazing skills in Sculpting, Modelling, Texturing and Lighting, have given birth to Molly NFT!</p>
               </div>
-              <h5 class="text-center text-uppercase my-4">Alexander aka AAFSHIT</h5>
-              <p>Alexander is a traveler videographer working with the biggest events in the world creating content for the business and influencers.</p>
-              <p>Alexander have a 15 years of a motion-graphics & 3d animations experience working with the biggest studios in the world and been a part of blockbusters like Star wars & Star trek. His attention to detail, vision and his amazing skills in Sculpting, Modelling, Texturing and Lighting, have given birth to Molly NFT!</p>
-            </div>
 
-             <div class="col-11 col-xl-4 p-5">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src='/team/nick.png'/>
+              <div class="col-11 col-xl-4 p-5">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src='/team/nick.png'/>
+                </div>
+                <h5 class="text-center text-uppercase my-4">Nick aka Nordz </h5>
+                <p>A dreamer who is willing to make the World a better place. Over 4 years of experience in crypto and then in the NFT industry.</p>
+                <p>Dedicated to create the largest and strongest alpha group in the NFT world. Pioneer for crypto and NFTs in a couple of countries.Passionate about revolutionising what NFTs represents.</p>
+                <p>His moto: "The proper function of man is to live, not to exist. I shall not waste my days in trying to prolong them. I shall use my time.""</p>
               </div>
-              <h5 class="text-center text-uppercase my-4">Nick aka Nordz </h5>
-              <p>A dreamer who is willing to make the World a better place. Over 4 years of experience in crypto and then in the NFT industry.</p>
-              <p>Dedicated to create the largest and strongest alpha group in the NFT world. Pioneer for crypto and NFTs in a couple of countries.Passionate about revolutionising what NFTs represents.</p>
-              <p>His moto: "The proper function of man is to live, not to exist. I shall not waste my days in trying to prolong them. I shall use my time.""</p>
-            </div>
 
-             <div class="col-11 col-xl-4 p-5 team-bg">
-              <div class="d-flex justify-content-center">
-                <img class="team-img" src='/team/george.png'/>
+              <div class="col-11 col-xl-4 p-5 team-bg">
+                <div class="d-flex justify-content-center">
+                  <img class="team-img" src='/team/george.png'/>
+                </div>
+                <h5 class="text-center text-uppercase my-4">George</h5>
+                <p>A successful entrepreneur, who knows with vast knowledge of how to build a thriving crypto/nft start from scratch! George has huge experience in IT management, blockchain development, token and NFT marketing! He is also very passionate leader who is willing to put in the extra work required to build an outstanding team and community! George believes that there is a lot of potential and undiscovered potential in the crypto/nft space and is to fill in the missing gaps with the technology that his IT team will build!</p>
               </div>
-              <h5 class="text-center text-uppercase my-4">George</h5>
-              <p>A successful entrepreneur, who knows with vast knowledge of how to build a thriving crypto/nft start from scratch! George has huge experience in IT management, blockchain development, token and NFT marketing! He is also very passionate leader who is willing to put in the extra work required to build an outstanding team and community! George believes that there is a lot of potential and undiscovered potential in the crypto/nft space and is to fill in the missing gaps with the technology that his IT team will build!</p>
             </div>
           </div>
         </div>
@@ -281,7 +291,7 @@
         <img class="mx-auto" src="/logo.png">
       </div>
       <div class="footer-links d-flex align-items-center justify-content-center px-0 pt-3 pb-5">
-        <ul class="align-items-center icons-container m-0 ps-0">
+        <ul class="d-flex align-items-center m-0 ps-0">
           <li>
             <a class="btn social-links">
               <span class="icon icon-discord"></span>
@@ -302,7 +312,6 @@
         <p>Copyright © Molly NFT</p>
       </div>
     </footer>
-
   </div>
   
 </template>
@@ -382,22 +391,12 @@
   background-position:top center;
   background-repeat: no-repeat;
   background-size: contain;
+  border-bottom: 1px solid rgba(228, 152, 239, .4);
 }
 
-.logo-section {
-  display: grid;
-  place-content: center;
-
-  max-width: 450px;
-  width: 100%;
-
-  position: relative;
-}
-
-.title-molly {
+.header-title {
   position: absolute;
   bottom: 0;
-  left: 5rem
 }
 
 .utilities-wrapper {
@@ -409,6 +408,7 @@
   right: 0;
   bottom: 0;
   transform: translate(50%);
+  z-index: -10;
 }
 
 .utilities-card {
@@ -447,6 +447,27 @@
   background-image: url('./team-bg.png');
   background-repeat: no-repeat;
   background-position: top center;
+  opacity: .7;
+}
+
+.dream-team-bg {
+  position: relative;
+}
+
+.dream-team-bg::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .3;
+  z-index: -10;
+  background-image: url('./cover.png');
+  background-position:top;
+  background-repeat: no-repeat;
+  background-size: 50%;
 }
 
 .team-img {
@@ -466,11 +487,12 @@
 }
 
 .footer-img  img{
-  width: 40%;
+  width: 136px;
+  height: 136px;
 }
 
-.footer-links { 
-  border-bottom: 1px solid rgb(228, 152, 239);
+.footer-links {
+  border-bottom: 1px solid rgba(228, 152, 239, .4);
   font-size: 2rem;
 }
 
@@ -492,10 +514,11 @@
     margin-bottom: .5rem;
   }
 
-  .title {
-    text-align: center;
-    left: 0;
+  .first-sec {
+    min-height: 70vh;
   }
+
+
 }
 
 @media (min-width: 769px) {
