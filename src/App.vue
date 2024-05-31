@@ -144,11 +144,11 @@
               </a>
             </div>
 
-            <div class="col-12 my-5 py-5 d-flex justify-content-center utilities-border">
+            <div class="col-12 my-5 d-flex justify-content-center">
               <img src="/vision/trip.png"/>
             </div>
 
-            <div class="col-12 d-flex justify-content-center ">
+            <div class="col-12 d-flex justify-content-center py-5 utilities-border">
               <img src="/vision/BTP-in-Paradise.png"/>
             </div>
 
@@ -514,7 +514,8 @@
 }
 
 .utilities-border {
-  border-bottom: 1px solid rgb(228, 152, 239);
+  border-bottom: 1px solid rgba(228, 152, 239, .8);
+  border-top: 1px solid rgba(228, 152, 239, .8);
 }
 
 .icon-util {
@@ -533,15 +534,14 @@
 
 .title-big {
   position: absolute;
-  top: 25px;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%);
   font-weight: 900;
   font-size: 100px;
   line-height: 0;
   color: rgba(228, 152, 239, .07);
   width: 100%;
-  min-width: 870px;
 }
 
 .vision-wrapper {
@@ -585,7 +585,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  opacity: .3;
+  opacity: .4;
   z-index: -10;
   background-image: url('./cover.png');
   background-position:top;
