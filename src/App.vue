@@ -100,7 +100,7 @@
         </h2>
         <div class="p-5 mx-5 utilities-wrapper">
           <img class="util-bg-img" src='/team-bg.png'/>
-          <div class="row justify-content-center">
+          <div class="row justify-content-center px-4">
               <div class="col-11 col-md-6 col-xl-3">
                 <div class="utilities-card p-5 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
