@@ -92,7 +92,7 @@
       </div>
     </section>
 
-    <section class="colection-wrapper">
+    <!-- <section class="colection-wrapper">
       <div class="container-fluid px-0 py-5">
         <div class="d-flex py-5">
           <div class="col-12 col-xl-6 p-0">
@@ -124,14 +124,14 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <section>
       <div class="container-fluid">
         <div class="vision-wrapper">
           <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
             VISION & VALUES
-            <span class="title-big">VISION & VALUES</span>
+            <!-- <span class="title-big">VISION & VALUES</span> -->
           </h2>
 
           <div class="row mx-5 px-5">
@@ -161,13 +161,13 @@
       <div class="container-fluid">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Utilities
-          <span class="title-big">Utilities</span>
+          <!-- <span class="title-big">Utilities</span> -->
         </h2>
-        <div class="p-5 mx-5 utilities-wrapper">
+        <div class="mx-1 mx-md-5 p-md-5 utilities-wrapper">
           <!-- <img class="util-bg-img" src='/team-bg.png'/> -->
-          <div class="row justify-content-center px-4">
-              <div class="col-11 col-md-6 col-xl-3">
-                <div class="utilities-card p-5 mb-5">
+          <div class="row justify-content-center">
+              <div class="col-12 col-md-6 col-xl-3">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-chess-queen icon-util"></span>
                     Alpha Group
@@ -175,7 +175,7 @@
                   <p>We are building an alpha group for the influencer industry! <br>We strongly believe that a lot of famous influencer & celebrities will make their own NFT collection, and we want to be the first alpha group that that will provide insights, knowledge, connections and opportunities!</p>
                 </div>
 
-                <div class="utilities-card p-5 mb-5">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-gift icon-util"></span>
                     Giveaways & Rewards
@@ -184,8 +184,8 @@
                 </div>
               </div>
 
-              <div class="col-11 col-md-6 col-xl-3">
-                <div class="utilities-card p-5 mb-5">
+              <div class="col-12 col-md-6 col-xl-3">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-cube icon-util"></span>
                     High end 3D models & rendering
@@ -193,7 +193,7 @@
                   <p>Holders can enjoy high quality rendering implying that Molly NFTs can be used in the Mataverse or in games! </p>
                 </div>
 
-                <div class="utilities-card p-5 mb-5">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-wallet icon-util"></span>
                     Community Wallet
@@ -202,8 +202,8 @@
                 </div>
               </div>
 
-              <div class="col-11 col-md-6 col-xl-3">
-                <div class="utilities-card p-5 mb-5">
+              <div class="col-12 col-md-6 col-xl-3">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-ticket icon-util"></span>
                     Mint Pass
@@ -211,7 +211,7 @@
                   <p>Molly NFT acts as a mint pass for all future drops & influencer collections, meaning that holders will get early access & better price for upcoming collections! </p>
                 </div>
 
-                <div class="utilities-card p-5 mb-5">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-calendar-check icon-util"></span>
                     Real life events
@@ -220,8 +220,8 @@
                 </div>
               </div>
 
-              <div class="col-11 col-md-6 col-xl-3">
-                <div class="utilities-card p-5 mb-5">
+              <div class="col-12 col-md-6 col-xl-3">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-mask icon-util"></span>
                     Metaverse
@@ -229,7 +229,7 @@
                   <p>We plan to purchase land in the metaverse creating a virtual member space for holders to collaborate as their unique Molly avatars. <br>Our metaverse space is planned to be as the Molly Headquarters that NFT holders can access. Here influencers, collections, artists and investors can hang out together and create amazing projects!</p>
                 </div>
 
-                <div class="utilities-card p-5 mb-5">
+                <div class="utilities-card p-4 mb-5">
                   <h5 class="title text-uppercase d-flex align-items-center">
                     <span class="icon icon-flask-vial icon-util"></span>
                     Serum mutations
@@ -242,18 +242,18 @@
         </div>
     </section>
 
-    <section class="mt-5">
+    <section>
       <div class="container-fluid">
-        <div class="dream-team-bg p-5 mx-5">
+        <div class="dream-team-bg py-5 mx-3 px-md-5">
           <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
             The Dream Team
-            <span class="title-big">The Dream Team</span>
+            <!-- <span class="title-big">The Dream Team</span> -->
           </h2>
 
-          <div class="mb-5 mx-5">
+          <div class="mb-5 mx-1 mx-md-5">
             <h3 class="text-uppercase text-center fw-normal mb-5 pb-5">Founders</h3>
             <div class="row">
-              <div class="col-11 col-xl-4 p-5 team-bg">
+              <div class="col-12 col-xl-4 p-5 team-bg">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src='/team/alexander.png'/>
                 </div>
@@ -262,7 +262,7 @@
                 <p>Alexander have a 15 years of a motion-graphics & 3d animations experience working with the biggest studios in the world and been a part of blockbusters like Star wars & Star trek. His attention to detail, vision and his amazing skills in Sculpting, Modelling, Texturing and Lighting, have given birth to Molly NFT!</p>
               </div>
 
-              <div class="col-11 col-xl-4 p-5">
+              <div class="col-12 col-xl-4 p-5">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src='/team/nick.png'/>
                 </div>
@@ -272,7 +272,7 @@
                 <p>His moto: "The proper function of man is to live, not to exist. I shall not waste my days in trying to prolong them. I shall use my time.""</p>
               </div>
 
-              <div class="col-11 col-xl-4 p-5 team-bg">
+              <div class="col-12 col-xl-4 p-5 team-bg">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src='/team/george.png'/>
                 </div>
@@ -287,7 +287,7 @@
           <h3 class="text-uppercase text-center fw-normal">Core Team</h3>
         
           <div class="row team-wrapper">
-            <div class="col-11 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src="/team/simbiot.png">
@@ -297,7 +297,7 @@
               </div>
             </div>
 
-            <div class="col-11 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src="/team/kris.png">
@@ -307,7 +307,7 @@
               </div>
             </div>
 
-            <div class="col-11 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src="/team/emmy.png">
@@ -317,7 +317,7 @@
               </div>
             </div>
 
-            <div class="col-11 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src="/team/johnny.png">
@@ -327,7 +327,7 @@
               </div>
             </div>
 
-            <div class="col-11 col-md-6 col-lg-4">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src="/team/hulk.png">
