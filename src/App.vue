@@ -94,12 +94,43 @@
 
     <section>
       <div class="container-fluid">
+        <div class="vision-wrapper">
+          <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
+            VISION & VALUES
+            <span class="title-big">VISION & VALUES</span>
+          </h2>
+
+          <div class="row mx-5 px-5">
+
+            <div class="col-5 mx-auto mb-5 pb-5">
+              <p>We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
+              <p>Our vision is to create the largest & most profitable, decentralized community & alpha group of high-end art collectors & artists! </p>
+              <a class="btn btn-sm btn-connect">
+                <span class="text-uppercase ps-2">Staking</span>   
+              </a>
+            </div>
+
+            <div class="col-12 my-5 py-5 d-flex justify-content-center utilities-border">
+              <img src="/vision/trip.png"/>
+            </div>
+
+            <div class="col-12 d-flex justify-content-center ">
+              <img src="/vision/BTP-in-Paradise.png"/>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container-fluid">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Utilities
           <span class="title-big">Utilities</span>
         </h2>
         <div class="p-5 mx-5 utilities-wrapper">
-          <img class="util-bg-img" src='/team-bg.png'/>
+          <!-- <img class="util-bg-img" src='/team-bg.png'/> -->
           <div class="row justify-content-center px-4">
               <div class="col-11 col-md-6 col-xl-3">
                 <div class="utilities-card p-5 mb-5">
@@ -403,17 +434,21 @@
   position: relative;
 }
 
-.util-bg-img {
+/* .util-bg-img {
   position: absolute;
   right: 0;
   bottom: 0;
   transform: translate(50%);
   z-index: -10;
-}
+} */
 
 .utilities-card {
   border: 1px solid rgba(228, 152, 239, .8);
   box-shadow: rgba(228, 152, 239, 0.25) 0px 2px 15px 5px;
+}
+
+.utilities-border {
+  border-bottom: 1px solid rgb(228, 152, 239);
 }
 
 .icon-util {
@@ -441,6 +476,28 @@
   color: rgba(228, 152, 239, .07);
   width: 100%;
   min-width: 870px;
+}
+
+.vision-wrapper {
+  position: relative;
+
+  display: grid;
+  place-content: center;
+}
+
+.vision-wrapper::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background-image: url('./vision/vision-bg.png');
+  background-position:top left;
+  background-repeat: no-repeat;
+  background-size: 60%;
 }
 
 .team-wrapper {
