@@ -96,13 +96,27 @@
       <div class="container-fluid px-0 py-5">
         <div class="d-flex py-5">
           <div class="col-12 col-xl-6 p-0">
-            <div class="d-flex align-items-center left-collection">
+            <div class="d-flex align-items-center">
               <img src="/moly_one.png"/>
+              <div>
+                <h3 class="mb-0 ps-2">1st Collection</h3>
+                <div class="mb-2">
+                  <img class="w-60" src="/rectangle.png"/>
+                </div>
+                <span class="badge ms-2">Sold Out</span>
+              </div>
             </div>
           </div>
 
           <div class="col-12 col-xl-6 p-0">
-            <div class="d-flex align-items-center justify-content-end left-collection">
+            <div class="d-flex align-items-center justify-content-end">  
+              <div class="text-end">
+                <h3 class="mb-0 pe-2">Secret Collection</h3>
+                <div class="mb-2">
+                  <img class="w-60" src="/rectangle.png"/>
+                </div>
+                <span class="badge me-2">Comming soon</span>
+              </div>
               <img src="/moly_two.png"/>
             </div>
           </div>
@@ -462,6 +476,17 @@
     left: 0;
     transform: rotate(-180deg);
     top: 0;
+}
+
+.badge {
+  background: linear-gradient(269.44deg, #c33ede 1.58%, #3d4bd5 100.38%), #000;
+  box-shadow: 0 0 10px 2px rgba(228, 152, 239, .4);
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 35px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+  padding: 5px 20px;
+  text-transform: uppercase;
 }
 
 .header-title {
