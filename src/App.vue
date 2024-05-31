@@ -99,7 +99,8 @@
             <div class="d-flex align-items-center">
               <img src="/moly_one.png"/>
               <div>
-                <h3 class="mb-0 ps-2">1st Collection</h3>
+                <p class="text-muted ps-2 h3 fw-light">than...</p>
+                <h2 class="mb-0 ps-2">1st Collection</h2>
                 <div class="mb-2">
                   <img class="w-60" src="/rectangle.png"/>
                 </div>
@@ -111,7 +112,8 @@
           <div class="col-12 col-xl-6 p-0">
             <div class="d-flex align-items-center justify-content-end">  
               <div class="text-end">
-                <h3 class="mb-0 pe-2">Secret Collection</h3>
+                <p class="text-muted pe-2 h3 fw-light">...now</p>
+                <h2 class="mb-0 pe-2">Secret Collection</h2>
                 <div class="mb-2">
                   <img class="w-60" src="/rectangle.png"/>
                 </div>
