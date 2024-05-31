@@ -102,10 +102,10 @@
 
           <div class="row mx-5 px-5">
 
-            <div class="col-5 mx-auto mb-5 pb-5">
-              <p>We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
-              <p>Our vision is to create the largest & most profitable, decentralized community & alpha group of high-end art collectors & artists! </p>
-              <a class="btn btn-sm btn-connect">
+            <div class="col-5 mx-auto mb-5 pb-5 text-center">
+              <p class="text-start">We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
+              <p class="text-start">Our vision is to create the largest & most profitable, decentralized community & alpha group of high-end art collectors & artists! </p>
+              <a class="btn btn-sm btn-connect mt-5">
                 <span class="text-uppercase ps-2">Staking</span>   
               </a>
             </div>
@@ -494,10 +494,10 @@
   width: 100%;
   height: 100%;
   z-index: -10;
-  background-image: url('./vision/vision-bg.png');
-  background-position:top left;
+  background-image: url('./vision/vision-bg.png'), url('./vision/ellipse-bg.png');
+  background-position:top left, top right;
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: 60%, 25%;
 }
 
 .team-wrapper {
