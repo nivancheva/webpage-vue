@@ -92,6 +92,24 @@
       </div>
     </section>
 
+    <section class="colection-wrapper">
+      <div class="container-fluid px-0 py-5">
+        <div class="d-flex py-5">
+          <div class="col-12 col-xl-6 p-0">
+            <div class="d-flex align-items-center left-collection">
+              <img src="/moly_one.png"/>
+            </div>
+          </div>
+
+          <div class="col-12 col-xl-6 p-0">
+            <div class="d-flex align-items-center justify-content-end left-collection">
+              <img src="/moly_two.png"/>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="container-fluid">
         <div class="vision-wrapper">
@@ -102,7 +120,7 @@
 
           <div class="row mx-5 px-5">
 
-            <div class="col-5 mx-auto mb-5 pb-5 text-center">
+            <div class="col-12 col-md-8 col-lg-5 mx-auto mb-5 pb-5 text-center">
               <p class="text-start">We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
               <p class="text-start">Our vision is to create the largest & most profitable, decentralized community & alpha group of high-end art collectors & artists! </p>
               <a class="btn btn-sm btn-connect mt-5">
@@ -400,6 +418,7 @@
   top: 0;
   right: 0;
   position: fixed;
+  z-index: 10;
 }
 
 .vertical-nav {
@@ -423,6 +442,26 @@
   background-repeat: no-repeat;
   background-size: contain;
   border-bottom: 1px solid rgba(228, 152, 239, .4);
+}
+
+.colection-wrapper {
+  position: relative;
+
+  background-image: url('./team-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 30%;
+}
+
+.colection-wrapper::before {
+    content: "";
+    background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    left: 0;
+    transform: rotate(-180deg);
+    top: 0;
 }
 
 .header-title {
