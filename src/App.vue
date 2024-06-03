@@ -437,13 +437,13 @@
   right: 0;
   position: fixed;
   z-index: 10;
+
+  display: grid;
+  place-content: center;
 }
 
 .vertical-nav {
   position: static;
-  right: 2rem;
-  bottom: 50%;
-  transform: translate(0, 50%);
 }
 
 .circle:hover {
