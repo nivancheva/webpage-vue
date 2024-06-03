@@ -93,9 +93,9 @@
     </section>
 
     <section class="colection-wrapper">
-      <div class="container-fluid">
+      <div class="container-fluid py-5">
         <div class="row align-items-center justify-content-center px-sm-1">
-          <div class="col-12 col-xl-6 p-0 ">
+          <div class="col-12 col-xl-6 p-0">
             <div class="row-sm d-flex align-items-center">
               <img class="colection-molly-left" src="/moly_one.png"/>
               <div class="col-12">
