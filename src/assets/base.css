@@ -55,19 +55,19 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px rgba(228, 152, 239, 0.5); 
+  box-shadow: inset 0 0 5px rgba(228, 152, 239, 0.9); 
   border-radius: 10px;
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(228, 152, 239, .8); 
+  background: rgba(228, 152, 239, .7); 
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(228, 152, 239, .6); 
+  background: rgba(228, 152, 239, .9); 
 }
 
 
