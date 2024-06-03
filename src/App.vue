@@ -92,17 +92,17 @@
       </div>
     </section>
 
-    <!-- <section class="colection-wrapper">
-      <div class="container-fluid px-0 py-5">
-        <div class="d-flex py-5">
-          <div class="col-12 col-xl-6 p-0">
-            <div class="d-flex align-items-center">
-              <img src="/moly_one.png"/>
-              <div>
+    <section class="colection-wrapper">
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-center px-sm-1">
+          <div class="col-12 col-xl-6 p-0 ">
+            <div class="row-sm d-flex align-items-center">
+              <img class="colection-molly-left" src="/moly_one.png"/>
+              <div class="col-12">
                 <p class="text-muted ps-2 h3 fw-light">than...</p>
                 <h2 class="mb-0 ps-2">1st Collection</h2>
                 <div class="mb-2">
-                  <img class="w-60" src="/rectangle.png"/>
+                  <img class="img-fluid molly-img" src="/rectangle.png"/>
                 </div>
                 <span class="badge ms-2">Sold Out</span>
               </div>
@@ -115,16 +115,16 @@
                 <p class="text-muted pe-2 h3 fw-light">...now</p>
                 <h2 class="mb-0 pe-2">Secret Collection</h2>
                 <div class="mb-2">
-                  <img class="w-60" src="/rectangle.png"/>
+                  <img class="img-fluid molly-img" src="/rectangle.png"/>
                 </div>
                 <span class="badge me-2">Comming soon</span>
               </div>
-              <img src="/moly_two.png"/>
+              <img class="colection-molly-right" src="/moly_two.png"/>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
 
     <section>
       <div class="container-fluid">
@@ -164,7 +164,7 @@
           <span class="title-big">Utilities</span>
         </h2>
         <div class="mx-1 mx-md-5 p-md-5 utilities-wrapper">
-          <!-- <img class="util-bg-img" src='/team-bg.png'/> -->
+          <img class="util-bg-img" src='/team-bg.png'/>
           <div class="row justify-content-center">
               <div class="col-12 col-md-6 col-xl-3">
                 <div class="utilities-card p-4 mb-5">
@@ -482,6 +482,20 @@
     top: 0;
 }
 
+.colection-molly-left {
+  margin-left: -9px;
+  max-width: 40%;
+}
+
+.colection-molly-right {
+  margin-right: -9px;
+  max-width: 40%;
+}
+
+.molly-img {
+  max-width: 250px;
+}
+
 .badge {
   background: linear-gradient(269.44deg, #c33ede 1.58%, #3d4bd5 100.38%), #000;
   box-shadow: 0 0 10px 2px rgba(228, 152, 239, .4);
@@ -502,13 +516,13 @@
   position: relative;
 }
 
-/* .util-bg-img {
+.util-bg-img {
   position: absolute;
   right: 0;
   bottom: 0;
   transform: translate(50%);
   z-index: -10;
-} */
+}
 
 .utilities-card {
   border: 1px solid rgba(228, 152, 239, .8);
@@ -644,14 +658,12 @@
     min-height: 70vh;
   }
 
-
 }
 
 @media (min-width: 769px) {
   .links {
     display: flex;
   }
-  
-
 }
+
 </style>
