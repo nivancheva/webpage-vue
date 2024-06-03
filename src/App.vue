@@ -455,7 +455,7 @@
   margin-inline: auto;
   min-height: 100vh;
 
-  background-image: url('./images/cover.png');
+  background-image: url('../images/cover.png');
   background-position:top center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -465,7 +465,7 @@
 .colection-wrapper {
   position: relative;
 
-  background-image: url('./images/team-bg.png');
+  background-image: url('../images/team-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 30%;
@@ -577,14 +577,14 @@
   width: 100%;
   height: 100%;
   z-index: -10;
-  background-image: url('./images/vision/vision-bg.png'), url('./images/vision/ellipse-bg.png');
+  background-image: url('../images/vision/vision-bg.png'), url('../images/vision/ellipse-bg.png');
   background-position:top left, top right;
   background-repeat: no-repeat;
   background-size: 60%, 25%;
 }
 
 .team-wrapper {
-  background-image: url('./images/team-bg.png');
+  background-image: url('../images/team-bg.png');
   background-repeat: no-repeat;
   background-position: top center;
   opacity: .7;
@@ -604,7 +604,7 @@
   height: 100%;
   opacity: .4;
   z-index: -10;
-  background-image: url('./images/cover.png');
+  background-image: url('../images/cover.png');
   background-position:top;
   background-repeat: no-repeat;
   background-size: 50%;
