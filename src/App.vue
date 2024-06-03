@@ -126,6 +126,29 @@
       </div>
     </section>
 
+    <section class="about-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+            <div>
+              <h2>4444 Unique NFTs</h2>
+              <p>We are M.O.L.L.Y! We are the new creative moment revalorizing 3D NFT art. We have one simple, yet ambitious goal-create the largest decentralized community & alpha group of high-end art collectors & artists.</p>
+              <div class="d-flex align-items-center">
+                <a class="d-flex align-items-center btn btn-sm btn-connect me-2 mb-2">
+                  <span class="icon icon-discord"></span>
+                  <span class="text-uppercase ps-2">Discord</span>   
+                </a>
+                <a class="d-flex align-items-center btn btn-sm btn-connect mb-2">
+                  <span class="icon icon-opensea"></span>
+                  <span class="text-uppercase ps-2">Opensea</span>   
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
       <div class="container-fluid">
         <div class="vision-wrapper">
@@ -559,6 +582,25 @@
   color: rgba(228, 152, 239, .07);
   width: 100%;
   min-width: 870px;
+}
+
+.about-section  {
+  background-image: url('/webpage-vue/unique_nft-bg.png');
+  background-repeat: no-repeat;
+  background-position: right;
+
+  position: relative;
+}
+
+.about-section::before {
+  content: "";
+  background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  left: 0;
+  transform: rotate(-180deg);
+  top: 0;
 }
 
 .vision-wrapper {
