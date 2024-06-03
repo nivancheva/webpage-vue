@@ -102,14 +102,14 @@
                 <p class="text-muted ps-2 h3 fw-light">than...</p>
                 <h2 class="mb-0 ps-2">1st Collection</h2>
                 <div class="mb-2">
-                  <img class="img-fluid molly-img" src="/rectangle.png"/>
+                  <img class="img-fluid molly-img " src="/rectangle.png"/>
                 </div>
                 <span class="badge ms-2">Sold Out</span>
               </div>
             </div>
           </div>
 
-          <div class="col-12 col-xl-6 p-0">
+          <div class="col-12 col-xl-6 p-0 mt-5 mt-md-0">
             <div class="d-flex align-items-center justify-content-end">  
               <div class="text-end">
                 <p class="text-muted pe-2 h3 fw-light">...now</p>
@@ -663,6 +663,18 @@
 @media (min-width: 769px) {
   .links {
     display: flex;
+  }
+}
+
+@media (max-width: 576px) {
+  .colection-molly-left {
+    margin-left: -20px;
+    max-width: 20%;
+  }
+
+  .colection-molly-right {
+    margin-right: -20px;
+    max-width: 20%;
   }
 }
 
