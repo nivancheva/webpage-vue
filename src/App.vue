@@ -127,7 +127,7 @@
     </section>
 
     <section class="about-section">
-      <div class="container">
+      <div class="container py-5">
         <div class="row">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div>
@@ -143,6 +143,36 @@
                   <span class="text-uppercase ps-2">Opensea</span>   
                 </a>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="owl-carousel owl-theme">
+            <div class="owl-stage">
+              <img src="/about/nft1.jpg"/>
+            </div>
+            <div class="owl-stage">
+              <img src="/about/nft2.jpg"/>
+            </div>
+            <div class="owl-stage">
+              <img src="/about/nft3.jpg"/>
+            </div>
+            <div class="owl-stage">
+              <img src="/about/nft4.jpg"/>
+            </div>
+            <div class="owl-stage">
+              <img src="/about/nft5.jpg"/>
+            </div>
+            <div class="owl-stage">
+              <img src="/about/nft6.jpg"/>
+            </div>
+            <div class="owl-stage">
+              <img src="/about/nft7.jpg"/>
+            </div>
+            <div class="owl-stage">
+              <img src="/about/nft8.jpg"/>
             </div>
           </div>
         </div>
@@ -587,7 +617,7 @@
 .about-section  {
   background-image: url('/webpage-vue/unique_nft-bg.png');
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: right top;
 
   position: relative;
 }
