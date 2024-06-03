@@ -131,10 +131,10 @@
         <div class="vision-wrapper">
           <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
             VISION & VALUES
-            <!-- <span class="title-big">VISION & VALUES</span> -->
+            <span class="title-big">VISION & VALUES</span>
           </h2>
 
-          <div class="row mx-5 px-5">
+          <div class="row">
 
             <div class="col-12 col-md-8 col-lg-5 mx-auto mb-5 pb-5 text-center">
               <p class="text-start">We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
@@ -161,7 +161,7 @@
       <div class="container-fluid">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Utilities
-          <!-- <span class="title-big">Utilities</span> -->
+          <span class="title-big">Utilities</span>
         </h2>
         <div class="mx-1 mx-md-5 p-md-5 utilities-wrapper">
           <!-- <img class="util-bg-img" src='/team-bg.png'/> -->
@@ -247,7 +247,7 @@
         <div class="dream-team-bg py-5 mx-3 px-md-5">
           <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
             The Dream Team
-            <!-- <span class="title-big">The Dream Team</span> -->
+            <span class="title-big">The Dream Team</span>
           </h2>
 
           <div class="mb-5 mx-1 mx-md-5">
@@ -425,6 +425,8 @@
 
 .page-content {
   position:relative;
+
+  overflow-x: hidden;
 }
 
 .vertical-nav-wrapper {
@@ -542,6 +544,7 @@
   line-height: 0;
   color: rgba(228, 152, 239, .07);
   width: 100%;
+  min-width: 870px;
 }
 
 .vision-wrapper {
