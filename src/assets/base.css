@@ -99,3 +99,9 @@ ul {
 ul:not([class]) li:before {
     content: '' !important;
 }
+
+.button-outline-primary {
+  border-color: rgba(228, 152, 239, .4);
+  color: rgba(228, 152, 239, .8);
+  background: #000;
+}

@@ -1,4 +1,12 @@
 <script setup>
+const moveItem = $(".unique-img")
+console.log(moveItem)
+// for (let i = 0; i < moveItem.lenght; i++) {
+//   if(moveItem[i]  % 2 == 0 ) {
+//   moveItem[i].css("margin-top", "3rem")
+//   }
+//   moveItem[i].css("margin-bottom", "3rem") 
+// }
 
 </script>
 
@@ -149,7 +157,7 @@
       </div>
       <div class="container-fluid">
         <div class="row">
-          <div class="owl-carousel owl-theme">
+          <div id="uniqueCarosel" class="owl-carousel owl-theme">
             <div class="item px-2">
               <div>
                 <img class="unique-img img-fluid" src="/about/nft1.jpg"/>
@@ -649,6 +657,11 @@
   left: 0;
   transform: rotate(-180deg);
   top: 0;
+}
+
+#uniqueCarosel .btn-owl {
+  border: 2px solid red;
+  padding: 2rem;
 }
 
 .vision-wrapper {
