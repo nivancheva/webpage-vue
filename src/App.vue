@@ -651,14 +651,6 @@
   top: 0;
 }
 
-.about-section .unique-img {
-  width: auto;
-}
-
-.about-section .owl-item {
-  width: 200px !important;
-}
-
 .vision-wrapper {
   position: relative;
 
