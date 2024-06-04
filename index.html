@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Vite App</title>
     
-    <script type="module" crossorigin src="/webpage-vue/assets/index-B94wec5W.js"></script>
-    <link rel="stylesheet" crossorigin href="/webpage-vue/assets/index-DSFxHNfv.css">
+    <script type="module" crossorigin src="/webpage-vue/assets/index-B0QzGj8r.js"></script>
+    <link rel="stylesheet" crossorigin href="/webpage-vue/assets/index-BposD1IF.css">
   </head>
   <body>
     <div id="app"></div>
@@ -20,10 +20,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script>
       $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
+        $("#uniqueCarosel").owlCarousel({
           loop:true,
           margin:10,
+          dots:false,
           nav:true,
+          navText: ["<span class='button-outline-primary btn-connect btn-next me-2'><span class='icon icon-chevron-left'></span></span>","<span class='button-outline-primary btn-connect btn-next'><span class='icon icon-chevron-right'></span></span>"],
           items:8,
           responsive:{
               0:{
@@ -32,7 +34,10 @@
               600:{
                   items:3
               },
-              1000:{
+              800:{
+                  items:4
+              },
+              1200:{
                   items:5
               }
           }
