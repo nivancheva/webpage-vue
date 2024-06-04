@@ -255,20 +255,26 @@
       </div>
     </section>
 
-    <section class="success-section">
+    <section id="success" class="success-section">
       <div class="container-fluid py-5">
-        <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
-          Our three Pillers to success
-          <span class="title-big">Our three Pillers to success</span>
-        </h2>
+        <div>
+          <h2 class="title text-center text-uppercase display-5 fw-bold mt-5">
+            Our three Piller
+            <span class="title-big">Our three Pillers</span>
+          </h2>
+          <h2 class="title text-center text-uppercase display-5 fw-bold mb-5 mt-3">
+            to success
+            <span class="title-big">to success</span>
+          </h2>
+        </div>
 
         <div class="row">
           <div class="col-12">
-            <div>
+            <div id="success1" class="fixed-bg">
               <div class="container">
                 <div class="row justify-content-center justify-content-md-start">
                   <div class="col-11 col-md-5">
-                    <div>
+                    <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">1</p>
                       <h3 class="title">Community Driven</h3>
                       <p>We are fully dedicated to becoming entirely community driven project. As such, the first 2222 whitelisted members get chance to MINT FOR FREE 1111 NFTs, just pay the gas fees! The initial 1111 holders will decide the presale and public sale price!</p>
@@ -278,11 +284,11 @@
               </div>
             </div>
 
-            <div>
+            <div id="success2" class="fixed-bg">
               <div class="container">
                 <div class="row justify-content-center justify-content-md-start">
                   <div class="col-11 col-md-5">
-                    <div>
+                    <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">2</p>
                       <h3 class="title">Utility Driven</h3>
                       <p> What is an NFT without utility? No matter how amazing the art is, you need to have the utility to make the project worth it! Owning a Molly will provide you with access to our Alpha group of high-end art collectors & artists!</p>
@@ -292,11 +298,11 @@
               </div>
             </div>
 
-            <div>
+            <div id="success3" class="fixed-bg">
               <div class="container">
                 <div class="row justify-content-center justify-content-md-start">
                   <div class="col-11 col-md-5">
-                    <div>
+                    <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">3</p>
                       <h3 class="title">Trust and Transparency</h3>
                       <p> The decision-making process is entirely up to the community. The core team will just give suggestions and advice. Even we left the most important decision about the pricing of the project in the hands of the community!</p>
@@ -306,6 +312,7 @@
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </section>
@@ -665,6 +672,7 @@
   bottom: 0;
 }
 
+
 .utilities-wrapper {
   position: relative;
 }
@@ -725,6 +733,25 @@
 .success-section {
   position: relative;
   border-bottom: 1px solid var(--clr-purple);
+}
+
+#success .fixed-bg {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: auto, 20%;
+  background-position: left, 80%;
+}
+
+#success #success1 {
+  background-image: url('/webpage-vue/success/galaxy_1.png'), url('/webpage-vue/success/success_1.png');
+}
+
+#success #success2 {
+  background-image: url('/webpage-vue/success/galaxy_2.png'), url('/webpage-vue/success/success_2.png');
+}
+
+#success #success3 {
+  background-image: url('/webpage-vue/success/galaxy_3.png'), url('/webpage-vue/success/success_3.png');
 }
 
 .about-section::before {
@@ -835,11 +862,20 @@
     min-height: 70vh;
   }
 
+  
 }
 
 @media (min-width: 769px) {
   .links {
     display: flex;
+  }
+
+  #success .fixed-bg {
+    min-height: 650px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
   }
 }
 
@@ -853,6 +889,7 @@
     margin-right: -20px;
     max-width: 20%;
   }
+
 }
 
 </style>
