@@ -271,9 +271,9 @@
         <div class="row">
           <div class="col-12">
             <div id="success1" class="fixed-bg">
-              <div class="container">
+              <div class="container-lg">
                 <div class="row justify-content-center justify-content-md-start">
-                  <div class="col-11 col-md-5">
+                  <div class="col-11 col-md-7 col-lg-5">
                     <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">1</p>
                       <h3 class="title">Community Driven</h3>
@@ -285,9 +285,9 @@
             </div>
 
             <div id="success2" class="fixed-bg">
-              <div class="container">
+              <div class="container-lg">
                 <div class="row justify-content-center justify-content-md-start">
-                  <div class="col-11 col-md-5">
+                  <div class="col-11 col-md-7 col-lg-5">
                     <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">2</p>
                       <h3 class="title">Utility Driven</h3>
@@ -299,9 +299,9 @@
             </div>
 
             <div id="success3" class="fixed-bg">
-              <div class="container">
+              <div class="container-lg">
                 <div class="row justify-content-center justify-content-md-start">
-                  <div class="col-11 col-md-5">
+                  <div class="col-11 col-md-7 col-lg-5">
                     <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">3</p>
                       <h3 class="title">Trust and Transparency</h3>
@@ -737,20 +737,20 @@
 #success .fixed-bg {
   position: relative;
   background-repeat: no-repeat;
-  background-size: 20%, auto;
-  background-position: 80%, left;
+  background-size: 22%, 20%,auto;
+  background-position: 80.75%, 80%,left;
 }
 
 #success #success1 {
-  background-image: url('/webpage-vue/success/success_1.png'), url('/webpage-vue/success/galaxy_1.png');
+  background-image: url('/webpage-vue/success/border.png'), url('/webpage-vue/success/success_1.png'), url('/webpage-vue/success/galaxy_1.png');
 }
 
 #success #success2 {
-  background-image: url('/webpage-vue/success/success_2.png'), url('/webpage-vue/success/galaxy_2.png');
+  background-image: url('/webpage-vue/success/border.png'), url('/webpage-vue/success/success_2.png'), url('/webpage-vue/success/galaxy_2.png');
 }
 
 #success #success3 {
-  background-image: url('/webpage-vue/success/success_3.png'), url('/webpage-vue/success/galaxy_3.png');
+  background-image: url('/webpage-vue/success/border.png'), url('/webpage-vue/success/success_3.png'), url('/webpage-vue/success/galaxy_3.png');
 }
 
 .about-section::before {
@@ -843,6 +843,20 @@
   background: rgba(228, 152, 239, .1);
 }
 
+@media (min-width: 769px) {
+  .links {
+    display: flex;
+  }
+
+  #success .fixed-bg {
+    min-height: 650px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;
+  }
+}
+
 @media (max-width: 768px) {
   .icons-container {
     display: block;
@@ -861,21 +875,10 @@
     min-height: 70vh;
   }
 
-  
-}
-
-@media (min-width: 769px) {
-  .links {
-    display: flex;
-  }
-
   #success .fixed-bg {
-    min-height: 650px;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    background-attachment: fixed;
+    background-position: 91% .5%, 90% 5%, left;
   }
+  
 }
 
 @media (max-width: 576px) {
