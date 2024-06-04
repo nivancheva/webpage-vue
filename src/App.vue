@@ -256,7 +256,7 @@
     </section>
 
     <section id="success" class="success-section">
-      <div class="container-fluid py-5">
+      <div class="container-fluid pt-5 px-0">
         <div>
           <h2 class="title text-center text-uppercase display-5 fw-bold mt-5">
             Our three Piller
@@ -631,8 +631,7 @@
   top: 0;
 }
 
-.colection-wrapper::after,
-.success-section::before {
+.colection-wrapper::after {
   content: "";
   background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
   width: 100%;
