@@ -737,20 +737,20 @@
 #success .fixed-bg {
   position: relative;
   background-repeat: no-repeat;
-  background-size: auto, 20%;
-  background-position: left, 80%;
+  background-size: 20%, auto;
+  background-position: 80%, left;
 }
 
 #success #success1 {
-  background-image: url('/webpage-vue/success/galaxy_1.png'), url('/webpage-vue/success/success_1.png');
+  background-image: url('/webpage-vue/success/success_1.png'), url('/webpage-vue/success/galaxy_1.png');
 }
 
 #success #success2 {
-  background-image: url('/webpage-vue/success/galaxy_2.png'), url('/webpage-vue/success/success_2.png');
+  background-image: url('/webpage-vue/success/success_2.png'), url('/webpage-vue/success/galaxy_2.png');
 }
 
 #success #success3 {
-  background-image: url('/webpage-vue/success/galaxy_3.png'), url('/webpage-vue/success/success_3.png');
+  background-image: url('/webpage-vue/success/success_3.png'), url('/webpage-vue/success/galaxy_3.png');
 }
 
 .about-section::before {
