@@ -1,12 +1,4 @@
 <script setup>
-const moveItem = $(".unique-img")
-console.log(moveItem)
-// for (let i = 0; i < moveItem.lenght; i++) {
-//   if(moveItem[i]  % 2 == 0 ) {
-//   moveItem[i].css("margin-top", "3rem")
-//   }
-//   moveItem[i].css("margin-bottom", "3rem") 
-// }
 
 </script>
 
@@ -156,7 +148,7 @@ console.log(moveItem)
         </div>
       </div>
       <div class="container-fluid">
-        <div class="row">
+        <div class="row pb-5">
           <div id="uniqueCarosel" class="owl-carousel owl-theme">
             <div class="item px-2">
               <div>
@@ -482,17 +474,6 @@ console.log(moveItem)
   box-shadow: rgba(228, 152, 239, 0.25) 0px 0px 20px 5px;
 }
 
-.btn-connect {
-  border-radius: 10rem;
-  padding: .4375rem 1.25rem .3125rem;
-  color: inherit;
-
-  border: 2px solid rgba(228, 152, 239, .4);
-  overflow: hidden;
-  transition: all 1s ease;
-  box-shadow: rgba(228, 152, 239, 0.25) 0px 0px 20px 5px;
-}
-
 .icons-container {
   display: flex;
 }
@@ -559,6 +540,16 @@ console.log(moveItem)
     left: 0;
     transform: rotate(-180deg);
     top: 0;
+}
+
+.colection-wrapper::after {
+    content: "";
+    background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
+    width: 100%;
+    height: 220px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 
 .colection-molly-left {
@@ -657,11 +648,6 @@ console.log(moveItem)
   left: 0;
   transform: rotate(-180deg);
   top: 0;
-}
-
-#uniqueCarosel .btn-owl {
-  border: 2px solid red;
-  padding: 2rem;
 }
 
 .vision-wrapper {
