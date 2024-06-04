@@ -1,5 +1,32 @@
 <script setup>
+// import { ref, onMounted, onUpdated } from "vue";
+// const cards = ref('');
 
+//  onMounted(() => {  
+//     console.log(cards.value)
+//     const cardsWrapper = cards.value.children;
+//     console.log(cardsWrapper)
+
+//     for (let i = 0; i < cardsWrapper.length; i++) {
+//       if(i % 2 === 0) {
+//         console.log('even')
+//       }
+//       console.log('odd')
+//     }
+//   });
+
+//   onUpdated(() =>{
+//     console.log(cards.value)
+//     const cardsWrapper = cards.value.children;
+//     console.log(cardsWrapper)
+
+//     for (let i = 0; i < cardsWrapper.length; i++) {
+//       if(i % 2 === 0) {
+//         console.log('even')
+//       }
+//       console.log('odd')
+//     }
+//   });
 </script>
 
 <template>
@@ -149,7 +176,7 @@
       </div>
       <div class="container-fluid">
         <div class="row pb-5">
-          <div id="uniqueCarosel" class="owl-carousel owl-theme">
+          <div id="uniqueCarosel" ref='cards' class="owl-carousel owl-theme">
             <div class="item px-2">
               <div>
                 <img class="unique-img img-fluid" src="/about/nft1.jpg"/>
@@ -228,8 +255,63 @@
       </div>
     </section>
 
+    <section class="success-section">
+      <div class="container-fluid py-5">
+        <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
+          Our three Pillers to success
+          <span class="title-big">Our three Pillers to success</span>
+        </h2>
+
+        <div class="row">
+          <div class="col-12">
+            <div>
+              <div class="container">
+                <div class="row justify-content-center justify-content-md-start">
+                  <div class="col-11 col-md-5">
+                    <div>
+                      <p class="display-1 fw-bold color-accent">1</p>
+                      <h3 class="title">Community Driven</h3>
+                      <p>We are fully dedicated to becoming entirely community driven project. As such, the first 2222 whitelisted members get chance to MINT FOR FREE 1111 NFTs, just pay the gas fees! The initial 1111 holders will decide the presale and public sale price!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="container">
+                <div class="row justify-content-center justify-content-md-start">
+                  <div class="col-11 col-md-5">
+                    <div>
+                      <p class="display-1 fw-bold color-accent">2</p>
+                      <h3 class="title">Utility Driven</h3>
+                      <p> What is an NFT without utility? No matter how amazing the art is, you need to have the utility to make the project worth it! Owning a Molly will provide you with access to our Alpha group of high-end art collectors & artists!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="container">
+                <div class="row justify-content-center justify-content-md-start">
+                  <div class="col-11 col-md-5">
+                    <div>
+                      <p class="display-1 fw-bold color-accent">3</p>
+                      <h3 class="title">Trust and Transparency</h3>
+                      <p> The decision-making process is entirely up to the community. The core team will just give suggestions and advice. Even we left the most important decision about the pricing of the project in the hands of the community!</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section>
-      <div class="container-fluid">
+      <div class="container-fluid pt-5">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Utilities
           <span class="title-big">Utilities</span>
@@ -532,24 +614,25 @@
 }
 
 .colection-wrapper::before {
-    content: "";
-    background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
-    width: 100%;
-    height: 220px;
-    position: absolute;
-    left: 0;
-    transform: rotate(-180deg);
-    top: 0;
+  content: "";
+  background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  left: 0;
+  transform: rotate(-180deg);
+  top: 0;
 }
 
-.colection-wrapper::after {
-    content: "";
-    background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
-    width: 100%;
-    height: 220px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+.colection-wrapper::after,
+.success-section::before {
+  content: "";
+  background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
+  width: 100%;
+  height: 220px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .colection-molly-left {
@@ -637,6 +720,11 @@
   background-position: right top;
 
   position: relative;
+}
+
+.success-section {
+  position: relative;
+  border-bottom: 1px solid var(--clr-purple);
 }
 
 .about-section::before {
