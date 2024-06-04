@@ -150,29 +150,47 @@
       <div class="container-fluid">
         <div class="row">
           <div class="owl-carousel owl-theme">
-            <div class="owl-stage">
-              <img src="/about/nft1.jpg"/>
+            <div class="item px-2">
+              <div>
+                <img class="unique-img img-fluid" src="/about/nft1.jpg"/>
+              </div>
             </div>
-            <div class="owl-stage">
-              <img src="/about/nft2.jpg"/>
+            <div class="item px-2">
+              <div>
+                <img class="unique-img img-fluid" src="/about/nft2.jpg"/>
+              </div>
             </div>
-            <div class="owl-stage">
-              <img src="/about/nft3.jpg"/>
+            <div class="item px-2">
+              <div>
+                <div>
+                  <img class="unique-img img-fluid" src="/about/nft3.jpg"/>
+                </div>
+              </div>
             </div>
-            <div class="owl-stage">
-              <img src="/about/nft4.jpg"/>
+            <div class="item px-2">
+              <div>
+                <img class="unique-img img-fluid" src="/about/nft4.jpg"/>
+              </div>
             </div>
-            <div class="owl-stage">
-              <img src="/about/nft5.jpg"/>
+            <div class="item px-2">
+              <div>
+                <img class="unique-img img-fluid" src="/about/nft5.jpg"/>
+              </div>
             </div>
-            <div class="owl-stage">
-              <img src="/about/nft6.jpg"/>
+            <div class="item px-2">
+              <div>
+                <img class="unique-img img-fluid" src="/about/nft6.jpg"/>
+              </div>
             </div>
-            <div class="owl-stage">
-              <img src="/about/nft7.jpg"/>
+            <div class="item px-2">
+              <div>
+                <img class="unique-img img-fluid" src="/about/nft7.jpg"/>
+              </div>
             </div>
-            <div class="owl-stage">
-              <img src="/about/nft8.jpg"/>
+            <div class="item px-2">
+              <div>
+                <img class="unique-img img-fluid" src="/about/nft8.jpg"/>
+              </div>
             </div>
           </div>
         </div>
@@ -631,6 +649,14 @@
   left: 0;
   transform: rotate(-180deg);
   top: 0;
+}
+
+.about-section .unique-img {
+  width: auto;
+}
+
+.about-section .owl-item {
+  width: 200px !important;
 }
 
 .vision-wrapper {
