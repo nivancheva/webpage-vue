@@ -131,14 +131,14 @@
         <div class="row">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div>
-              <h2>4444 Unique NFTs</h2>
+              <h2 class="display-6 color-accent">4444 Unique NFTs</h2>
               <p>We are M.O.L.L.Y! We are the new creative moment revalorizing 3D NFT art. We have one simple, yet ambitious goal-create the largest decentralized community & alpha group of high-end art collectors & artists.</p>
               <div class="d-flex align-items-center">
-                <a class="d-flex align-items-center btn btn-sm btn-connect me-2 mb-2">
+                <a class="d-flex align-items-center btn-connect me-2 mb-2">
                   <span class="icon icon-discord"></span>
                   <span class="text-uppercase ps-2">Discord</span>   
                 </a>
-                <a class="d-flex align-items-center btn btn-sm btn-connect mb-2">
+                <a class="d-flex align-items-center btn-connect mb-2">
                   <span class="icon icon-opensea"></span>
                   <span class="text-uppercase ps-2">Opensea</span>   
                 </a>
@@ -595,13 +595,13 @@
 }
 
 .utilities-card {
-  border: 1px solid rgba(228, 152, 239, .8);
+  border: 1px solid var(--clr-purple);
   box-shadow: rgba(228, 152, 239, 0.25) 0px 2px 15px 5px;
 }
 
 .utilities-border {
-  border-bottom: 1px solid rgba(228, 152, 239, .8);
-  border-top: 1px solid rgba(228, 152, 239, .8);
+  border-bottom: 1px solid var(--clr-purple);
+  border-top: 1px solid var(--clr-purple);
 }
 
 .icon-util {
@@ -613,7 +613,7 @@
 }
 
 .title {
-    color: #e498ef;
+    color: var(--clr-purple);
     font-weight: 300;
     position: relative;
 }
@@ -700,7 +700,7 @@
 }
 
 .team-img {
-  border: 2px solid rgba(228, 152, 239, .8);
+  border: 2px solid var(--clr-purple);
   border-radius: 50%;
   padding: 2px;
   box-shadow: rgba(228, 152, 239, 0.25) 0px 2px 50px 20px;

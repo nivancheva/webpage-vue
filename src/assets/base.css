@@ -70,6 +70,10 @@
   background: rgba(228, 152, 239, .5); 
 }
 
+:root {
+  --clr-purple: rgba(228, 152, 239, .8);
+}
+
 body {
     color: white;
     background-color: black;
@@ -80,13 +84,22 @@ body {
     scroll-behavior: smooth;
 }
 
+.color-accent {
+  color: var(--clr-purple);
+}
+
 a {
     text-decoration: none;
     background-color: transparent;
+    cursor: pointer;
+}
+
+a:hover {
+  color: inherit;
 }
 
 .icon {
-    color: rgba(228, 152, 239, .8);
+    color: var(--clr-purple);
     font-size: 1.2rem;
 }
 
@@ -111,7 +124,7 @@ ul:not([class]) li:before {
 
 .button-outline-primary {
   border-color: rgba(228, 152, 239, .4);
-  color: rgba(228, 152, 239, .8);
+  color: var(--clr-purple);
   background: #000;
 }
 
