@@ -422,8 +422,8 @@
         </nav>
       </div>
       <div class="roadmap mb-5 pb-5">
-        <div class="container">
-          <div class="row">
+        <div class="container-fluid">
+          <div class="row mx-3 px-md-5">
             <div class="col-12">
               <div class="tab-content py-3 px-3 px-sm-0">
                 <div id="roadmapCarosel" class="owl-carousel owl-roadmap owl-loaded owl-drag">

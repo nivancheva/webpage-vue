@@ -150,6 +150,12 @@ ul:not([class]) li:before {
   background-color: transparent;
 }
 
+#roadmapCarosel .owl-nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   #uniqueCarosel .owl-nav {
     position: absolute;
@@ -160,9 +166,7 @@ ul:not([class]) li:before {
   #roadmapCarosel .owl-nav {
     position: absolute;
     top: 80px;
-    display: flex;
     justify-content: space-between;
-    width: 100%;
   }
 
 
