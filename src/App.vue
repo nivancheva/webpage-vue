@@ -52,7 +52,7 @@
             <span class="icon icon-opensea"></span>
           </a></li>
         </ul>
-        <a class="d-flex align-items-center btn btn-sm btn-connect">
+        <a class="d-flex align-items-center btn-connect">
           <span class="icon icon-wallet"></span>
           <span class="text-uppercase ps-2">Staking</span>   
         </a>
@@ -236,9 +236,9 @@
 
             <div class="col-12 col-md-8 col-lg-5 mx-auto mb-5 pb-5 text-center">
               <p class="text-start">We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
-              <p class="text-start">Our vision is to create the largest & most profitable, decentralized community & alpha group of high-end art collectors & artists! </p>
-              <a class="btn btn-sm btn-connect mt-5">
-                <span class="text-uppercase ps-2">Staking</span>   
+              <p class="text-start mb-5">Our vision is to create the largest & most profitable, decentralized community & alpha group of high-end art collectors & artists! </p>
+              <a class="btn-connect mt-5">
+                <span class="text-uppercase">Staking</span>   
               </a>
             </div>
 
