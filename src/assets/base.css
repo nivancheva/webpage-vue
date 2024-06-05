@@ -137,15 +137,15 @@ ul:not([class]) li:before {
   height: 60px;
 }
 
-#uniqueCarosel .owl-nav span {
+.owl-nav span {
   color: white;
 }
 
-#uniqueCarosel .owl-nav button:focus {
+.owl-nav button:focus {
   background-color: transparent;
 }
 
-#uniqueCarosel .owl-nav button:hover {
+.owl-nav button:hover {
   opacity: .7;
   background-color: transparent;
 }
@@ -156,4 +156,12 @@ ul:not([class]) li:before {
       top: -100px;
       right: 140px;
   }
+
+  #roadmapCarosel .owl-nav {
+    position: absolute;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
 }
