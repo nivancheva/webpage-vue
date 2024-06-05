@@ -892,6 +892,11 @@
     max-width: 20%;
   }
 
+  #success .fixed-bg {
+    background-position: center 95%, center 93%, left;
+    min-height: 350px;
+  }
+
 }
 
 </style>
