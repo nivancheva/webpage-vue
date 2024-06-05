@@ -511,6 +511,28 @@
       </div>
     </section>
 
+    <section>
+      <div class="container">
+        <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
+          Roadmap
+          <span class="title-big">Roadmap</span>
+        </h2>
+
+        <nav class="d-flex justify-content-center">
+          <div id="nav-tab" role="tablist" class="nav nav-tabs">
+            <a id="nav-first-tab" data-toggle="tab" href="#nav-first" role="tab" aria-controls="nav-first" aria-selected="true" class="nav-item nav-link active">
+              Part I.
+            </a>
+
+            <a id="nav-second-tab" data-toggle="tab" href="#nav-second" role="tab" aria-controls="nav-second" aria-selected="false" class="nav-item nav-link">
+              Part II.
+            </a>
+          </div>
+        </nav>
+      </div>
+      <div class="roadmap"></div>
+    </section>
+
     <footer class="footer pt-5 mt-5">
       <div class="footer-img logo-section mx-auto">
         <img class="mx-auto" src="/logo.png">
@@ -784,6 +806,66 @@
   background-position:top left, top right;
   background-repeat: no-repeat;
   background-size: 60%, 25%;
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-link {
+  display: block;
+  padding: .5rem 1rem;
+}
+
+.nav-tabs .nav-item.active {
+  background: none;
+  border: none;
+  color: #e498ef;
+  text-shadow: 0 0 10px #e498ef;
+}
+
+.nav-tabs .nav-item {
+  font-size: 1.75rem;
+  font-weight: 300;
+  border: none;
+  text-transform: uppercase;
+  position: relative;
+  color: #fff;
+  background: transparent;
+}
+
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: 1px solid transparent;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+.nav-tabs .nav-item:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 90px;
+  height: 60px;
+  left: 48%;
+  transform: translate(-50%);
+  top: 57%;
+  background: url('/webpage-vue/down.svg') no-repeat;
+  background-size: 100% auto;
+  opacity: 0;
+}
+
+
+.nav-tabs .nav-item.active:before {
+  opacity: 1;
 }
 
 .team-wrapper {
