@@ -411,22 +411,23 @@
 
         <nav class="d-flex justify-content-center mb-5 pb-5">
           <div id="nav-tab" role="tablist" class="nav nav-tabs">
-            <a id="nav-first-tab" data-toggle="tab" href="#nav-first" role="tab" aria-controls="nav-first" aria-selected="true" class="nav-item nav-link active">
+           <button class="nav-link nav-item active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
               Part I.
-            </a>
-
-            <a id="nav-second-tab" data-toggle="tab" href="#nav-second" role="tab" aria-controls="nav-second" aria-selected="false" class="nav-item nav-link">
+            </button>
+            <button class="nav-link nav-item" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
               Part II.
-            </a>
+            </button>
           </div>
         </nav>
       </div>
+      
       <div class="roadmap mb-5 pb-5">
         <div class="container-fluid">
           <div class="row mx-3 px-md-5">
             <div class="col-12">
-              <div class="tab-content py-3 px-3 px-sm-0">
-                <div id="roadmapCarosel" class="owl-carousel owl-roadmap owl-loaded owl-drag">
+              <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <div id="roadmapCarosel" class="owl-carousel owl-roadmap owl-loaded owl-drag">
                   <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
@@ -604,7 +605,10 @@
                       </div>
                     </div>
                   </div>
+                  </div>
                 </div>
+                
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">.asdasdasfa</div>
               </div>
             </div>
           </div>
