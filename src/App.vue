@@ -409,7 +409,7 @@
           <span class="title-big">Roadmap</span>
         </h2>
 
-        <nav class="d-flex justify-content-center">
+        <nav class="d-flex justify-content-center mb-5 pb-5">
           <div id="nav-tab" role="tablist" class="nav nav-tabs">
             <a id="nav-first-tab" data-toggle="tab" href="#nav-first" role="tab" aria-controls="nav-first" aria-selected="true" class="nav-item nav-link active">
               Part I.
@@ -427,7 +427,7 @@
             <div class="col-12">
               <div class="tab-content py-3 px-3 px-sm-0">
                 <div id="roadmapCarosel" class="owl-carousel owl-roadmap owl-loaded owl-drag">
-                  <div class="item">
+                  <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -452,7 +452,7 @@
                     </div>
 
 
-                  <div class="item">
+                  <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -480,7 +480,7 @@
                     </div>
                   </div>
 
-                  <div class="item">
+                  <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -507,7 +507,7 @@
                     </div>
                   </div>
 
-                  <div class="item">
+                  <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -528,7 +528,7 @@
                     </div>
                   </div>
 
-                  <div class="item">
+                  <div class="item me-5">
                     <div>
                      <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -556,7 +556,7 @@
                     </div>
                   </div>
 
-                  <div class="item">
+                  <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -580,7 +580,7 @@
                     </div>
                   </div>
 
-                  <div class="item">
+                  <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
