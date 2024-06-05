@@ -427,7 +427,7 @@
             <div class="col-12">
               <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-                  <div id="roadmapCarosel" class="owl-carousel owl-roadmap owl-loaded owl-drag">
+                  <div class="roadmapCarosel owl-carousel owl-roadmap owl-loaded owl-drag">
                   <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
@@ -609,7 +609,7 @@
                 </div>
                 
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                  <div id="roadmapCarosel" class="owl-carousel owl-roadmap owl-loaded owl-drag">
+                  <div class="roadmapCarosel owl-carousel owl-roadmap owl-loaded owl-drag">
                   <div class="item me-5">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
