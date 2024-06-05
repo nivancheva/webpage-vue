@@ -427,7 +427,7 @@
             <div class="col-12">
               <div class="tab-content py-3 px-3 px-sm-0">
                 <div id="roadmapCarosel" class="owl-carousel owl-roadmap owl-loaded owl-drag">
-                  <div class="item pt-4">
+                  <div class="item">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -438,9 +438,9 @@
                           <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
                         </div>
                         <div class="roadmap-box p-4">
-                          <h6 class="text-center color-accent mb-3 mt-2">
+                          <h4 class="text-center color-accent mb-3 mt-2">
                             It all starts with our Art.
-                          </h6>
+                          </h4>
                           <p>
                             We will create the most high-quality 3D art that you have seen! Our artistic team will ensure that our holders get the best quality and render of their NFTs! We aim for perfection! 
                           </p>
@@ -452,152 +452,155 @@
                     </div>
 
 
-                  <div class="item pt-4">
+                  <div class="item">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 2</h5>
-                      <div class="row justify-content-center">
-                        <img class="img-fluid roadmap-point mb-2" src="/roadmap-point.png"/>
-                        <div class="roadmap-box p-4">
-                          <h6 class="text-center color-accent mb-3 mt-2">		
-                            Molly FREE Minting! 
-                          </h6>
-                          <p>
-                            We are community driven project! As such, we believe that the community will help us steer the direction! We are willing to invest in order to build a stronger community which is more engaged in the process of creating the greatest NFT project!
-                          </p>
-                          <p>
-                            Therefore, the very first presale will be FREE to MINT! Whitelisted community members, who have contributed to the development of the project by being active and inviting members will gain the opportunity to mint absolutely for FREE! That’s right! Only pay gas fees!
-                          </p>
-                          <p>
-                            There will be 1111 NFTs available and 2222 available whitelist spots!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
                       </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">		
+                          Molly FREE Minting! 
+                        </h4>
+                        <p>
+                          We are community driven project! As such, we believe that the community will help us steer the direction! We are willing to invest in order to build a stronger community which is more engaged in the process of creating the greatest NFT project!
+                        </p>
+                        <p>
+                          Therefore, the very first presale will be FREE to MINT! Whitelisted community members, who have contributed to the development of the project by being active and inviting members will gain the opportunity to mint absolutely for FREE! That’s right! Only pay gas fees!
+                        </p>
+                        <p>
+                          There will be 1111 NFTs available and 2222 available whitelist spots!
+                        </p>
+                      </div>
+
                     </div>
                   </div>
 
-                  <div class="item pt-4">
+                  <div class="item">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 3</h5>
-                      <div class="row justify-content-center">
-                        <img class="img-fluid roadmap-point mb-2" src="/roadmap-point.png"/>
-                        <div class="roadmap-box p-4">
-                          <h6 class="text-center color-accent mb-3 mt-2">
-                            Molly Public Mint 
-                          </h6>
-                          <p>
-                            Here we will sell the rest of 3333 pieces!
-                          </p>
-                          <p>
-                            We are going to employ a Dutch Style Auction, where the price will drop until it reaches 0.02 ETH!
-                          </p>
-                          <p>
-                            The starting price of the Dutch Auction will be voted by all presale holders.
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Molly Public Mint 
+                        </h4>
+                        <p>
+                          Here we will sell the rest of 3333 pieces!
+                        </p>
+                        <p>
+                          We are going to employ a Dutch Style Auction, where the price will drop until it reaches 0.02 ETH!
+                        </p>
+                        <p>
+                          The starting price of the Dutch Auction will be voted by all presale holders.
+                        </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="item pt-4">
+                  <div class="item">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 4</h5>
-                      <div class="row justify-content-center">
-                        <img class="img-fluid roadmap-point mb-2" src="/roadmap-point.png"/>
-                        <div class="roadmap-box p-4">
-                          <h6 class="text-center color-accent mb-3 mt-2">
-                            The reveal 
-                          </h6>
-                          <p>
-                            After collection is fully sold out we will reveal all NFTs!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          The reveal 
+                        </h4>
+                        <p>
+                          After collection is fully sold out we will reveal all NFTs!
+                        </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="item pt-4">
+                  <div class="item">
                     <div>
                      <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 5</h5>
-                      <div class="row justify-content-center">
-                        <img class="img-fluid roadmap-point mb-2" src="/roadmap-point.png"/>
-                        <div class="roadmap-box p-4">
-                          <h6 class="text-center color-accent mb-3 mt-2">
-                            Community Rewards!
-                          </h6>
-                          <p>
-                            We believe that the community will be responsible for our success and therefore will be giving back to them!
-                          </p>
-                          <p>
-                            Depending on how much funds were raised we are going to large portion back to the community by running various giveaways, contests with prizes and fun incentives to rewards all Molly NFT holders!
-                          </p>
-                          <p>
-                            Rewards can range from vacations, invitations to parties, luxury goods or crypto rewards!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
                       </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Community Rewards!
+                        </h4>
+                        <p>
+                          We believe that the community will be responsible for our success and therefore will be giving back to them!
+                        </p>
+                        <p>
+                          Depending on how much funds were raised we are going to large portion back to the community by running various giveaways, contests with prizes and fun incentives to rewards all Molly NFT holders!
+                        </p>
+                        <p>
+                          Rewards can range from vacations, invitations to parties, luxury goods or crypto rewards!
+                        </p>
+                      </div>
+
                     </div>
                   </div>
 
-                  <div class="item pt-4">
+                  <div class="item">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 6</h5>
-                      <div class="row justify-content-center">
-                        <img class="img-fluid roadmap-point mb-2" src="/roadmap-point.png"/>
-                        <div class="roadmap-box p-4">
-                          <h6 class="text-center color-accent mb-3 mt-2">
-                            Forming the Alpha Group
-                          </h6>
-                          <p>
-                            Forming the alpha group! It’s time to collaborate, share experience and build the biggest and strongest alpha group in the NFT space!
-                          </p>
-                          <p>
-                            With a Molly Alpha group, you will know precisely when and where each NFT release is happening online and exactly how to purchase the collection with step-by-step instructions.
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Forming the Alpha Group
+                        </h4>
+                        <p>
+                          Forming the alpha group! It’s time to collaborate, share experience and build the biggest and strongest alpha group in the NFT space!
+                        </p>
+                        <p>
+                          With a Molly Alpha group, you will know precisely when and where each NFT release is happening online and exactly how to purchase the collection with step-by-step instructions.
+                        </p>
                       </div>
                     </div>
                   </div>
 
-                  <div class="item pt-4">
+                  <div class="item">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 7</h5>
-                      <div class="row justify-content-center">
-                        <img class="img-fluid roadmap-point mb-2" src="/roadmap-point.png"/>
-                        <div class="roadmap-box p-4">
-                          <h6 class="text-center color-accent mb-3 mt-2">
-                            Legendary NFTs
-                          </h6>
-                          <p>
-                            Any great art collection has a few pieces that makes it stand out! Like the most successful NFT collections on the market we will also make special pieces which not only will look amazing, but also have additional utility!
-                          </p>
-                          <p>
-                            They will make you stand out and bring you great rewards!
-                          </p>
-                        </div>
+
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Legendary NFTs
+                        </h4>
+                        <p>
+                          Any great art collection has a few pieces that makes it stand out! Like the most successful NFT collections on the market we will also make special pieces which not only will look amazing, but also have additional utility!
+                        </p>
+                        <p>
+                          They will make you stand out and bring you great rewards!
+                        </p>
                       </div>
                     </div>
                   </div>
