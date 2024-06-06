@@ -66,32 +66,37 @@
       <nav class="vertical-nav">
         <ul class="nav-list">
           <li>
-            <a href="#" class="active">
+            <a href="#home" class="active">
               <span class="label">Home</span>
             </a>
           </li>
           <li>
-            <a href="#" class="active">
+            <a href="#about" class="active">
               <span class="label">About</span>
             </a>
           </li>
           <li>
-            <a href="#" class="active">
+            <a href="#vision" class="active">
               <span class="label">Vision</span>
             </a>
           </li>
           <li>
-            <a href="#" class="active">
+            <a href="#success" class="active">
+              <span class="label">Success</span>
+            </a>
+          </li>
+          <li>
+            <a href="#utilities" class="active">
               <span class="label">Benefits</span>
             </a>
           </li>
           <li>
-            <a href="#" class="active">
+            <a href="#road" class="active">
               <span class="label">Road</span>
             </a>
           </li>
           <li>
-            <a href="#" class="active">
+            <a href="#team" class="active">
               <span class="label">Team</span>
             </a>
           </li>
@@ -100,7 +105,7 @@
       </nav>
     </div>
 
-    <section class="first-sec">
+    <section id="home" class="first-sec">
       <div class="container-fluid px-5">
         <div class="row justify-content-center">
           <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 d-flex justify-content-center">
@@ -119,12 +124,12 @@
       </div>
     </section>
 
-    <section class="colection-wrapper">
+    <section class="collection-wrapper">
       <div class="container-fluid py-5">
         <div class="row align-items-center justify-content-center px-sm-1">
           <div class="col-12 col-xl-6 p-0">
             <div class="row-sm d-flex align-items-center">
-              <img class="colection-molly-left" src="/moly_one.png"/>
+              <img class="collection-molly-left" src="/moly_one.png"/>
               <div class="col-12">
                 <p class="text-muted ps-2 h3 fw-light">than...</p>
                 <h2 class="mb-0 ps-2">1st Collection</h2>
@@ -146,14 +151,14 @@
                 </div>
                 <span class="badge me-2">Comming soon</span>
               </div>
-              <img class="colection-molly-right" src="/moly_two.png"/>
+              <img class="collection-molly-right" src="/moly_two.png"/>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="about-section">
+    <section id="about" class="about-section">
       <div class="container py-5">
         <div class="row">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
@@ -224,7 +229,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="vision">
       <div class="container-fluid">
         <div class="vision-wrapper">
           <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
@@ -317,7 +322,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="utilities">
       <div class="container-fluid pt-5">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Utilities
@@ -402,7 +407,7 @@
         </div>
     </section>
 
-    <section class="roadmap-section">
+    <section id="road" class="roadmap-section">
       <div class="container pt-5">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Roadmap
@@ -423,7 +428,7 @@
 
       <div class="roadmap mb-5 pb-5">
         <div class="container-fluid">
-          <div class="row mx-3 px-md-5">
+          <div class="row mx-3 px-md-5 mx-5">
             <div class="col-12">
               <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
@@ -837,7 +842,7 @@
       </div>
     </section>
 
-    <section>
+    <section id="team">
       <div class="container-fluid">
         <div class="dream-team-bg py-5 mx-3 px-md-5">
           <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
@@ -1046,7 +1051,7 @@
   border-bottom: 1px solid rgba(228, 152, 239, .4);
 }
 
-.colection-wrapper {
+.collection-wrapper {
   position: relative;
 
   background-image: url('/webpage-vue/team-bg.png');
@@ -1055,7 +1060,7 @@
   background-size: 30%;
 }
 
-.colection-wrapper::before,
+.collection-wrapper::before,
 .roadmap-section::before {
   content: "";
   background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
@@ -1069,10 +1074,10 @@
 
 .roadmap-section {
   position: relative;
-  border: 1px solid var(--clr-purple);
+  border-top: 1px solid var(--clr-purple);
 }
 
-.colection-wrapper::after {
+.collection-wrapper::after {
   content: "";
   background: linear-gradient(rgba(228, 152, 239, 0), rgba(228, 152, 239, .12));
   width: 100%;
@@ -1082,12 +1087,12 @@
   bottom: 0;
 }
 
-.colection-molly-left {
+.collection-molly-left {
   margin-left: -9px;
   max-width: 40%;
 }
 
-.colection-molly-right {
+.collection-molly-right {
   margin-right: -9px;
   max-width: 40%;
 }
@@ -1431,12 +1436,12 @@
 }
 
 @media (max-width: 576px) {
-  .colection-molly-left {
+  .collection-molly-left {
     margin-left: -20px;
     max-width: 20%;
   }
 
-  .colection-molly-right {
+  .collection-molly-right {
     margin-right: -20px;
     max-width: 20%;
   }
