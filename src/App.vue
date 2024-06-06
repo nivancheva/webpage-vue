@@ -1100,16 +1100,14 @@ function navToggle() {
   font-weight: 700
 }
 
-.cd-vertical-nav a.active {
+.cd-vertical-nav a:hover,
+.cd-vertical-nav a:focus {
   color: rgba(228,152,239,.8)!important
 }
 
 .cd-vertical-nav.open {
   transform: scale(1);
-  -webkit-overflow-scrolling: touch;
   box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
-  -moz-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
-  -webkit-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important
 }
 
 .cd-vertical-nav.open+.cd-nav-trigger span {
@@ -1160,11 +1158,8 @@ function navToggle() {
   }
 
   .cd-vertical-nav ul {
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-      list-style-type: none;
-      padding: 0
+    display: table-cell;
+    vertical-align: middle;
   }
 
   .cd-vertical-nav a {
@@ -1341,8 +1336,10 @@ function navToggle() {
   }
 }
 
-
 /* --------------Sections------------------ */
+
+
+/* --------------About------------------ */
 
 .first-sec {
   position: relative;
@@ -1355,6 +1352,8 @@ function navToggle() {
   background-size: contain;
   border-bottom: 1px solid rgba(228, 152, 239, .4);
 }
+
+/* --------------Collection------------------ */
 
 .collection-wrapper {
   position: relative;
@@ -1423,6 +1422,8 @@ function navToggle() {
 }
 
 
+/* --------------Utilities------------------ */
+
 .utilities-wrapper {
   position: relative;
 }
@@ -1446,9 +1447,9 @@ function navToggle() {
 }
 
 .icon-util {
-   background: linear-gradient(to right, rgba(195, 32, 217, 1), rgba(105, 91, 231, 1));
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  background: linear-gradient(to right, rgba(195, 32, 217, 1), rgba(105, 91, 231, 1));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
   font-size: 3rem;
   margin-right: 1rem
 }
@@ -1479,6 +1480,8 @@ function navToggle() {
 
   position: relative;
 }
+
+/* --------------Success------------------ */
 
 .success-section {
   position: relative;
@@ -1515,6 +1518,8 @@ function navToggle() {
   top: 0;
 }
 
+/* --------------Vision------------------ */
+
 .vision-wrapper {
   position: relative;
 
@@ -1536,6 +1541,8 @@ function navToggle() {
   background-repeat: no-repeat;
   background-size: 60%, 25%;
 }
+
+/* --------------Navigation------------------ */
 
 .nav-tabs {
   border: none;
@@ -1596,6 +1603,8 @@ function navToggle() {
   opacity: 1;
 }
 
+/* --------------Roadmap------------------ */
+
 .icon-roadmap {
   font-size: 1rem;
 }
@@ -1645,6 +1654,8 @@ function navToggle() {
   z-index: 900;
 }
 
+/* --------------Team------------------ */
+
 .team-wrapper {
   background-image: url('/webpage-vue/team-bg.png');
   background-repeat: no-repeat;
@@ -1678,6 +1689,8 @@ function navToggle() {
   padding: 2px;
   box-shadow: rgba(228, 152, 239, 0.25) 0px 2px 50px 20px;
 }
+
+/* --------------Footer------------------ */
 
 .footer .social-links {
   width: 55px;
