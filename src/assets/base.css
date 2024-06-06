@@ -152,6 +152,13 @@ ul:not([class]) li:before {
   background-color: transparent;
 }
 
+.owl-item.active.center,
+.firstActiveItem,
+.lastActiveItem {
+  margin-top: 2rem;
+  transition: margin 250ms;
+}
+
 .roadmapCarosel .owl-nav {
   display: flex;
   justify-content: center;
@@ -170,15 +177,5 @@ ul:not([class]) li:before {
     top: 80px;
     justify-content: space-between;
   }
-
-
 }
-
-.owl-item.active.center,
-.firstActiveItem,
-.lastActiveItem {
-  margin-top: 2rem;
-  transition: margin 250ms;
-}
-
 
