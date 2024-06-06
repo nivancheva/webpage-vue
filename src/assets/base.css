@@ -152,14 +152,14 @@ ul:not([class]) li:before {
   background-color: transparent;
 }
 
-.owl-carousel .owl-nav button.owl-next{
+.roadmapCarosel button.owl-next{
   position: relative;
-  right: -4rem;
+  right: -4.5rem;
 }
 
-.owl-carousel .owl-nav button.owl-prev {
+.roadmapCarosel button.owl-prev {
   position: relative;
-  left: -4rem;
+  left: -4.5rem;
 }
 
 .owl-item.active.center,
