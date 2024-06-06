@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Vite App</title>
     
-    <script type="module" crossorigin src="/webpage-vue/assets/index-EBtrbtzS.js"></script>
-    <link rel="stylesheet" crossorigin href="/webpage-vue/assets/index-Bg9ICud4.css">
+    <script type="module" crossorigin src="/webpage-vue/assets/index-DVBHFjgI.js"></script>
+    <link rel="stylesheet" crossorigin href="/webpage-vue/assets/index-N0HleO1u.css">
   </head>
   <body>
     <div id="app"></div>
@@ -25,6 +25,7 @@
           margin:10,
           dots:false,
           nav:true,
+          center: true,
           navText: ["<span class='button-outline-primary btn-connect btn-next me-2'><span class='icon icon-chevron-left'></span></span>","<span class='button-outline-primary btn-connect btn-next'><span class='icon icon-chevron-right'></span></span>"],
           items:8,
           responsive:{
@@ -43,6 +44,29 @@
           }
 
         });
+
+        checkClasses();
+        $("#uniqueCarosel").on('translated.owl.carousel', function(event) {
+            checkClasses();
+        });
+
+        function checkClasses(){
+        var total = $('#uniqueCarosel .owl-stage .owl-item.active').length; // nested class from activator class
+
+        $('#uniqueCarosel .owl-stage .owl-item').removeClass('firstActiveItem lastActiveItem'); // nested class from activator class and remove first and last class if already added.
+
+        $('#uniqueCarosel .owl-stage .owl-item.active').each(function(index){ // nested class from activator class
+            if (index === 0) {
+                // this is the first one
+                $(this).addClass('firstActiveItem'); // add class in first item
+            }
+            if (index === total - 1 && total>1) {
+                // this is the last one
+                $(this).addClass('lastActiveItem'); // add class in last item
+            }
+        });
+    }
+
 
       $('.roadmapCarosel').owlCarousel({
         loop:true,
