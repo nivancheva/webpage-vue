@@ -137,6 +137,8 @@ ul:not([class]) li:before {
   height: 60px;
 }
 
+/* ----------Owl Carousel----------- */
+
 .owl-nav span {
   color: white;
 }
@@ -170,6 +172,12 @@ ul:not([class]) li:before {
   }
 
 
+}
+
+.owl-item.active.center,
+.firstActiveItem,
+.lastActiveItem {
+  margin-top: 2rem;
 }
 
 
