@@ -65,42 +65,41 @@
     <div class="vertical-nav-wrapper">
       <nav class="vertical-nav">
         <ul class="nav-list">
-          <li>
+          <li class="nav1">
             <a href="#home" class="active">
               <span class="label">Home</span>
             </a>
           </li>
-          <li>
+          <li class="nav2">
             <a href="#about" class="active">
               <span class="label">About</span>
             </a>
           </li>
-          <li>
+          <li class="nav3">
             <a href="#vision" class="active">
               <span class="label">Vision</span>
             </a>
           </li>
-          <li>
+          <li class="nav4">
             <a href="#success" class="active">
               <span class="label">Success</span>
             </a>
           </li>
-          <li>
+          <li class="nav5">
             <a href="#utilities" class="active">
               <span class="label">Benefits</span>
             </a>
           </li>
-          <li>
+          <li class="nav6">
             <a href="#road" class="active">
               <span class="label">Road</span>
             </a>
           </li>
-          <li>
+          <li class="nav7">
             <a href="#team" class="active">
               <span class="label">Team</span>
             </a>
           </li>
-          <span class="circle"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-fill" viewBox="0 0 16 16"><circle cx="8" cy="8" r="8"/></svg></span>
         </ul>
       </nav>
     </div>
@@ -1018,27 +1017,6 @@
   overflow-x: hidden;
 }
 
-.vertical-nav-wrapper {
-  background: transparent;
-  height: 100vh;
-  width: 7rem;
-  top: 0;
-  right: 0;
-  position: fixed;
-  z-index: 10;
-
-  display: grid;
-  place-content: center;
-}
-
-.vertical-nav {
-  position: static;
-}
-
-.circle:hover {
-  color: rgba(228, 152, 239, .4);
-}
-
 .first-sec {
   position: relative;
   margin-inline: auto;
@@ -1451,6 +1429,300 @@
     min-height: 350px;
   }
 
+}
+
+.nav-list span {
+  color:white
+}
+
+.nav-list span:hover {
+  color:var(--clr-purple)
+}
+
+.cd-image-replace {
+    display: inline-block;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    color: transparent
+}
+
+
+@media (min-width: 800px) {
+    .cd-nav-trigger {
+        display:none;
+    }
+}
+
+.nav-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.vertical-nav {
+    position: fixed;
+    z-index: 9;
+    right: 100px;
+    bottom: 30px;
+    width: 65%;
+    max-width: 300px;
+    max-height: 90%;
+    overflow-y: auto;
+    transform: scale(0);
+    transform-origin: right bottom;
+    transition: transform .2s;
+    border-radius: .25em;
+    background-color: rgba(0,0,0,.9)
+}
+
+.vertical-nav a {
+    display: block;
+    padding: 1em;
+    color: #fff!important;
+    font-weight: 700
+}
+
+.vertical-nav a.active {
+    color: rgba(228,152,239,.8)!important
+}
+
+.vertical-nav.open {
+    transform: scale(1);
+    -webkit-overflow-scrolling: touch;
+    box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
+    -moz-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
+    -webkit-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important
+}
+
+.vertical-nav.open+.cd-nav-trigger span {
+    background-color: rgba(58,44,65,0)
+}
+
+.vertical-nav.open+.cd-nav-trigger span:after,.vertical-nav.open+.cd-nav-trigger span:before {
+    height: 3px;
+    width: 20px;
+    border-radius: 0;
+    left: -8px
+}
+
+.vertical-nav.open+.cd-nav-trigger span:before {
+    transform: rotate(45deg);
+    top: 1px
+}
+
+.vertical-nav.open+.cd-nav-trigger span:after {
+    transform: rotate(135deg);
+    bottom: 0
+}
+
+@media (min-width: 800px) {
+    .vertical-nav {
+        right:0;
+        top: 0;
+        bottom: auto;
+        height: 100vh;
+        width: 90px;
+        max-width: none;
+        max-height: none;
+        transform: scale(1);
+        background-color: transparent;
+        display: table
+    }
+
+    .vertical-nav:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,.8);
+        transform: translateX(100%);
+        transition: transform .4s
+    }
+
+    .vertical-nav ul {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        list-style-type: none;
+        padding: 0
+    }
+
+    .vertical-nav a {
+        position: relative;
+        padding: 3.5em 0 0;
+        margin: 1.4em auto;
+        color: #fff!important;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: uppercase
+    }
+
+    .vertical-nav a:after,.vertical-nav a:before {
+        content: "";
+        position: absolute;
+        left: 50%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translateZ(0)
+    }
+
+    .vertical-nav a:before {
+        top: 0;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        background: #fff;
+        border: 2px solid rgba(228,152,239,.4);
+        box-sizing: border-box;
+        box-shadow: 0 0 20px 5px rgba(228,152,239,.4);
+        transform: translateX(-50%) scale(.25);
+        transition: transform .4s,background-color .2s
+    }
+
+    .vertical-nav a :after {
+        opacity: 0;
+        top: 8px;
+        height: 16px;
+        width: 16px;
+        transform: translateX(-50%) scale(0);
+        transition: transform .4s 0s,opacity .1s .3s
+    }
+
+    .vertical-nav a.active:before,.vertical-nav a:hover:before {
+        background: rgba(228,152,239,.4)
+    }
+
+    .vertical-nav .nav1 a:after {
+        content: "\ED76";
+        background-position: 0 -64px;
+        transform: translateX(-50%) translateY(7.5em) scale(.01)
+    }
+
+    .vertical-nav .nav1 a:before {
+        transform: translateX(-50%) translateY(7.5em) scale(.25)
+    }
+
+    .vertical-nav .nav2 a:after {
+        content: "\EADB";
+        background-position: 0 -48px;
+        transform: translateX(-50%) translateY(4.5em) scale(.01)
+    }
+
+    .vertical-nav .nav2 a:before {
+        transform: translateX(-50%) translateY(4.5em) scale(.25)
+    }
+
+    .vertical-nav .nav3 a:after {
+        content: "\EC90";
+        background-position: 0 -32px;
+        transform: translateX(-50%) translateY(1.5em) scale(.01)
+    }
+
+    .vertical-nav .nav3 a:before {
+        transform: translateX(-50%) translateY(1.5em) scale(.25)
+    }
+
+    .vertical-nav .nav4 a:after {
+        content: "\EBD3";
+        background-position: 0 -16px;
+        transform: translateX(-50%) translateY(-1.5em) scale(.01)
+    }
+
+    .vertical-nav .nav4 a:before {
+        transform: translateX(-50%) translateY(-1.5em) scale(.25)
+    }
+
+    .vertical-nav .nav5 a:after {
+        content: "\EF51";
+        background-position: 0 0;
+        transform: translateX(-50%) translateY(-4.5em) scale(.01)
+    }
+
+    .vertical-nav .nav5 a:before {
+        transform: translateX(-50%) translateY(-4.5em) scale(.25)
+    }
+
+    .vertical-nav .nav6 a:after {
+        content: "\EECE";
+        background-position: 0 16px;
+        transform: translateX(-50%) translateY(-7.5em) scale(.01)
+    }
+
+    .vertical-nav .nav6 a:before {
+        transform: translateX(-50%) translateY(-7.5em) scale(.25)
+    }
+
+    .vertical-nav .nav7 a:after {
+        content: "\EE50";
+        background-position: 0 32px;
+        transform: translateX(-50%) translateY(-7.5em) scale(.01)
+    }
+
+    .vertical-nav .nav7 a:before {
+        transform: translateX(-50%) translateY(-10.5em) scale(.25)
+    }
+
+    .vertical-nav .label {
+        display: block;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        transform: translateZ(0);
+        transform: translateX(100%);
+        transition: transform .4s
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .vertical-nav:hover:before {
+        transform:translateX(0);
+        color: #e498ef
+    }
+
+    .vertical-nav:hover a {
+        font-family: icomoon!important;
+        speak: never;
+        font-style: normal;
+        font-weight: 400;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        transform: translateX(0)
+    }
+
+    .vertical-nav:hover a .label {
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        text-transform: uppercase;
+        line-height: 25px;
+        transform: translateX(0)
+    }
+
+    .vertical-nav:hover a:after,.vertical-nav:hover a:before {
+        transform: translateX(-50%) scale(1);
+        -moz-transform: translateX(-50%) scale(1) rotate(.02deg)
+    }
+
+    .vertical-nav:hover a:before {
+        background: transparent
+    }
+
+    .vertical-nav:hover a.active:before,.vertical-nav:hover a:hover:before {
+        background: rgba(228,152,239,.4)
+    }
+
+    .vertical-nav:hover a:after {
+        top: 12px;
+        font-size: 20px;
+        opacity: 1;
+        transition: transform .4s,opacity 0s;
+        color: #e498ef
+    }
 }
 
 </style>
