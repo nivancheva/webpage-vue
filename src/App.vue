@@ -1156,7 +1156,7 @@ function addClassActive(title) {
   right:0;
   top: 0;
   bottom: auto;
-  height: 100vh;
+  height: 100dvh;
   width: 90px;
   max-width: none;
   max-height: none;
@@ -1378,13 +1378,13 @@ function addClassActive(title) {
 .home-section {
   position: relative;
   margin-inline: auto;
-  min-height: 100vh;
+  height: calc(100dvh - 130px);
 
   background-image: url('/webpage-vue/cover.png');
   background-position:top center;
   background-repeat: no-repeat;
   background-size: contain;
-  border-bottom: 1px solid rgba(228, 152, 239, .4);
+  border-bottom: 1px solid rgba(228, 152, 239, .3);
 }
 
 /* --------------Collection------------------ */
@@ -1471,8 +1471,8 @@ function addClassActive(title) {
 }
 
 .utilities-border {
-  border-bottom: 1px solid var(--clr-purple);
-  border-top: 1px solid var(--clr-purple);
+  border-bottom: 1px solid rgba(228, 152, 239, .2);
+  border-top: 1px rgba(228, 152, 239, .2);
 }
 
 .icon-util {
@@ -1495,7 +1495,7 @@ function addClassActive(title) {
 
 .success-section {
   position: relative;
-  border-bottom: 1px solid var(--clr-purple);
+  border-bottom: 1px solid rgba(228, 152, 239, .3);
 }
 
 #success .fixed-bg {
@@ -1618,7 +1618,7 @@ function addClassActive(title) {
 
 .roadmap-section {
   position: relative;
-  border-top: 1px solid var(--clr-purple);
+  border-top: 1px solid rgba(228, 152, 239, .3);
 }
 
 .icon-roadmap {
@@ -1723,7 +1723,7 @@ function addClassActive(title) {
 }
 
 .footer-links {
-  border-bottom: 1px solid rgba(228, 152, 239, .4);
+  border-bottom: 1px solid rgba(228, 152, 239, .3);
   font-size: 2rem;
 }
 
@@ -1760,7 +1760,7 @@ function addClassActive(title) {
   }
 
   .home-section {
-    min-height: 70vh;
+    min-height: calc(100vh - 130px);
   }
 
   #success .fixed-bg {
