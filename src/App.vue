@@ -878,16 +878,22 @@ function addClassActive(title) {
     </section>
 
     <section id="team">
+
       <div class="container-fluid">
+        
         <div class="dream-team-bg py-5 mx-3 px-md-5">
+
           <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
             The Dream Team
             <span class="title-big">The Dream Team</span>
           </h2>
 
           <div class="mb-5 mx-1 mx-md-3">
+
             <h3 class="text-uppercase text-center fw-normal mb-5 pb-5">Founders</h3>
+
             <div class="row">
+
               <div class="col-12 col-xl-4 p-5 team-bg">
                 <div class="d-flex justify-content-center">
                   <img class="team-img" src='/team/alexander.png'/>
@@ -914,14 +920,19 @@ function addClassActive(title) {
                 <h5 class="text-center text-uppercase my-4">George</h5>
                 <p>A successful entrepreneur, who knows with vast knowledge of how to build a thriving crypto/nft start from scratch! George has huge experience in IT management, blockchain development, token and NFT marketing! He is also very passionate leader who is willing to put in the extra work required to build an outstanding team and community! George believes that there is a lot of potential and undiscovered potential in the crypto/nft space and is to fill in the missing gaps with the technology that his IT team will build!</p>
               </div>
+
             </div>
+
           </div>
+
         </div>
 
         <div>
+
           <h3 class="text-uppercase text-center fw-normal">Core Team</h3>
         
           <div class="row team-wrapper">
+            
             <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
@@ -981,37 +992,59 @@ function addClassActive(title) {
                 <p class="text-center">Collaboration Manager</p>
               </div>
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
     <footer class="footer pt-5 mt-5">
+
       <div class="footer-img logo-section mx-auto">
         <img class="mx-auto" src="/logo.png">
       </div>
+
       <div class="footer-links d-flex align-items-center justify-content-center px-0 pt-3 pb-5">
+
         <ul class="d-flex align-items-center m-0 ps-0">
+
           <li>
             <a class="btn social-links">
               <span class="icon icon-discord"></span>
             </a>
           </li>
-          <li><a class="btn social-links">
-            <span class="icon icon-instagram"></span>
-          </a></li>
-          <li><a class="btn social-links">
-            <span class="icon icon-twitter"></span>
-          </a></li>
-          <li><a class="btn social-links">
-            <span class="icon icon-opensea"></span>
-          </a></li>
+
+          <li>
+            <a class="btn social-links">
+              <span class="icon icon-instagram"></span>
+            </a>
+          </li>
+
+          <li>
+            <a class="btn social-links">
+              <span class="icon icon-twitter"></span>
+            </a>
+          </li>
+
+          <li>
+            <a class="btn social-links">
+              <span class="icon icon-opensea"></span>
+            </a>
+          </li>
+
         </ul>
+
       </div>
+
       <div class="text-center py-5">
         <p>Copyright © Molly NFT</p>
       </div>
+
     </footer>
+
   </div>
   
 </template>
