@@ -2,9 +2,14 @@
 import { ref } from "vue";
 
 const openNav = ref(false);
+const selectedLink = ref(false);
 
 function navToggle() {
    openNav.value = !openNav.value;
+}
+
+function addClassActive(title) {
+  selectedLink.value = title;
 }
 </script>
 
@@ -44,37 +49,37 @@ function navToggle() {
     <nav :class='["cd-vertical-nav", openNav ? "open" : ""]'>
       <ul class="text-center p-0 text-uppercase">
         <li class="nav1">
-          <a href="#home" class="active">
+          <a href="#home" :class="{active: 'Home' === selectedLink}" @click="addClassActive('Home')">
             <span class="label">Home</span>
           </a>
         </li>
         <li class="nav2">
-          <a href="#about" >
+          <a href="#about" :class="{active: 'About' === selectedLink}" @click="addClassActive('About')">
             <span class="label">About</span>
           </a>
         </li>
         <li class="nav3">
-          <a href="#vision" >
+          <a href="#vision" :class="{active: 'Vision' === selectedLink}" @click="addClassActive('Vision')">
             <span class="label">Vision</span>
           </a>
         </li>
-        <li class="nav4">
-          <a href="#success" >
+        <li class="nav4" >
+          <a href="#success" :class="{active: 'Success' === selectedLink}" @click="addClassActive('Success')">
             <span class="label">Success</span>
           </a>
         </li>
         <li class="nav5">
-          <a href="#utilities" >
+          <a href="#utilities" :class="{active: 'Benefits' === selectedLink}" @click="addClassActive('Benefits')">
             <span class="label">Benefits</span>
           </a>
         </li>
         <li class="nav6">
-          <a href="#road" >
+          <a href="#road" :class="{active: 'Road' === selectedLink}" @click="addClassActive('Road')">
             <span class="label">Road</span>
           </a>
         </li>
         <li class="nav7">
-          <a href="#team">
+          <a href="#team" :class="{active: 'Team' === selectedLink}" @click="addClassActive('Team')">
             <span class="label">Team</span>
           </a>
         </li>
