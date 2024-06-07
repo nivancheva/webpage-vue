@@ -183,7 +183,10 @@ function addClassActive(title) {
         <div class="row">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div>
-              <h2 class="display-6 color-accent">4444 Unique NFTs</h2>
+              <h2 class="display-6 color-accent text-uppercase">
+                4444 Unique NFTs
+              </h2>
+
               <p>We are M.O.L.L.Y! We are the new creative moment revalorizing 3D NFT art. We have one simple, yet ambitious goal-create the largest decentralized community & alpha group of high-end art collectors & artists.</p>
               <div class="d-flex align-items-center">
                 <a class="d-flex align-items-center btn-connect me-2 mb-2">
@@ -251,7 +254,7 @@ function addClassActive(title) {
 
         <div class="vision-wrapper">
 
-          <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
+          <h2 class="title text-center text-uppercase display-5 my-5">
             VISION & VALUES
             <span class="title-big">VISION & VALUES</span>
           </h2>
@@ -287,13 +290,8 @@ function addClassActive(title) {
       <div class="container-fluid pt-5 px-0">
 
         <div>
-          <h2 class="title text-center text-uppercase display-5 fw-bold mt-5">
-            Our three Piller
-            <span class="title-big">Our three Pillers</span>
-          </h2>
-          <h2 class="title text-center text-uppercase display-5 fw-bold mb-5 mt-3">
-            to success
-            <span class="title-big">to success</span>
+          <h2 class="title text-center text-uppercase display-5 my-5">
+            Our three Piller to success
           </h2>
         </div>
 
@@ -352,7 +350,7 @@ function addClassActive(title) {
 
       <div class="container-fluid pt-5">
 
-        <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
+        <h2 class="title text-center text-uppercase display-5 my-5">
           Utilities
           <span class="title-big">Utilities</span>
         </h2>
@@ -444,7 +442,7 @@ function addClassActive(title) {
 
       <div class="container-fluid pt-5">
 
-        <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
+        <h2 class="title text-center text-uppercase display-5 my-5">
           Roadmap
           <span class="title-big">Roadmap</span>
         </h2>
@@ -868,7 +866,7 @@ function addClassActive(title) {
         
         <div class="dream-team-bg py-5 mx-3 px-md-5">
 
-          <h2 class="title text-center text-uppercase display-5 fw-bold mb-5">
+          <h2 class="title text-center text-uppercase display-5 mb-5">
             The Dream Team
             <span class="title-big">The Dream Team</span>
           </h2>
