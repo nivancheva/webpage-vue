@@ -49,32 +49,32 @@ function navToggle() {
           </a>
         </li>
         <li class="nav2">
-          <a href="#about" class="active">
+          <a href="#about" >
             <span class="label">About</span>
           </a>
         </li>
         <li class="nav3">
-          <a href="#vision" class="active">
+          <a href="#vision" >
             <span class="label">Vision</span>
           </a>
         </li>
         <li class="nav4">
-          <a href="#success" class="active">
+          <a href="#success" >
             <span class="label">Success</span>
           </a>
         </li>
         <li class="nav5">
-          <a href="#utilities" class="active">
+          <a href="#utilities" >
             <span class="label">Benefits</span>
           </a>
         </li>
         <li class="nav6">
-          <a href="#road" class="active">
+          <a href="#road" >
             <span class="label">Road</span>
           </a>
         </li>
         <li class="nav7">
-          <a href="#team" class="active">
+          <a href="#team">
             <span class="label">Team</span>
           </a>
         </li>
@@ -1057,6 +1057,10 @@ function navToggle() {
   font-weight: 700;
 }
 
+.cd-vertical-nav a.active {
+  color: rgba(228,152,239,.8);
+}
+
 .cd-vertical-nav.open {
   transform: scale(1);
   box-shadow: 0 0 20px 10px rgba(228,152,239,.3);
@@ -1137,6 +1141,10 @@ function navToggle() {
   box-shadow: 0 0 20px 5px rgba(228,152,239,.4);
   transform: translateX(-50%) scale(.25);
   transition: transform .4s,background-color .2s
+}
+
+.cd-vertical-nav a.active:before, .cd-vertical-nav a:hover:before {
+  background: rgba(228, 152, 239, .4);
 }
 
 .cd-vertical-nav a :after {
