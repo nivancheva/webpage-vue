@@ -16,30 +16,42 @@ function addClassActive(title) {
 <template>
   <nav id="home" class="navbar p-5 navbar-expand-lg navbar-light pt-2 pb-0">
     <div class="nav-container container-fluid d-flex justify-content-between align-items-center mx-5 my-3">
-      <div>
-        <img src="/headerLogo.svg">
-      </div>
+
+      <img src="/headerLogo.svg">
+
       <div class="links align-items-center">
+
         <ul class="align-items-center icons-container m-0">
           <li>
             <a class="btn social-links">
               <span class="icon icon-discord"></span>
             </a>
           </li>
-          <li><a class="btn social-links">
+
+          <li>
+            <a class="btn social-links">
             <span class="icon icon-instagram"></span>
-          </a></li>
-          <li><a class="btn social-links">
+          </a>
+          </li>
+
+          <li>
+            <a class="btn social-links">
             <span class="icon icon-twitter"></span>
-          </a></li>
-          <li><a class="btn social-links">
+          </a>
+          </li>
+
+          <li>
+            <a class="btn social-links">
             <span class="icon icon-opensea"></span>
-          </a></li>
+            </a>
+          </li>
         </ul>
+
         <a class="d-flex align-items-center btn-connect">
           <span class="icon icon-wallet"></span>
           <span class="text-uppercase ps-2">Staking</span>   
         </a>
+
       </div>
     </div>
   </nav>
@@ -47,53 +59,67 @@ function addClassActive(title) {
   <div class="page-content">
 
     <nav :class='["cd-vertical-nav", openNav ? "open" : ""]'>
+
       <ul class="text-center p-0 text-uppercase">
+
         <li class="nav1">
           <a href="#home" :class="{active: 'Home' === selectedLink}" @click="addClassActive('Home')">
             <span class="label">Home</span>
           </a>
         </li>
+
         <li class="nav2">
           <a href="#about" :class="{active: 'About' === selectedLink}" @click="addClassActive('About')">
             <span class="label">About</span>
           </a>
         </li>
+
         <li class="nav3">
           <a href="#vision" :class="{active: 'Vision' === selectedLink}" @click="addClassActive('Vision')">
             <span class="label">Vision</span>
           </a>
         </li>
+
         <li class="nav4" >
           <a href="#success" :class="{active: 'Success' === selectedLink}" @click="addClassActive('Success')">
             <span class="label">Success</span>
           </a>
         </li>
+
         <li class="nav5">
           <a href="#utilities" :class="{active: 'Benefits' === selectedLink}" @click="addClassActive('Benefits')">
             <span class="label">Benefits</span>
           </a>
         </li>
+
         <li class="nav6">
           <a href="#road" :class="{active: 'Road' === selectedLink}" @click="addClassActive('Road')">
             <span class="label">Road</span>
           </a>
         </li>
+
         <li class="nav7">
           <a href="#team" :class="{active: 'Team' === selectedLink}" @click="addClassActive('Team')">
             <span class="label">Team</span>
           </a>
         </li>
+
       </ul>
+
     </nav>
+
     <button @click="navToggle" class="cd-nav-trigger cd-image-replace">
       Open navigation
-        <span v-if="openNav" class="bi bi-x-lg"></span>
-        <span v-else class="bi bi-three-dots-vertical"></span>
+      <span v-if="openNav" class="bi bi-x-lg"></span>
+      <span v-else class="bi bi-three-dots-vertical"></span>
     </button>
 
     <section class="home-section">
+
       <div class="container-fluid px-5">
+
         <div class="row justify-content-center">
+
           <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 d-flex justify-content-center">
             <img src="/logo2.png">
           </div>
@@ -106,12 +132,17 @@ function addClassActive(title) {
               </div>
             </div>
           </div>
+
         </div>
+
       </div>
+
     </section>
 
     <section class="collection-wrapper">
+      
       <div class="container-fluid py-5">
+
         <div class="row align-items-center justify-content-center px-sm-1">
           <div class="col-12 col-xl-6 p-0">
             <div class="row-sm d-flex align-items-center">
@@ -141,10 +172,13 @@ function addClassActive(title) {
             </div>
           </div>
         </div>
+
       </div>
+
     </section>
 
     <section id="about" class="about-section">
+
       <div class="container py-5">
         <div class="row">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
@@ -165,59 +199,58 @@ function addClassActive(title) {
           </div>
         </div>
       </div>
+
       <div class="container-fluid">
+
         <div class="row pb-5">
+
           <div id="uniqueCarosel" ref='cards' class="owl-carousel owl-theme">
+
             <div class="item px-2">
-              <div>
-                <img class="unique-img img-fluid" src="/about/nft1.jpg"/>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft1.jpg"/>
             </div>
+
             <div class="item px-2">
-              <div>
-                <img class="unique-img img-fluid" src="/about/nft2.jpg"/>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft2.jpg"/>
             </div>
+
             <div class="item px-2">
-              <div>
-                <div>
-                  <img class="unique-img img-fluid" src="/about/nft3.jpg"/>
-                </div>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft3.jpg"/>
             </div>
+
             <div class="item px-2">
-              <div>
-                <img class="unique-img img-fluid" src="/about/nft4.jpg"/>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft4.jpg"/>
             </div>
+
             <div class="item px-2">
-              <div>
-                <img class="unique-img img-fluid" src="/about/nft5.jpg"/>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft5.jpg"/>
             </div>
+
             <div class="item px-2">
-              <div>
-                <img class="unique-img img-fluid" src="/about/nft6.jpg"/>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft6.jpg"/>
             </div>
+
             <div class="item px-2">
-              <div>
-                <img class="unique-img img-fluid" src="/about/nft7.jpg"/>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft7.jpg"/>
             </div>
+
             <div class="item px-2">
-              <div>
-                <img class="unique-img img-fluid" src="/about/nft8.jpg"/>
-              </div>
+              <img class="unique-img img-fluid" src="/about/nft8.jpg"/>
             </div>
+
           </div>
+
         </div>
+
       </div>
     </section>
 
     <section id="vision">
+
       <div class="container-fluid">
+
         <div class="vision-wrapper">
+
           <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
             VISION & VALUES
             <span class="title-big">VISION & VALUES</span>
@@ -242,12 +275,17 @@ function addClassActive(title) {
             </div>
 
           </div>
+
         </div>
+
       </div>
+
     </section>
 
     <section id="success" class="success-section">
+
       <div class="container-fluid pt-5 px-0">
+
         <div>
           <h2 class="title text-center text-uppercase display-5 fw-bold mt-5">
             Our three Piller
@@ -260,6 +298,7 @@ function addClassActive(title) {
         </div>
 
         <div class="row">
+
           <div class="col-12">
             <div id="success1" class="fixed-bg">
               <div class="container-lg">
@@ -306,94 +345,103 @@ function addClassActive(title) {
 
         </div>
       </div>
+      
     </section>
 
     <section id="utilities">
+
       <div class="container-fluid pt-5">
+
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Utilities
           <span class="title-big">Utilities</span>
         </h2>
+
         <div class="mx-1 mx-md-5 p-md-5 utilities-wrapper">
           <img class="util-bg-img" src='/team-bg.png'/>
           <div class="row justify-content-center">
-              <div class="col-12 col-md-6 col-xl-3">
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-chess-queen icon-util"></span>
-                    Alpha Group
-                  </h5>
-                  <p>We are building an alpha group for the influencer industry! <br>We strongly believe that a lot of famous influencer & celebrities will make their own NFT collection, and we want to be the first alpha group that that will provide insights, knowledge, connections and opportunities!</p>
-                </div>
-
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-gift icon-util"></span>
-                    Giveaways & Rewards
-                  </h5>
-                  <p> We plan to organise regular giveaways, raffles and fun incentives for our members with the rewards being invitations to parties, merch, free nft, whitelist, crypto and luxury goods!</p>
-                </div>
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-chess-queen icon-util"></span>
+                  Alpha Group
+                </h5>
+                <p>We are building an alpha group for the influencer industry! <br>We strongly believe that a lot of famous influencer & celebrities will make their own NFT collection, and we want to be the first alpha group that that will provide insights, knowledge, connections and opportunities!</p>
               </div>
 
-              <div class="col-12 col-md-6 col-xl-3">
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-cube icon-util"></span>
-                    High end 3D models & rendering
-                  </h5>
-                  <p>Holders can enjoy high quality rendering implying that Molly NFTs can be used in the Mataverse or in games! </p>
-                </div>
-
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-wallet icon-util"></span>
-                    Community Wallet
-                  </h5>
-                  <p>We will create a Community Wallet with the intention of redistributing 30% of the Royalty Fees income from the secondary market back into the Community Wallet. The community can vote what we will use the funds for and ensure that we keep growing the project! </p>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-6 col-xl-3">
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-ticket icon-util"></span>
-                    Mint Pass
-                  </h5>
-                  <p>Molly NFT acts as a mint pass for all future drops & influencer collections, meaning that holders will get early access & better price for upcoming collections! </p>
-                </div>
-
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-calendar-check icon-util"></span>
-                    Real life events
-                  </h5>
-                  <p>Exclusive parties with the best influencers & celebrities! Networking events with artists, creators, influencers and investors! The path to success is building a network!</p>
-                </div>
-              </div>
-
-              <div class="col-12 col-md-6 col-xl-3">
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-mask icon-util"></span>
-                    Metaverse
-                  </h5>
-                  <p>We plan to purchase land in the metaverse creating a virtual member space for holders to collaborate as their unique Molly avatars. <br>Our metaverse space is planned to be as the Molly Headquarters that NFT holders can access. Here influencers, collections, artists and investors can hang out together and create amazing projects!</p>
-                </div>
-
-                <div class="utilities-card p-4 mb-5">
-                  <h5 class="title text-uppercase d-flex align-items-center">
-                    <span class="icon icon-flask-vial icon-util"></span>
-                    Serum mutations
-                  </h5>
-                  <p>We plan to make a second collection where holders can use serums to mutate their NFT and increase its value! </p>
-                </div>
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-gift icon-util"></span>
+                  Giveaways & Rewards
+                </h5>
+                <p> We plan to organise regular giveaways, raffles and fun incentives for our members with the rewards being invitations to parties, merch, free nft, whitelist, crypto and luxury goods!</p>
               </div>
             </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-cube icon-util"></span>
+                  High end 3D models & rendering
+                </h5>
+                <p>Holders can enjoy high quality rendering implying that Molly NFTs can be used in the Mataverse or in games! </p>
+              </div>
+
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-wallet icon-util"></span>
+                  Community Wallet
+                </h5>
+                <p>We will create a Community Wallet with the intention of redistributing 30% of the Royalty Fees income from the secondary market back into the Community Wallet. The community can vote what we will use the funds for and ensure that we keep growing the project! </p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-ticket icon-util"></span>
+                  Mint Pass
+                </h5>
+                <p>Molly NFT acts as a mint pass for all future drops & influencer collections, meaning that holders will get early access & better price for upcoming collections! </p>
+              </div>
+
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-calendar-check icon-util"></span>
+                  Real life events
+                </h5>
+                <p>Exclusive parties with the best influencers & celebrities! Networking events with artists, creators, influencers and investors! The path to success is building a network!</p>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-xl-3">
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-mask icon-util"></span>
+                  Metaverse
+                </h5>
+                <p>We plan to purchase land in the metaverse creating a virtual member space for holders to collaborate as their unique Molly avatars. <br>Our metaverse space is planned to be as the Molly Headquarters that NFT holders can access. Here influencers, collections, artists and investors can hang out together and create amazing projects!</p>
+              </div>
+
+              <div class="utilities-card p-4 mb-5">
+                <h5 class="title text-uppercase d-flex align-items-center">
+                  <span class="icon icon-flask-vial icon-util"></span>
+                  Serum mutations
+                </h5>
+                <p>We plan to make a second collection where holders can use serums to mutate their NFT and increase its value! </p>
+              </div>
+            </div>
+
           </div>
+
         </div>
+
+      </div>
+
     </section>
 
     <section id="road" class="roadmap-section">
+
       <div class="container-fluid pt-5">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Roadmap
@@ -410,6 +458,7 @@ function addClassActive(title) {
             </button>
           </div>
         </nav>
+        
       </div>
 
       <div class="roadmap mb-5 pb-5">
