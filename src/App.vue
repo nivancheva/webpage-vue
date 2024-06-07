@@ -443,58 +443,68 @@ function addClassActive(title) {
     <section id="road" class="roadmap-section">
 
       <div class="container-fluid pt-5">
+
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Roadmap
           <span class="title-big">Roadmap</span>
         </h2>
 
         <nav class="d-flex justify-content-center mb-5 pb-5">
+
           <div id="nav-tab" role="tablist" class="nav nav-tabs">
-           <button class="nav-link nav-item active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+
+            <button class="nav-link nav-item active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
               Part I.
             </button>
+
             <button class="nav-link nav-item" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
               Part II.
             </button>
+
           </div>
+
         </nav>
         
       </div>
 
       <div class="roadmap mb-5 pb-5">
+
         <div class="container-fluid">
+
           <div class="row px-md-5 mx-md-5">
+
             <div class="col-12">
+
               <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+
                   <div class="roadmapCarosel owl-carousel owl-roadmap owl-loaded owl-drag">
-                  <div class="item mx-md-3">
-                    <div>
+                    
+                    <div class="item mx-md-3">
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 1</h5>
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            It all starts with our Art.
-                          </h4>
-                          <p>
-                            We will create the most high-quality 3D art that you have seen! Our artistic team will ensure that our holders get the best quality and render of their NFTs! We aim for perfection! 
-                          </p>
-                          <p>
-                            Therefore, the art will be mind-blowing, and you will want to show it off! We will grab the attention of NFT communities towards our high quality!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          It all starts with our Art.
+                        </h4>
+                        <p>
+                          We will create the most high-quality 3D art that you have seen! Our artistic team will ensure that our holders get the best quality and render of their NFTs! We aim for perfection! 
+                        </p>
+                        <p>
+                          Therefore, the art will be mind-blowing, and you will want to show it off! We will grab the attention of NFT communities towards our high quality!
+                        </p>
                       </div>
                     </div>
 
 
-                  <div class="item mx-md-3">
-                    <div>
+                    <div class="item mx-md-3">
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
@@ -517,12 +527,9 @@ function addClassActive(title) {
                           There will be 1111 NFTs available and 2222 available whitelist spots!
                         </p>
                       </div>
-
                     </div>
-                  </div>
 
-                  <div class="item mx-md-3">
-                    <div>
+                    <div class="item mx-md-3">
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
@@ -546,10 +553,8 @@ function addClassActive(title) {
                         </p>
                       </div>
                     </div>
-                  </div>
 
-                  <div class="item mx-md-3">
-                    <div>
+                    <div class="item mx-md-3">
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
@@ -567,11 +572,9 @@ function addClassActive(title) {
                         </p>
                       </div>
                     </div>
-                  </div>
 
-                  <div class="item mx-md-3">
-                    <div>
-                     <div class="d-flex justify-content-center align-items-center color-accent">
+                    <div class="item mx-md-3">
+                      <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
                       </div>
@@ -593,12 +596,9 @@ function addClassActive(title) {
                           Rewards can range from vacations, invitations to parties, luxury goods or crypto rewards!
                         </p>
                       </div>
-
                     </div>
-                  </div>
 
-                  <div class="item mx-md-3">
-                    <div>
+                    <div class="item mx-md-3">
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
@@ -619,10 +619,8 @@ function addClassActive(title) {
                         </p>
                       </div>
                     </div>
-                  </div>
 
-                  <div class="item mx-md-3">
-                    <div>
+                    <div class="item mx-md-3">
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
                         <span class="fw-bold">COMPLETED</span>
@@ -644,237 +642,228 @@ function addClassActive(title) {
                         </p>
                       </div>
                     </div>
+
                   </div>
-                  </div>
+
                 </div>
                 
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+
                   <div class="roadmapCarosel owl-carousel owl-roadmap owl-loaded owl-drag">
-                  <div class="item mx-md-3">
-                    <div>
+
+                    <div class="item mx-md-3">
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-calendar icon-util me-2"></span>
                         <span class="fw-bold">April</span>
                       </div>
                       <h5 class="text-center text-uppercase font-weight-light">Stage 1</h5>
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Secret Molly Collection
-                          </h4>
-                          <p>
-                            Our gift to all loyal molly holders who hold more than 5 Molly NFTs and have listed above 1 ETH (or not listed at all)! This will be small ultra-exclusive collection that we aim to price high! Here the artist will express himself and create something unique and high-value!
-                          </p>
-                        </div>
-                    </div>
-                    </div>
-
-
-                    <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">April</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 2</h5>
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">		
-                            Simple Staking Game
-                          </h4>
-                          <p>
-                            We will develop a simple staking game, where players can use their Molly NFT to earn virtual token rewards! The more often you play, the higher your rewards!Start Accumulating Molly virtual Molly token and claim the real Molly token at launch!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Secret Molly Collection
+                        </h4>
+                        <p>
+                          Our gift to all loyal molly holders who hold more than 5 Molly NFTs and have listed above 1 ETH (or not listed at all)! This will be small ultra-exclusive collection that we aim to price high! Here the artist will express himself and create something unique and high-value!
+                        </p>
                       </div>
                     </div>
 
-                    <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">May</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 3</h5>
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Governance Token Launch 
-                          </h4>
-                          <p>
-                            We are going to launch our own Governance Molly Token! The tokenomics of the token will be decided by the community! The token will also be used to purchase clothes from our Merch and Buy Tickets for the upcoming Molly branded trips!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
 
                     <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">May</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 4</h5>
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Molly DAO voting
-
-                          </h4>
-                          <p>
-                            We are going to have our own Molly DAO! More information coming soon!
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item mx-md-3">
-                      <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">May</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 5</h5>
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Dragon Molly Collection by Black Tape Project
-                          </h4>
-                          <p>
-                           The first flagship Molly Drop! The collection is in partnership with one of the best artists worldwide - Joel Alvarez - The black tape project!
-                          </p>
-                        </div>
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">April</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 2</h5>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">		
+                          Simple Staking Game
+                        </h4>
+                        <p>
+                          We will develop a simple staking game, where players can use their Molly NFT to earn virtual token rewards! The more often you play, the higher your rewards!Start Accumulating Molly virtual Molly token and claim the real Molly token at launch!
+                        </p>
                       </div>
                     </div>
 
                     <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">July</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 6</h5>
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Molly High end Fashion Merch Store
-                          </h4>
-                          <p>
-                            Our own high-end-fashion store! Holders can purchase they Molly wear ONLY with the Molly Token!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">May</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 3</h5>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Governance Token Launch 
+                        </h4>
+                        <p>
+                          We are going to launch our own Governance Molly Token! The tokenomics of the token will be decided by the community! The token will also be used to purchase clothes from our Merch and Buy Tickets for the upcoming Molly branded trips!
+                        </p>
                       </div>
                     </div>
 
                     <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">June-July</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 7</h5>
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">May</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 4</h5>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Molly DAO voting
 
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Play & Earn Moly Game
-                          </h4>
-                          <p>
-                            We want to develop our own Molly Branded Play & Earn Game! Gameplay will be determined by the DAO!
-                          </p>
-                        </div>
+                        </h4>
+                        <p>
+                          We are going to have our own Molly DAO! More information coming soon!
+                        </p>
                       </div>
                     </div>
 
                     <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">July-August</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 8</h5>
-
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Cyborg Molly Collection
-                          </h4>
-                          <p>
-                            More info Coming soon!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">May</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 5</h5>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Dragon Molly Collection by Black Tape Project
+                        </h4>
+                        <p>
+                          The first flagship Molly Drop! The collection is in partnership with one of the best artists worldwide - Joel Alvarez - The black tape project!
+                        </p>
                       </div>
                     </div>
 
                     <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">September</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 9</h5>
-
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            Molly Villa
-                          </h4>
-                          <p>
-                            Yes, that’s right! We are going to make a collection and with the amount of funds we receive from it to purchase/rent villa in an exotic destination where content creators can go and create content! Something like a tik -tok house! Holders will have access to the events organised in the Villa! Let’s network!
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">July</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 6</h5>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Molly High end Fashion Merch Store
+                        </h4>
+                        <p>
+                          Our own high-end-fashion store! Holders can purchase they Molly wear ONLY with the Molly Token!
+                        </p>
                       </div>
                     </div>
 
                     <div class="item mx-md-3">
-                      <div>
-                        <div class="d-flex justify-content-center align-items-center color-accent">
-                          <span class="icon-roadmap icon-calendar icon-util me-2"></span>
-                          <span class="fw-bold">December</span>
-                        </div>
-                        <h5 class="text-center text-uppercase font-weight-light">Stage 10</h5>
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">June-July</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 7</h5>
 
-                        <div class="d-flex justify-content-center">  
-                          <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
-                        </div>
-                        <div class="roadmap-box p-4">
-                          <h4 class="text-center color-accent mb-3 mt-2">
-                            The Metaverse
-                          </h4>
-                          <p>
-                            Purchasing a Molly will create far more utility than a profile picture. All Molly NFTs are anticipated to be fully functional in the Metaverse.
-                          </p>
-                          <p>
-                            Additionally, we plan to buy land in the metaverse to build our digital member space that only holders will have access to.
-                          </p>
-                        </div>
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Play & Earn Moly Game
+                        </h4>
+                        <p>
+                          We want to develop our own Molly Branded Play & Earn Game! Gameplay will be determined by the DAO!
+                        </p>
                       </div>
                     </div>
+
+                    <div class="item mx-md-3">
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">July-August</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 8</h5>
+
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Cyborg Molly Collection
+                        </h4>
+                        <p>
+                          More info Coming soon!
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="item mx-md-3">
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">September</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 9</h5>
+
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          Molly Villa
+                        </h4>
+                        <p>
+                          Yes, that’s right! We are going to make a collection and with the amount of funds we receive from it to purchase/rent villa in an exotic destination where content creators can go and create content! Something like a tik -tok house! Holders will have access to the events organised in the Villa! Let’s network!
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="item mx-md-3">
+                      <div class="d-flex justify-content-center align-items-center color-accent">
+                        <span class="icon-roadmap icon-calendar icon-util me-2"></span>
+                        <span class="fw-bold">December</span>
+                      </div>
+                      <h5 class="text-center text-uppercase font-weight-light">Stage 10</h5>
+
+                      <div class="d-flex justify-content-center">  
+                        <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      </div>
+                      <div class="roadmap-box p-4">
+                        <h4 class="text-center color-accent mb-3 mt-2">
+                          The Metaverse
+                        </h4>
+                        <p>
+                          Purchasing a Molly will create far more utility than a profile picture. All Molly NFTs are anticipated to be fully functional in the Metaverse.
+                        </p>
+                        <p>
+                          Additionally, we plan to buy land in the metaverse to build our digital member space that only holders will have access to.
+                        </p>
+                      </div>
+                    </div>
+
                   </div>
+
                 </div>
+
               </div>
+
             </div>
+
           </div>
+
         </div>
+
       </div>
+
     </section>
 
     <section id="team">
@@ -932,7 +921,7 @@ function addClassActive(title) {
           <h3 class="text-uppercase text-center fw-normal">Core Team</h3>
         
           <div class="row team-wrapper">
-            
+
             <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
