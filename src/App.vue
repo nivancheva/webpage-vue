@@ -1053,7 +1053,7 @@ function navToggle() {
 .cd-vertical-nav a {
   display: block;
   padding: 1em;
-  color: #fff!important;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -1110,7 +1110,7 @@ function navToggle() {
   position: relative;
   padding: 3.5em 0 0;
   margin: 1.4em auto;
-  color: #fff!important;
+  color: #fff;
   font-size: 14px;
   font-weight: 300;
   text-transform: uppercase
@@ -1603,7 +1603,7 @@ function navToggle() {
 }
 
 .roadmap .roadmap-point {
-  width: 100px !important;
+  width: 100px;
   height: auto;
   z-index: 900;
 }

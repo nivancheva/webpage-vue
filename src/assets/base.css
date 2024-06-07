@@ -147,19 +147,22 @@ ul:not([class]) li:before {
   background-color: transparent;
 }
 
-.owl-nav button:hover {
-  opacity: .7;
+.owl-nav button span:hover {
+  box-shadow: 0 0 30px 10px rgba(228,152,239,.6);
+}
+
+#uniqueCarosel .owl-nav button:hover {
   background-color: transparent;
 }
 
 .roadmapCarosel button.owl-next{
   position: relative;
-  right: -4.5rem;
+  right: -3.5rem;
 }
 
 .roadmapCarosel button.owl-prev {
   position: relative;
-  left: -4.5rem;
+  left: -3.5rem;
 }
 
 .roadmapCarosel .owl-nav {
