@@ -137,6 +137,28 @@ ul:not([class]) li:before {
   height: 60px;
 }
 
+/* ---------Title---------- */
+
+.title {
+  color: var(--clr-purple);
+  font-weight: 300;
+  position: relative;
+}
+
+.title-big {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 0;
+  color: rgba(228, 152, 239, .07);
+  width: 100%;
+  min-width: 870px;
+}
+
+
 /* ----------Owl Carousel----------- */
 
 .owl-nav span {
@@ -153,16 +175,6 @@ ul:not([class]) li:before {
 
 #uniqueCarosel .owl-nav button:hover {
   background-color: transparent;
-}
-
-.roadmapCarosel button.owl-next{
-  position: relative;
-  right: -3.5rem;
-}
-
-.roadmapCarosel button.owl-prev {
-  position: relative;
-  left: -3.5rem;
 }
 
 .roadmapCarosel .owl-nav {
@@ -190,5 +202,15 @@ ul:not([class]) li:before {
     top: 80px;
     justify-content: space-between;
   }
+
+  .roadmapCarosel button.owl-next{
+    position: relative;
+    right: -3.5rem;
+  }
+  
+  .roadmapCarosel button.owl-prev {
+    position: relative;
+    left: -3.5rem;
+  } 
 }
 

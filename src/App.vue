@@ -9,7 +9,7 @@ function navToggle() {
 </script>
 
 <template>
-  <nav class="navbar p-5 navbar-expand-lg navbar-light pt-2 pb-0">
+  <nav id="home" class="navbar p-5 navbar-expand-lg navbar-light pt-2 pb-0">
     <div class="nav-container container-fluid d-flex justify-content-between align-items-center mx-5 my-3">
       <div>
         <img src="/headerLogo.svg">
@@ -86,7 +86,7 @@ function navToggle() {
         <span v-else class="bi bi-three-dots-vertical"></span>
     </button>
 
-    <section id="home" class="first-sec">
+    <section class="home-section">
       <div class="container-fluid px-5">
         <div class="row justify-content-center">
           <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 d-flex justify-content-center">
@@ -259,7 +259,7 @@ function navToggle() {
             <div id="success1" class="fixed-bg">
               <div class="container-lg">
                 <div class="row justify-content-center justify-content-md-start">
-                  <div class="col-11 col-md-7 col-lg-5">
+                  <div class="col-12 col-md-7 col-lg-5 px-1">
                     <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">1</p>
                       <h3 class="title">Community Driven</h3>
@@ -273,7 +273,7 @@ function navToggle() {
             <div id="success2" class="fixed-bg">
               <div class="container-lg">
                 <div class="row justify-content-center justify-content-md-start">
-                  <div class="col-11 col-md-7 col-lg-5">
+                  <div class="col-12 col-md-7 col-lg-5 px-1">
                     <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">2</p>
                       <h3 class="title">Utility Driven</h3>
@@ -287,7 +287,7 @@ function navToggle() {
             <div id="success3" class="fixed-bg">
               <div class="container-lg">
                 <div class="row justify-content-center justify-content-md-start">
-                  <div class="col-11 col-md-7 col-lg-5">
+                  <div class="col-12 col-md-7 col-lg-5 px-1">
                     <div class="fixed-content">
                       <p class="display-1 fw-bold color-accent">3</p>
                       <h3 class="title">Trust and Transparency</h3>
@@ -389,7 +389,7 @@ function navToggle() {
     </section>
 
     <section id="road" class="roadmap-section">
-      <div class="container pt-5">
+      <div class="container-fluid pt-5">
         <h2 class="title text-center text-uppercase display-5 fw-bold my-5">
           Roadmap
           <span class="title-big">Roadmap</span>
@@ -409,12 +409,12 @@ function navToggle() {
 
       <div class="roadmap mb-5 pb-5">
         <div class="container-fluid">
-          <div class="row mx-3 px-md-5 mx-5">
+          <div class="row px-md-5 mx-md-5">
             <div class="col-12">
               <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
                   <div class="roadmapCarosel owl-carousel owl-roadmap owl-loaded owl-drag">
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -439,7 +439,7 @@ function navToggle() {
                     </div>
 
 
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -467,7 +467,7 @@ function navToggle() {
                     </div>
                   </div>
 
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -494,7 +494,7 @@ function navToggle() {
                     </div>
                   </div>
 
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -515,7 +515,7 @@ function navToggle() {
                     </div>
                   </div>
 
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                      <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -543,7 +543,7 @@ function navToggle() {
                     </div>
                   </div>
 
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -567,7 +567,7 @@ function navToggle() {
                     </div>
                   </div>
 
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-circle-check icon-util me-2"></span>
@@ -596,7 +596,7 @@ function navToggle() {
                 
                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                   <div class="roadmapCarosel owl-carousel owl-roadmap owl-loaded owl-drag">
-                  <div class="item me-5">
+                  <div class="item mx-md-3">
                     <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                         <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -618,7 +618,7 @@ function navToggle() {
                     </div>
 
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -639,7 +639,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -660,7 +660,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -682,7 +682,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                       <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -703,7 +703,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -724,7 +724,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -746,7 +746,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -768,7 +768,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -790,7 +790,7 @@ function navToggle() {
                       </div>
                     </div>
 
-                    <div class="item me-5">
+                    <div class="item mx-md-3">
                       <div>
                         <div class="d-flex justify-content-center align-items-center color-accent">
                           <span class="icon-roadmap icon-calendar icon-util me-2"></span>
@@ -831,7 +831,7 @@ function navToggle() {
             <span class="title-big">The Dream Team</span>
           </h2>
 
-          <div class="mb-5 mx-1 mx-md-5">
+          <div class="mb-5 mx-1 mx-md-3">
             <h3 class="text-uppercase text-center fw-normal mb-5 pb-5">Founders</h3>
             <div class="row">
               <div class="col-12 col-xl-4 p-5 team-bg">
@@ -1295,7 +1295,7 @@ function navToggle() {
 
 /* --------------About------------------ */
 
-.first-sec {
+.home-section {
   position: relative;
   margin-inline: auto;
   min-height: 100vh;
@@ -1328,11 +1328,6 @@ function navToggle() {
   left: 0;
   transform: rotate(-180deg);
   top: 0;
-}
-
-.roadmap-section {
-  position: relative;
-  border-top: 1px solid var(--clr-purple);
 }
 
 .collection-wrapper::after {
@@ -1406,25 +1401,6 @@ function navToggle() {
   -webkit-background-clip: text;
   font-size: 3rem;
   margin-right: 1rem
-}
-
-.title {
-    color: var(--clr-purple);
-    font-weight: 300;
-    position: relative;
-}
-
-.title-big {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%);
-  font-weight: 900;
-  font-size: 100px;
-  line-height: 0;
-  color: rgba(228, 152, 239, .07);
-  width: 100%;
-  min-width: 870px;
 }
 
 .about-section  {
@@ -1559,6 +1535,12 @@ function navToggle() {
 
 /* --------------Roadmap------------------ */
 
+
+.roadmap-section {
+  position: relative;
+  border-top: 1px solid var(--clr-purple);
+}
+
 .icon-roadmap {
   font-size: 1rem;
 }
@@ -1688,7 +1670,7 @@ function navToggle() {
     display: block;
     text-align: center;
     position: fixed;
-    right: 3rem;
+    right: 1rem;
     top: 6rem;
     z-index: 10;
   }
@@ -1697,7 +1679,7 @@ function navToggle() {
     margin-bottom: .5rem;
   }
 
-  .first-sec {
+  .home-section {
     min-height: 70vh;
   }
 
