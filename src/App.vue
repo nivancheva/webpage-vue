@@ -42,7 +42,7 @@ function navToggle() {
   <div class="page-content">
 
     <nav :class='["cd-vertical-nav", openNav ? "open" : ""]'>
-      <ul class="cd-nav-list">
+      <ul class="text-center p-0 text-uppercase">
         <li class="nav1">
           <a href="#home" class="active">
             <span class="label">Home</span>
@@ -1034,19 +1034,6 @@ function navToggle() {
   -webkit-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)
 }
 
-@media (min-width: 800px) {
-  .cd-nav-trigger {
-      display:none;
-  }
-}
-
-.cd-nav-list {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-  text-transform: uppercase
-}
-
 .cd-vertical-nav {
   position: fixed;
   z-index: 9;
@@ -1067,17 +1054,12 @@ function navToggle() {
   display: block;
   padding: 1em;
   color: #fff!important;
-  font-weight: 700
-}
-
-.cd-vertical-nav a:hover,
-.cd-vertical-nav a:focus {
-  color: rgba(228,152,239,.8)!important
+  font-weight: 700;
 }
 
 .cd-vertical-nav.open {
   transform: scale(1);
-  box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
+  box-shadow: 0 0 20px 10px rgba(228,152,239,.3);
 }
 
 .cd-nav-trigger span {
@@ -1090,207 +1072,221 @@ function navToggle() {
 }
 
 @media (min-width: 800px) {
-  .cd-vertical-nav {
-      right:0;
-      top: 0;
-      bottom: auto;
-      height: 100vh;
-      width: 90px;
-      max-width: none;
-      max-height: none;
-      transform: scale(1);
-      background-color: transparent;
-      display: table
-  }
+.cd-nav-trigger {
+  display:none;
+}
 
-  .cd-vertical-nav:before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0,0,0,.8);
-      transform: translateX(100%);
-      transition: transform .4s
-  }
+.cd-vertical-nav {
+  right:0;
+  top: 0;
+  bottom: auto;
+  height: 100vh;
+  width: 90px;
+  max-width: none;
+  max-height: none;
+  transform: scale(1);
+  background-color: transparent;
+  display: table
+}
 
-  .cd-vertical-nav ul {
-    display: table-cell;
-    vertical-align: middle;
-  }
+.cd-vertical-nav:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,.8);
+  transform: translateX(100%);
+  transition: transform .4s
+}
 
-  .cd-vertical-nav a {
-      position: relative;
-      padding: 3.5em 0 0;
-      margin: 1.4em auto;
-      color: #fff!important;
-      font-size: 14px;
-      font-weight: 300;
-      text-transform: uppercase
-  }
+.cd-vertical-nav ul {
+  display: table-cell;
+  vertical-align: middle;
+}
 
-  .cd-vertical-nav a:after,.cd-vertical-nav a:before {
-      content: "";
-      position: absolute;
-      left: 50%;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      transform: translateZ(0)
-  }
+.cd-vertical-nav a {
+  position: relative;
+  padding: 3.5em 0 0;
+  margin: 1.4em auto;
+  color: #fff!important;
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase
+}
 
-  .cd-vertical-nav a:before {
-      top: 0;
-      height: 45px;
-      width: 45px;
-      border-radius: 50%;
-      background: #fff;
-      border: 2px solid rgba(228,152,239,.4);
-      box-sizing: border-box;
-      box-shadow: 0 0 20px 5px rgba(228,152,239,.4);
-      transform: translateX(-50%) scale(.25);
-      transition: transform .4s,background-color .2s
-  }
+.cd-vertical-nav a:after,
+.cd-vertical-nav a:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateZ(0)
+}
 
-  .cd-vertical-nav a :after {
-      opacity: 0;
-      top: 8px;
-      height: 16px;
-      width: 16px;
-      transform: translateX(-50%) scale(0);
-      transition: transform .4s 0s,opacity .1s .3s
-  }
+.cd-vertical-nav a:before {
+  top: 0;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  background: #fff;
+  border: 2px solid rgba(228,152,239,.4);
+  box-sizing: border-box;
+  box-shadow: 0 0 20px 5px rgba(228,152,239,.4);
+  transform: translateX(-50%) scale(.25);
+  transition: transform .4s,background-color .2s
+}
 
-  .cd-vertical-nav a.active:before,.cd-vertical-nav a:hover:before {
-      background: rgba(228,152,239,.4)
-  }
+.cd-vertical-nav a :after {
+  opacity: 0;
+  top: 8px;
+  height: 16px;
+  width: 16px;
+  transform: translateX(-50%) scale(0);
+  transition: transform .4s 0s,opacity .1s .3s
+}
 
-  .cd-vertical-nav .nav1 a:after {
-      content: "\ED76";
-      background-position: 0 -64px;
-      transform: translateX(-50%) translateY(7.5em) scale(.01)
-  }
+.cd-vertical-nav a:hover:before {
+  background: rgba(228,152,239,.4);
+  box-shadow: 0 0 30px 10px rgba(228,152,239,.6)
+}
 
-  .cd-vertical-nav .nav1 a:before {
-      transform: translateX(-50%) translateY(7.5em) scale(.25)
-  }
+.cd-vertical-nav .nav1 a:after {
+  content: "\ED76";
+  background-position: 0 -64px;
+  transform: translateX(-50%) translateY(7.5em) scale(.01)
+}
 
-  .cd-vertical-nav .nav2 a:after {
-      content: "\EADB";
-      background-position: 0 -48px;
-      transform: translateX(-50%) translateY(4.5em) scale(.01)
-  }
+.cd-vertical-nav .nav1 a:before {
+  transform: translateX(-50%) translateY(7.5em) scale(.25)
+}
 
-  .cd-vertical-nav .nav2 a:before {
-      transform: translateX(-50%) translateY(4.5em) scale(.25)
-  }
+.cd-vertical-nav .nav2 a:after {
+  content: "\EADB";
+  background-position: 0 -48px;
+  transform: translateX(-50%) translateY(4.5em) scale(.01)
+}
 
-  .cd-vertical-nav .nav3 a:after {
-      content: "\EC90";
-      background-position: 0 -32px;
-      transform: translateX(-50%) translateY(1.5em) scale(.01)
-  }
+.cd-vertical-nav .nav2 a:before {
+  transform: translateX(-50%) translateY(4.5em) scale(.25)
+}
 
-  .cd-vertical-nav .nav3 a:before {
-      transform: translateX(-50%) translateY(1.5em) scale(.25)
-  }
+.cd-vertical-nav .nav3 a:after {
+  content: "\EC90";
+  background-position: 0 -32px;
+  transform: translateX(-50%) translateY(1.5em) scale(.01)
+}
 
-  .cd-vertical-nav .nav4 a:after {
-      content: "\EBD3";
-      background-position: 0 -16px;
-      transform: translateX(-50%) translateY(-1.5em) scale(.01)
-  }
+.cd-vertical-nav .nav3 a:before {
+  transform: translateX(-50%) translateY(1.5em) scale(.25)
+}
 
-  .cd-vertical-nav .nav4 a:before {
-      transform: translateX(-50%) translateY(-1.5em) scale(.25)
-  }
+.cd-vertical-nav .nav4 a:after {
+  content: "\EBD3";
+  background-position: 0 -16px;
+  transform: translateX(-50%) translateY(-1.5em) scale(.01)
+}
 
-  .cd-vertical-nav .nav5 a:after {
-      content: "\EF51";
-      background-position: 0 0;
-      transform: translateX(-50%) translateY(-4.5em) scale(.01)
-  }
+.cd-vertical-nav .nav4 a:before {
+  transform: translateX(-50%) translateY(-1.5em) scale(.25)
+}
 
-  .cd-vertical-nav .nav5 a:before {
-      transform: translateX(-50%) translateY(-4.5em) scale(.25)
-  }
+.cd-vertical-nav .nav5 a:after {
+  content: "\EF51";
+  background-position: 0 0;
+  transform: translateX(-50%) translateY(-4.5em) scale(.01)
+}
 
-  .cd-vertical-nav .nav6 a:after {
-      content: "\EECE";
-      background-position: 0 16px;
-      transform: translateX(-50%) translateY(-7.5em) scale(.01)
-  }
+.cd-vertical-nav .nav5 a:before {
+  transform: translateX(-50%) translateY(-4.5em) scale(.25)
+}
 
-  .cd-vertical-nav .nav6 a:before {
-      transform: translateX(-50%) translateY(-7.5em) scale(.25)
-  }
+.cd-vertical-nav .nav6 a:after {
+  content: "\EECE";
+  background-position: 0 16px;
+  transform: translateX(-50%) translateY(-7.5em) scale(.01)
+}
 
-  .cd-vertical-nav .nav7 a:after {
-      content: "\EE50";
-      background-position: 0 32px;
-      transform: translateX(-50%) translateY(-7.5em) scale(.01)
-  }
+.cd-vertical-nav .nav6 a:before {
+  transform: translateX(-50%) translateY(-7.5em) scale(.25)
+}
 
-  .cd-vertical-nav .nav7 a:before {
-      transform: translateX(-50%) translateY(-10.5em) scale(.25)
-  }
+.cd-vertical-nav .nav7 a:after {
+  content: "\EE50";
+  background-position: 0 32px;
+  transform: translateX(-50%) translateY(-7.5em) scale(.01)
+}
 
-  .cd-vertical-nav .label {
-      display: block;
-      -webkit-backface-visibility: hidden;
-      backface-visibility: hidden;
-      transform: translateZ(0);
-      transform: translateX(100%);
-      transition: transform .4s
-  }
+.cd-vertical-nav .nav7 a:before {
+  transform: translateX(-50%) translateY(-10.5em) scale(.25)
+}
+
+.cd-vertical-nav .label {
+    display: block;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transform: translateX(100%);
+    transition: transform .4s
+}
 }
 
 @media only screen and (min-width: 800px) {
   .cd-vertical-nav:hover:before {
-      transform:translateX(0);
-      color: #e498ef
+    transform:translateX(0);
+    color: #e498ef
   }
 
   .cd-vertical-nav:hover a {
-      font-family: icomoon!important;
-      speak: never;
-      font-style: normal;
-      font-weight: 400;
-      font-variant: normal;
-      text-transform: none;
-      line-height: 1;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      transform: translateX(0)
+    font-family: icomoon!important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translateX(0)
   }
 
   .cd-vertical-nav:hover a .label {
-      font-family: Roboto,sans-serif;
-      font-weight: 300;
-      text-transform: uppercase;
-      line-height: 25px;
-      transform: translateX(0)
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 25px;
+    transform: translateX(0)
   }
 
   .cd-vertical-nav:hover a:after,.cd-vertical-nav:hover a:before {
-      transform: translateX(-50%) scale(1);
-      -moz-transform: translateX(-50%) scale(1) rotate(.02deg)
+    transform: translateX(-50%) scale(1);
+    -moz-transform: translateX(-50%) scale(1) rotate(.02deg)
   }
 
   .cd-vertical-nav:hover a:before {
-      background: transparent
+    background: transparent
   }
 
-  .cd-vertical-nav:hover a.active:before,.cd-vertical-nav:hover a:hover:before {
-      background: rgba(228,152,239,.4)
+  .cd-vertical-nav:hover a.active:hover:before {
+    background: rgba(228,152,239,.4);
+  }
+
+   .cd-vertical-nav a.active:hover {
+    color: rgba(228,152,239,.4);
+   }
+
+  .cd-vertical-nav:hover label.active:hover {
+    color: rgba(228,152,239,.4)
   }
 
   .cd-vertical-nav:hover a:after {
-      top: 12px;
-      font-size: 20px;
-      opacity: 1;
-      transition: transform .4s,opacity 0s;
-      color: #e498ef
+    top: 12px;
+    font-size: 20px;
+    opacity: 1;
+    transition: transform .4s,opacity 0s;
+    color: #e498ef
   }
 }
 
