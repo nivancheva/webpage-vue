@@ -82,7 +82,8 @@ function navToggle() {
     </nav>
     <button @click="navToggle" class="cd-nav-trigger cd-image-replace">
       Open navigation
-      <span aria-hidden="true"></span>
+        <span v-if="openNav" class="bi bi-x-lg"></span>
+        <span v-else class="bi bi-three-dots-vertical"></span>
     </button>
 
     <section id="home" class="first-sec">
@@ -1027,47 +1028,16 @@ function navToggle() {
   appearance: none;
   border: none;
   outline: none;
-  border-radius: 100%!important;
-  box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
-  -moz-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
-  -webkit-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important
+  border-radius: 100%;
+  box-shadow: 0 0 20px 10px rgba(228,152,239,.3);
+  -moz-box-shadow: 0 0 20px 10px rgba(228,152,239,.3);
+  -webkit-box-shadow: 0 0 20px 10px rgba(228,152,239,.3)
 }
 
 @media (min-width: 800px) {
   .cd-nav-trigger {
       display:none;
   }
-}
-
-.cd-nav-trigger span {
-  position: absolute;
-  height: 4px;
-  width: 4px;
-  background-color: #fff;
-  border-radius: 50%;
-  left: 50%;
-  top: 50%;
-  bottom: auto;
-  right: auto;
-  transform: translateX(-50%) translateY(-50%)
-}
-
-.cd-nav-trigger span:after,.cd-nav-trigger span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: #fff;
-  border-radius: inherit
-}
-
-.cd-nav-trigger span:before {
-  top: -9px
-}
-
-.cd-nav-trigger span:after {
-  bottom: -9px
 }
 
 .cd-nav-list {
@@ -1110,25 +1080,13 @@ function navToggle() {
   box-shadow: 0 0 20px 10px rgba(228,152,239,.3)!important;
 }
 
-.cd-vertical-nav.open+.cd-nav-trigger span {
-  background-color: rgba(58,44,65,0)
-}
-
-.cd-vertical-nav.open+.cd-nav-trigger span:after,.cd-vertical-nav.open+.cd-nav-trigger span:before {
-  height: 3px;
-  width: 20px;
-  border-radius: 0;
-  left: -8px
-}
-
-.cd-vertical-nav.open+.cd-nav-trigger span:before {
-  transform: rotate(45deg);
-  top: 1px
-}
-
-.cd-vertical-nav.open+.cd-nav-trigger span:after {
-  transform: rotate(135deg);
-  bottom: 0
+.cd-nav-trigger span {
+  position: absolute;
+  left: -55%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2rem;
 }
 
 @media (min-width: 800px) {
