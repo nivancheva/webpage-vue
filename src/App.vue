@@ -271,7 +271,7 @@ function addClassActive(title) {
 
           </div>
 
-          <div class="container-lg mt-5 pt-5">
+          <div class="utilities-img mt-5 pt-5">
             <div class="my-5 d-flex justify-content-center">
               <img src="/vision/trip.png"/>
             </div>
@@ -1781,6 +1781,10 @@ function addClassActive(title) {
   .links {
     display: flex;
   }
+  
+  .utilities-img {
+    margin-inline: 8rem;
+  }
 
   #success .fixed-bg {
     display: flex;
@@ -1800,6 +1804,10 @@ function addClassActive(title) {
     right: 1rem;
     top: 6rem;
     z-index: 10;
+  }
+
+  .utilities-img {
+    margin-inline: 4rem;
   }
 
   .social-links {
@@ -1834,6 +1842,10 @@ function addClassActive(title) {
   .collection-molly-right {
     margin-right: -20px;
     max-width: 20%;
+  }
+
+  .utilities-img {
+    margin-inline: 1rem;
   }
 
   .fixed-bg::after {  
