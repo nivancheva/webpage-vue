@@ -269,14 +269,16 @@ function addClassActive(title) {
               </a>
             </div>
 
-            <div class="col-12 my-5 d-flex justify-content-center">
-              <img src="/vision/trip.png"/>
-            </div>
+          </div>
 
-            <div class="col-12 d-flex justify-content-center py-5 utilities-border">
-              <img src="/vision/BTP-in-Paradise.png"/>
-            </div>
+          <div class="container-lg">
+          <div class="my-5 d-flex justify-content-center">
+            <img src="/vision/trip.png"/>
+          </div>
 
+          <div class="py-5 utilities-border">
+            <img src="/vision/BTP-in-Paradise.png"/>
+          </div>
           </div>
 
         </div>
@@ -1469,8 +1471,27 @@ function addClassActive(title) {
 }
 
 .utilities-border {
-  border-bottom: 1px solid rgba(228, 152, 239, .2);
-  border-top: 1px rgba(228, 152, 239, .2);
+  position: relative;
+}
+
+.utilities-border::after,
+.utilities-border::before{
+  position: absolute;
+  content: '';
+  height: 1px;
+  background-color: rgba(228, 152, 239, .2);
+}
+
+.utilities-border::after {
+  top: 0;
+  right: -18rem;
+  left: 0;
+}
+
+.utilities-border::before {
+  bottom: 0;
+  left: -18rem;
+  right: 0;
 }
 
 .icon-util {
