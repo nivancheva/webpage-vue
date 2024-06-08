@@ -1499,20 +1499,47 @@ function addClassActive(title) {
 #success .fixed-bg {
   position: relative;
   background-repeat: no-repeat;
-  background-size: 22%, 20%,auto;
-  background-position: 80.75%, 80%,left;
+
+  min-height: 100dvh;
+  padding: 0;
+  background-attachment: fixed;
 }
 
 #success #success1 {
-  background-image: url('/webpage-vue/success/border.png'), url('/webpage-vue/success/success_1.png'), url('/webpage-vue/success/galaxy_1.png');
+  background-image: url('/webpage-vue/success/galaxy_1.png');
 }
 
 #success #success2 {
-  background-image: url('/webpage-vue/success/border.png'), url('/webpage-vue/success/success_2.png'), url('/webpage-vue/success/galaxy_2.png');
+  background-image: url('/webpage-vue/success/galaxy_2.png');
 }
 
 #success #success3 {
-  background-image: url('/webpage-vue/success/border.png'), url('/webpage-vue/success/success_3.png'), url('/webpage-vue/success/galaxy_3.png');
+  background-image: url('/webpage-vue/success/galaxy_3.png');
+}
+
+.fixed-bg::after {
+  content: '';
+  position: absolute;
+  
+  background-position: 90% center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: drop-shadow(0px 0px 10px var(--clr-purple));
+
+  width: 100%;
+  height: 100%;
+}
+
+#success #success1::after  {
+  background-image: url('/webpage-vue/success/success_1.png');
+}
+
+#success #success2::after  {
+  background-image: url('/webpage-vue/success/success_2.png');
+}
+
+#success #success3::after  {
+  background-image: url('/webpage-vue/success/success_3.png');
 }
 
 .about-section::before {
@@ -1735,11 +1762,8 @@ function addClassActive(title) {
   }
 
   #success .fixed-bg {
-    min-height: 650px;
-    padding: 0;
     display: flex;
     align-items: center;
-    background-attachment: fixed;
   }
 }
 
@@ -1760,11 +1784,10 @@ function addClassActive(title) {
   .home-section {
     min-height: calc(100vh - 130px);
   }
-
-  #success .fixed-bg {
-    background-position: 91% .5%, 90% 5%, left;
-  }
   
+  .fixed-content {
+    padding-top:3rem
+  }
 }
 
 @media (max-width: 576px) {
@@ -1776,11 +1799,6 @@ function addClassActive(title) {
   .collection-molly-right {
     margin-right: -20px;
     max-width: 20%;
-  }
-
-  #success .fixed-bg {
-    background-position: center 95%, center 93%, left;
-    min-height: 350px;
   }
 
 }
