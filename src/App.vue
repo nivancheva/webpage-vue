@@ -271,12 +271,12 @@ function addClassActive(title) {
 
           </div>
 
-          <div class="container-lg mt-5 pt-5">
+          <div class="mx-5 mt-5 pt-5">
             <div class="my-5 d-flex justify-content-center">
               <img src="/vision/trip.png"/>
             </div>
 
-            <div class="py-5 utilities-border">
+            <div class="py-5 d-flex justify-content-center utilities-border">
               <img src="/vision/BTP-in-Paradise.png"/>
             </div>
           </div>
