@@ -271,7 +271,7 @@ function addClassActive(title) {
 
           </div>
 
-          <div class="mx-5 mt-5 pt-5">
+          <div class="container-lg mt-5 pt-5">
             <div class="my-5 d-flex justify-content-center">
               <img src="/vision/trip.png"/>
             </div>
