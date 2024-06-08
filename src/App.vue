@@ -121,7 +121,7 @@ function addClassActive(title) {
         <div class="row justify-content-center">
 
           <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 d-flex justify-content-center">
-            <img src="/logo2.png">
+            <img src="/logo.png">
           </div>
           
           <div class="col-11 pb-5 header-title">
