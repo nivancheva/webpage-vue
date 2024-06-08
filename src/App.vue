@@ -127,8 +127,8 @@ function addClassActive(title) {
           <div class="col-11 pb-5 header-title">
             <div class="d-xs-flex justify-content-center align-items-center">
               <div class="text-center text-md-start mb-3">
-                <h1 class="text-uppercase mb-0">Molly</h1>
-                <h3>Unuque 3D Metaverse Ready NFTs</h3>
+                <h1 class="text-uppercase mb-0 fw-light">Molly</h1>
+                <h3 class="fw-light">Unuque 3D Metaverse Ready NFTs</h3>
               </div>
             </div>
           </div>
@@ -291,7 +291,7 @@ function addClassActive(title) {
 
         <div>
           <h2 class="title text-center text-uppercase display-5 my-5">
-            Our three Piller to success
+            Our three Piller <br>to success
           </h2>
         </div>
 
