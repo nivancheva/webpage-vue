@@ -259,7 +259,7 @@ function addClassActive(title) {
             <span class="title-big">VISION & VALUES</span>
           </h2>
 
-          <div class="row">
+          <div class="row mb-5">
 
             <div class="col-12 col-md-8 col-lg-5 mx-auto mb-5 pb-5 text-center">
               <p class="text-start">We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
@@ -271,14 +271,14 @@ function addClassActive(title) {
 
           </div>
 
-          <div class="container-lg">
-          <div class="my-5 d-flex justify-content-center">
-            <img src="/vision/trip.png"/>
-          </div>
+          <div class="container-lg mt-5 pt-5">
+            <div class="my-5 d-flex justify-content-center">
+              <img src="/vision/trip.png"/>
+            </div>
 
-          <div class="py-5 utilities-border">
-            <img src="/vision/BTP-in-Paradise.png"/>
-          </div>
+            <div class="py-5 utilities-border">
+              <img src="/vision/BTP-in-Paradise.png"/>
+            </div>
           </div>
 
         </div>
