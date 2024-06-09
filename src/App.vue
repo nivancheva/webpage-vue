@@ -1,6 +1,6 @@
 <script setup>
 import HeaderNavigation from "./components/HeaderNavigation.vue";
-import VerticalNavigation from "./components/VrticalNavigation.vue"
+import VerticalNavigation from "./components/VerticalNavigation.vue"
 import Footer from "./components/Footer.vue"
 
 </script>
