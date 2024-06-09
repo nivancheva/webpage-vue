@@ -193,7 +193,7 @@ ul:not([class]) li:before {
     right: 140px;
   }
 
-  .owl-item.active:nth-child(even){
+  #uniqueCarosel .owl-item.active:nth-child(even){
     margin-top: 2rem;
   }
 

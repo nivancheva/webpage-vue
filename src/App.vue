@@ -1,4 +1,5 @@
 <script setup>
+
 import HeaderNavigation from "./components/HeaderNavigation.vue";
 import VerticalNavigation from "./components/VerticalNavigation.vue"
 import Footer from "./components/Footer.vue"
@@ -1139,7 +1140,7 @@ import Footer from "./components/Footer.vue"
   padding: .5rem 1rem;
 }
 
-.nav-tabs .nav-item.activeNav {
+.nav-tabs .nav-item.active {
   background: none;
   border: none;
   color: #e498ef;
@@ -1177,7 +1178,7 @@ import Footer from "./components/Footer.vue"
   opacity: 0;
 }
 
-.nav-tabs .nav-item.activeNav:before {
+.nav-tabs .nav-item.active:before {
   opacity: 1;
 }
 
