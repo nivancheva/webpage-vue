@@ -74,13 +74,16 @@
   --clr-purple: rgba(228, 152, 239, .8);
 }
 
+#app {
+  overflow-x: hidden;
+}
+
 body {
     color: white;
     background-color: black;
     height: 100vh;
 
     width: 100%;
-    overflow-x: hidden;
     scroll-behavior: smooth;
 }
 
