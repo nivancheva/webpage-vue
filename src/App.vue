@@ -1,12 +1,12 @@
 <script setup>
-import HeaderNavigationVue from "./components/HeaderNavigation.vue";
+import HeaderNavigation from "./components/HeaderNavigation.vue";
 import VerticalNavigation from "./components/VrticalNavigation.vue"
 import Footer from "./components/Footer.vue"
 
 </script>
 
 <template>
-  <HeaderNavigationVue />
+  <HeaderNavigation />
 
   <div class="page-content">
 
