@@ -160,7 +160,7 @@ import Footer from "./components/Footer.vue"
 
           <div class="row mb-5">
 
-            <div class="col-12 col-md-8 col-lg-5 mx-auto mb-5 pb-5 text-center">
+            <div class="vison-text col-12 col-md-8 col-lg-5 mx-auto text-center">
               <p class="text-start">We are here to create the difference. We don’t settle for mediocre ART. We are true perfectionists in every aspect of our doings. When we create art, we focus on the detail, as this is what distinguishes GOOD art from WORLDCLASS art! There is no room for error! We give 100% and make the best. Are you ready to join us?</p>
               <p class="text-start mb-5">Our vision is to create the largest & most profitable, decentralized community & alpha group of high-end art collectors & artists! </p>
               <a class="btn-connect mt-5">
@@ -170,7 +170,7 @@ import Footer from "./components/Footer.vue"
 
           </div>
 
-          <div class="utilities-img mt-5 pt-5">
+          <div class="utilities-img">
             <div class="my-5 d-flex justify-content-center">
               <img src="/images/vision/trip.png"/>
             </div>
@@ -1046,7 +1046,7 @@ import Footer from "./components/Footer.vue"
 
   min-height: 100dvh;
   padding: 0;
-  background-attachment: fixed;
+  background-attachment: cover;
 }
 
 #success #success1 {
@@ -1278,6 +1278,13 @@ import Footer from "./components/Footer.vue"
 @media (min-width: 769px) {
   .utilities-img {
     margin-inline: 8rem;
+    margin-top: 3rem;
+    padding-top: 3rem;
+  }
+
+  .vision-text {
+    margin-bottom: 3rem;
+    padding-bottom: 3rem;
   }
 
   #success .fixed-bg {
@@ -1340,6 +1347,13 @@ import Footer from "./components/Footer.vue"
 
   .utilities-img {
     margin-inline: 1rem;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .vision-text {
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 
   .fixed-bg::after {  
