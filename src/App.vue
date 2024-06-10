@@ -1003,16 +1003,18 @@ import Footer from "./components/Footer.vue"
   content: '';
   height: 1px;
   background-color: rgba(228, 152, 239, .2);
-  left: 0;
-  right: 0;
 }
 
 .utilities-border::after {
   top: 0;
+  right: -18rem;
+  left: 1rem;
 }
 
 .utilities-border::before {
-  bottom: 0; 
+  bottom: 0;
+  left: -18rem;
+  right: 1rem;
 }
 
 .icon-util {
