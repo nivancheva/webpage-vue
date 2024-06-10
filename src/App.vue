@@ -1046,7 +1046,6 @@ import Footer from "./components/Footer.vue"
 
   min-height: 100dvh;
   padding: 0;
-  background-attachment: cover;
 }
 
 #success #success1 {
@@ -1290,6 +1289,7 @@ import Footer from "./components/Footer.vue"
   #success .fixed-bg {
     display: flex;
     align-items: center;
+    background-size: cover;
   }
 
   .fixed-bg::after {
