@@ -20,7 +20,7 @@ import Footer from "./components/Footer.vue"
         <div class="row justify-content-center">
 
           <div class="col-11 col-sm-9 col-md-8 col-lg-6 p-0 d-flex justify-content-center">
-            <img src="/logo.png">
+            <img src="/images/logo.png">
           </div>
           
           <div class="col-11 pb-5 header-title">
@@ -45,12 +45,12 @@ import Footer from "./components/Footer.vue"
         <div class="row align-items-center justify-content-center px-sm-1">
           <div class="col-12 col-xl-6 p-0">
             <div class="row-sm d-flex align-items-center">
-              <img class="collection-molly-left" src="/moly_one.png"/>
+              <img class="collection-molly-left" src="/images/molly_one.png"/>
               <div class="col-12">
                 <p class="text-muted ps-2 h3 fw-light">than...</p>
                 <h2 class="mb-0 ps-2">1st Collection</h2>
                 <div class="mb-2">
-                  <img class="img-fluid molly-img " src="/rectangle.png"/>
+                  <img class="img-fluid molly-img " src="/images/rectangle.png"/>
                 </div>
                 <span class="badge ms-2">Sold Out</span>
               </div>
@@ -63,11 +63,11 @@ import Footer from "./components/Footer.vue"
                 <p class="text-muted pe-2 h3 fw-light">...now</p>
                 <h2 class="mb-0 pe-2">Secret Collection</h2>
                 <div class="mb-2">
-                  <img class="img-fluid molly-img" src="/rectangle.png"/>
+                  <img class="img-fluid molly-img" src="/images/rectangle.png"/>
                 </div>
                 <span class="badge me-2">Comming soon</span>
               </div>
-              <img class="collection-molly-right" src="/moly_two.png"/>
+              <img class="collection-molly-right" src="/images/molly_two.png"/>
             </div>
           </div>
         </div>
@@ -109,35 +109,35 @@ import Footer from "./components/Footer.vue"
           <div id="uniqueCarosel" ref='cards' class="owl-carousel owl-theme">
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft1.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft1.jpg"/>
             </div>
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft2.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft2.jpg"/>
             </div>
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft3.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft3.jpg"/>
             </div>
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft4.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft4.jpg"/>
             </div>
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft5.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft5.jpg"/>
             </div>
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft6.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft6.jpg"/>
             </div>
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft7.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft7.jpg"/>
             </div>
 
             <div class="item px-2">
-              <img class="unique-img img-fluid" src="/about/nft8.jpg"/>
+              <img class="unique-img img-fluid" src="/images/about/nft8.jpg"/>
             </div>
 
           </div>
@@ -172,11 +172,11 @@ import Footer from "./components/Footer.vue"
 
           <div class="utilities-img mt-5 pt-5">
             <div class="my-5 d-flex justify-content-center">
-              <img src="/vision/trip.png"/>
+              <img src="/images/vision/trip.png"/>
             </div>
 
             <div class="py-5 d-flex justify-content-center utilities-border">
-              <img src="/vision/BTP-in-Paradise.png"/>
+              <img src="/images/vision/BTP-in-Paradise.png"/>
             </div>
           </div>
 
@@ -257,7 +257,7 @@ import Footer from "./components/Footer.vue"
         </h2>
 
         <div class="mx-1 mx-md-5 p-md-5 utilities-wrapper">
-          <img class="util-bg-img" src='/team-bg.png'/>
+          <img class="util-bg-img" src='/images/team-bg.png'/>
           <div class="row justify-content-center">
             <div class="col-12 col-md-6 col-xl-3">
               <div class="utilities-card p-4 mb-5">
@@ -385,7 +385,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 1</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -408,7 +408,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 2</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">		
@@ -433,7 +433,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 3</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -458,7 +458,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 4</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -477,7 +477,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 5</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -502,7 +502,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 6</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -525,7 +525,7 @@ import Footer from "./components/Footer.vue"
                     <h5 class="text-center text-uppercase font-weight-light">Stage 7</h5>
 
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -555,7 +555,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 1</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -575,7 +575,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 2</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">		
@@ -594,7 +594,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 3</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -613,7 +613,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 4</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -633,7 +633,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 5</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -652,7 +652,7 @@ import Footer from "./components/Footer.vue"
                     </div>
                     <h5 class="text-center text-uppercase font-weight-light">Stage 6</h5>
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -672,7 +672,7 @@ import Footer from "./components/Footer.vue"
                     <h5 class="text-center text-uppercase font-weight-light">Stage 7</h5>
 
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -692,7 +692,7 @@ import Footer from "./components/Footer.vue"
                     <h5 class="text-center text-uppercase font-weight-light">Stage 8</h5>
 
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -712,7 +712,7 @@ import Footer from "./components/Footer.vue"
                     <h5 class="text-center text-uppercase font-weight-light">Stage 9</h5>
 
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -732,7 +732,7 @@ import Footer from "./components/Footer.vue"
                     <h5 class="text-center text-uppercase font-weight-light">Stage 10</h5>
 
                     <div class="d-flex justify-content-center">  
-                      <img class="img-fluid roadmap-point" src="/roadmap-point.png"/>
+                      <img class="img-fluid roadmap-point" src="/images/roadmap-point.png"/>
                     </div>
                     <div class="roadmap-box p-4">
                       <h4 class="text-center color-accent mb-3 mt-2">
@@ -780,7 +780,7 @@ import Footer from "./components/Footer.vue"
 
               <div class="col-12 col-xl-4 p-5 team-bg">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src='/team/alexander.png'/>
+                  <img class="team-img" src='/images/team/alexander.png'/>
                 </div>
                 <h5 class="text-center text-uppercase my-4">Alexander aka AAFSHIT</h5>
                 <p>Alexander is a traveler videographer working with the biggest events in the world creating content for the business and influencers.</p>
@@ -789,7 +789,7 @@ import Footer from "./components/Footer.vue"
 
               <div class="col-12 col-xl-4 p-5">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src='/team/nick.png'/>
+                  <img class="team-img" src='/images/team/nick.png'/>
                 </div>
                 <h5 class="text-center text-uppercase my-4">Nick aka Nordz </h5>
                 <p>A dreamer who is willing to make the World a better place. Over 4 years of experience in crypto and then in the NFT industry.</p>
@@ -799,7 +799,7 @@ import Footer from "./components/Footer.vue"
 
               <div class="col-12 col-xl-4 p-5 team-bg">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src='/team/george.png'/>
+                  <img class="team-img" src='/images/team/george.png'/>
                 </div>
                 <h5 class="text-center text-uppercase my-4">George</h5>
                 <p>A successful entrepreneur, who knows with vast knowledge of how to build a thriving crypto/nft start from scratch! George has huge experience in IT management, blockchain development, token and NFT marketing! He is also very passionate leader who is willing to put in the extra work required to build an outstanding team and community! George believes that there is a lot of potential and undiscovered potential in the crypto/nft space and is to fill in the missing gaps with the technology that his IT team will build!</p>
@@ -820,7 +820,7 @@ import Footer from "./components/Footer.vue"
             <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src="/team/simbiot.png">
+                  <img class="team-img" src="/images/team/simbiot.png">
                 </div>
                 <h5 class="text-center text-uppercase mt-3">Simbiot</h5>
                 <p class="text-center">Front end developer and designer</p>
@@ -830,7 +830,7 @@ import Footer from "./components/Footer.vue"
             <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src="/team/kris.png">
+                  <img class="team-img" src="/images/team/kris.png">
                 </div>
                 <h5 class="text-center text-uppercase mt-3">Kris</h5>
                 <p class="text-center">Backend Developer and solidity developer</p>
@@ -840,7 +840,7 @@ import Footer from "./components/Footer.vue"
             <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src="/team/emmy.png">
+                  <img class="team-img" src="/images/team/emmy.png">
                 </div>
                 <h5 class="text-center text-uppercase mt-3">Emmy aka Catwoman</h5>
                 <p class="text-center">Project Manager Assistant </p>
@@ -850,7 +850,7 @@ import Footer from "./components/Footer.vue"
             <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src="/team/johnny.png">
+                  <img class="team-img" src="/images/team/johnny.png">
                 </div>
                 <h5 class="text-center text-uppercase mt-3">Johnny - Mr. Stark </h5>
                 <p class="text-center">Community Manager</p>
@@ -860,7 +860,7 @@ import Footer from "./components/Footer.vue"
             <div class="col-12 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src="/team/hulk.png">
+                  <img class="team-img" src="/images/team/hulk.png">
                 </div>
                 <h5 class="text-center text-uppercase mt-3">Hulk </h5>
                 <p class="text-center">Social Media Manager</p>
@@ -870,7 +870,7 @@ import Footer from "./components/Footer.vue"
             <div class="col-11 col-md-6 col-lg-4">
               <div class="p-5 h-100">
                 <div class="d-flex justify-content-center">
-                  <img class="team-img" src="/team/needfornfts.png">
+                  <img class="team-img" src="/images/team/needfornfts.png">
                 </div>
                 <h5 class="text-center text-uppercase mt-3">Needfornfts</h5>
                 <p class="text-center">Collaboration Manager</p>
@@ -903,7 +903,7 @@ import Footer from "./components/Footer.vue"
   margin-inline: auto;
   height: calc(100dvh - 130px);
 
-  background-image: url('/webpage-vue/cover.png');
+  background-image: url('/webpage-vue/images/cover.png');
   background-position:top center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -915,7 +915,7 @@ import Footer from "./components/Footer.vue"
 .collection-wrapper {
   position: relative;
 
-  background-image: url('/webpage-vue/team-bg.png');
+  background-image: url('/webpage-vue/images/team-bg.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 30%;
@@ -1026,7 +1026,7 @@ import Footer from "./components/Footer.vue"
 }
 
 .about-section  {
-  background-image: url('/webpage-vue/unique_nft-bg.png');
+  background-image: url('/webpage-vue/images/unique_nft-bg.png');
   background-repeat: no-repeat;
   background-position: right top;
 
@@ -1050,15 +1050,15 @@ import Footer from "./components/Footer.vue"
 }
 
 #success #success1 {
-  background-image: url('/webpage-vue/success/galaxy_1.png');
+  background-image: url('/webpage-vue/images/success/galaxy_1.png');
 }
 
 #success #success2 {
-  background-image: url('/webpage-vue/success/galaxy_2.png');
+  background-image: url('/webpage-vue/images/success/galaxy_2.png');
 }
 
 #success #success3 {
-  background-image: url('/webpage-vue/success/galaxy_3.png');
+  background-image: url('/webpage-vue/images/success/galaxy_3.png');
 }
 
 .fixed-bg::after {
@@ -1075,15 +1075,15 @@ import Footer from "./components/Footer.vue"
 }
 
 #success #success1::after  {
-  background-image: url('/webpage-vue/success/success_1.png');
+  background-image: url('/webpage-vue/images/success/success_1.png');
 }
 
 #success #success2::after  {
-  background-image: url('/webpage-vue/success/success_2.png');
+  background-image: url('/webpage-vue/images/success/success_2.png');
 }
 
 #success #success3::after  {
-  background-image: url('/webpage-vue/success/success_3.png');
+  background-image: url('/webpage-vue/images/success/success_3.png');
 }
 
 .about-section::before {
@@ -1115,7 +1115,7 @@ import Footer from "./components/Footer.vue"
   width: 100%;
   height: 100%;
   z-index: -10;
-  background-image: url('/webpage-vue/vision/vision-bg.png'), url('/webpage-vue/vision/ellipse-bg.png');
+  background-image: url('/webpage-vue/images/vision/vision-bg.png'), url('/webpage-vue/images/vision/ellipse-bg.png');
   background-position:top left, top right;
   background-repeat: no-repeat;
   background-size: 60%, 25%;
@@ -1173,7 +1173,7 @@ import Footer from "./components/Footer.vue"
   left: 48%;
   transform: translate(-50%);
   top: 57%;
-  background: url('/webpage-vue/down.svg') no-repeat;
+  background: url('/webpage-vue/images/down.svg') no-repeat;
   background-size: 100% auto;
   opacity: 0;
 }
@@ -1242,7 +1242,7 @@ import Footer from "./components/Footer.vue"
 /* --------------Team------------------ */
 
 .team-wrapper {
-  background-image: url('/webpage-vue/team-bg.png');
+  background-image: url('/webpage-vue/images/team-bg.png');
   background-repeat: no-repeat;
   background-position: top center;
   opacity: .7;
@@ -1262,7 +1262,7 @@ import Footer from "./components/Footer.vue"
   height: 100%;
   opacity: .4;
   z-index: -10;
-  background-image: url('/webpage-vue/cover.png');
+  background-image: url('/webpage-vue/images/cover.png');
   background-position:top;
   background-repeat: no-repeat;
   background-size: 50%;

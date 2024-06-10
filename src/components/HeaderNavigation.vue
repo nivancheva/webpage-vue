@@ -6,7 +6,7 @@
   <nav id="home" class="navbar p-5 navbar-expand-lg navbar-light pt-2 pb-0">
     <div class="nav-container container-fluid d-flex justify-content-between align-items-center mx-5 my-3">
 
-      <img src="/headerLogo.svg">
+      <img src="/images/headerLogo.svg">
 
       <div class="links align-items-center">
 

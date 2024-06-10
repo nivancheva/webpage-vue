@@ -6,7 +6,7 @@
  <footer class="footer pt-5 mt-5">
 
       <div class="footer-img logo-section mx-auto">
-        <img class="mx-auto" src="/logo.png">
+        <img class="mx-auto" src="/images/logo.png">
       </div>
 
       <div class="footer-links d-flex align-items-center justify-content-center px-0 pt-3 pb-5">
