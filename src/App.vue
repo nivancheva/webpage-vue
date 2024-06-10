@@ -1045,6 +1045,7 @@ import Footer from "./components/Footer.vue"
   background-repeat: no-repeat;
 
   min-height: 100dvh;
+  background-attachment: fixed;
   padding: 0;
 }
 
